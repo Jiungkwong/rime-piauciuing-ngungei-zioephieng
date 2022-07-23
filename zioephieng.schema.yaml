@@ -1,0 +1,145 @@
+﻿# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+# 版本號：1.0
+
+schema:
+  schema_id: zioephieng
+  name: 標準吳語
+  version: "2022.7.23"
+  author:
+    - 吳韻 <tittii@outlook.com>
+  description: |
+    Thanks to the following works:
+      * CC-CEDICT
+      * Android open source project
+      * Chewing - 新酷音
+      * 三拼簡繁詞庫
+      * opencc - 開放中文轉換
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: simplification
+    states: [ 正體, 殘體 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: "'"
+  algebra:
+    - "xform/'//"
+    - abbrev/^([a-z]).+$/$1/   #啓用首字母匹配
+    - abbrev/^([ptkgszc]h).+$/$1/  #啓用首字母匹配
+    - abbrev/^(ts).+$/$1/  #啓用首字母匹配
+    - abbrev/^(tsh).+$/$1/  #啓用首字母匹配
+    - abbrev/^(ng).+$/$1/  #啓用首字母匹配
+
+    #- derive/^ghu/w/
+    #- derive/^ghi/y/
+    #- derive/ghu$/wu/
+    #- derive/ghi$/yi/
+    #- derive/ghiu$/yu/
+    - derive/iae$/ie/
+    - derive/iae$/ie/
+    - derive/yae$/ye/
+    - derive/yae$/ye/
+    #- derive/uang$/ung/
+    #- derive/ueng$/ung/
+    #- derive/wang$/ghung/
+    #- derive/weng$/ghung/
+    #- derive/uak$/uk/
+    #- derive/uek$/uk/
+    #- derive/wak$/ghuk/
+    #- derive/wek$/ghuk/
+    #- derive/ieng$/ing/
+    - derive/iek$/ik/
+    #- derive/yeng$/ying/
+    - derive/yek$/yik/
+    #- derive/ng$/n/
+    #- derive/k$/h/
+
+    - derive/kei$/kiu/
+    - derive/khei$/khiu/
+    - derive/gei$/giu/
+    #- derive/ngei$/ngiu/
+    - derive/^ei/iu/
+    - derive/ghei$/ghiu/
+    #- derive/^gh/g/
+    #- derive/au$/ao/
+    #- derive/ai$/ei/
+    #- derive/ei$/ai/
+    #- derive/ai$/ae/
+
+    #- derive/^tsi/ci/
+    #- derive/^tshi/chi/
+    #- derive/^si/shi/
+    #- derive/^zi/zhi/
+
+    #- derive/^te/toe/
+    #- derive/^the/thoe/
+    #- derive/^de/doe/
+    #- derive/^ne/noe/
+    #- derive/^le/loe/
+    #- derive/^tse/tsoe/
+    - derive/^tshe/tshoe/
+    #- derive/^se/soe/
+    #- derive/^ze/zoe/
+    - derive/^ke/koe/
+    - derive/^khe/khoe/
+    #- derive/^ge/goe/
+    - derive/^ghe/ghoe/
+    - derive/^he/hoe/
+    #- derive/^e/oe/
+
+translator:
+  dictionary: zioephieng
+  spelling_hints: 8
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+
