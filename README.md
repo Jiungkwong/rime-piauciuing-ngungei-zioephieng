@@ -1,4 +1,4 @@
-# rime-piauciuing-ngungei-zioephieng
+# rime-piauciuing-ngu'ngei-zioephieng
 標準吳語輸入灋 · Rime input schemas for Standard Nguyoetian
 # 標準吳語拼音輸入灋
 
