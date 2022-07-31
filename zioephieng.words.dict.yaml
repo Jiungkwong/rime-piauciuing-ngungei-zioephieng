@@ -1,0 +1,38 @@
+#		 Rime Developers <rime-devel@googlegroups.com>
+#
+#  Author: 吳韻 <tittii@outlook.com>
+#          重光 <viktorsalehwu@gmail.com>
+#
+# Thanks to the followieng works:
+#
+#	* CC-CEDICT
+#		 http://cc-cedict.org/
+#
+#	* Android open source project
+#		 http://android.git.kernel.org/?p=platform/packages/ingputmethods/PingyingIME.git
+#
+#	* Chewieng - 新酷音
+#		 http://chewieng.csie.net/
+#
+#	* 三拼簡繁詞庫 0.9
+#		 http://www.pkucn.com/viewthread.php?tid=245448
+#
+#	* opencc - 開放中文轉換
+#		 http://code.google.com/p/opencc/
+# 版本號：1.0
+
+---
+name: zioephieng.words
+version:	"2022.7.30"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+醛   tshioe
+煉   liae
+煉油  liaeyeu
+拖   tha
+妥   tha
+枝   ki
+支   ci
+枝頭  kideu
