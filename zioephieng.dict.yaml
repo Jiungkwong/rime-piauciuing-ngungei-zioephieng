@@ -19,7 +19,7 @@
 #
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
-# 版本號：22.7.31
+# 版本號：22.7.31.1
 # 附加字表加來罷，包括化學元素周期表、常用化學物質、《浙南甌語》、《吳語三門方言研究》替《吳語詞彙管窺——甌滬共通詞彙比較》裏頭個字替部分詞彙。
 
 ---
@@ -34,6 +34,90 @@ import_tables:
 # 附加字表
 
 〇	lieng
+卐	mae
+卍	mae
+勐	mang
+剷	tshae
+吗	mo
+咔	kha
+咧	lieh
+吱	tsy
+吱	ki
+嗪	zing
+哌	pha
+唣	zau
+唕	zau
+唢	sou
+啃	kheng
+啸	siau
+崙	liuing
+喀	khak
+孢	pau
+噶	koeh
+礵	shiong
+桉	oe
+礁	tsiau
+昰	diek
+泵	pang
+喵	miau
+甽	ciuing
+碶	khik
+𡓦	thu
+仨	sae
+滘	kau
+剎	tshaeh
+何	hang
+籼	sie
+魚	ng
+五	ng
+唔	ngu
+晌	siang
+傚	ghau
+焐	ngu
+掽	phang
+掽	bang
+搨	thaeh
+僱	ku
+砲	phau
+燜	meng
+擤	hang
+艷	ye
+嗰	kok
+妳	ni
+咯	kok
+傢	ko
+俬	sang
+𠲎	va
+熔	yung
+墶	taeh
+樑	liang
+砣	dou
+裥	kae
+凼	dong
+乒	phieng
+乓	phang
+犟	giang
+囫	hueh
+圇	liuing
+伢	ngo
+炖	toeng
+𠛪	tiau
+蹗	luk
+肷	hiuik
+疙	kiek
+瘩	teh
+嘌	phiau
+呤	lieng
+吡	pi
+嘧	mik
+啶	dieng
+喃	ne
+呋	fu
+喹	khui
+咯	lok
+伽	ga
+噻	sek
+唑	zou
 㐅	go
 㽘	gong
 㽘	ghong
@@ -983,7 +1067,6 @@ import_tables:
 㮰	biaeh
 𩓝	biaeh
 癟	biaeh
-癟  pieh
 䭱	biaeh
 咇	biaeh
 苾	biaeh
@@ -4087,7 +4170,6 @@ import_tables:
 䙔	eu
 𠹝	eu
 謳	eu
-謳  au
 嘔	eu
 歐	eu
 甌	eu
@@ -4579,10 +4661,8 @@ import_tables:
 覂	fung
 𢇫	fung
 解	gha
-解  ga
 箉	ga
 拐	ga
-佢  gei
 戤	gai
 遽	gei
 勮	gei
@@ -7982,7 +8062,6 @@ import_tables:
 嗑	keh
 蓋	keh
 閘	keh
-閘  zeh
 鉀	keh
 䗘	keh
 𨜴	keh
@@ -10049,7 +10128,6 @@ import_tables:
 嫁	ko
 瘕	ko
 架	ko
-架  go
 𢱈	ko
 價	ko
 假	ko
@@ -10151,7 +10229,6 @@ import_tables:
 胳	kok
 袼	kok
 擱	kok
-擱   gok
 覺	kok
 斠	kok
 角	kok
@@ -10199,7 +10276,6 @@ import_tables:
 罡	kong
 江	kong
 扛	kong
-扛   gong
 杠	kong
 茳	kong
 釭	kong
@@ -10222,7 +10298,6 @@ import_tables:
 個	kou
 個	keh
 个	kou
-个  keh
 過	kou
 裹	kou
 鐹	kou
@@ -10397,7 +10472,6 @@ import_tables:
 慣	kuae
 丱	kuae
 摜	kuae
-摜  guae
 倌	kuae
 串	kuae
 矔	kuae
@@ -14994,7 +15068,6 @@ import_tables:
 輾	nie
 碾	nie
 然	nie
-然  neng
 燃	nie
 𤡮	nie
 㜣	nie
@@ -16166,7 +16239,6 @@ import_tables:
 髈	phong
 䒍	phong
 破	phou
-破   pha
 頗	phou
 頗	phou
 坡	phou
@@ -16683,7 +16755,6 @@ import_tables:
 番	pou
 碆	pou
 跛	pou
-跛   pa
 簸	pou
 駊	pou
 㝿	pou
@@ -16820,7 +16891,7 @@ import_tables:
 骭	ghae
 娨	ghae
 莧	hae
-莧  ghae
+莧	ghae
 藖	ghae
 粯	ghae
 閑	ghae
@@ -17469,6 +17540,7 @@ import_tables:
 禍	ghou
 𥚁	ghou
 夥	ghou
+夥	hou
 𡖿	ghou
 輠	ghou
 𨘌	ghou
@@ -19283,7 +19355,7 @@ import_tables:
 𨚴	ni
 蒘	ni
 如	ni
-如  na
+如	na
 絮	ni
 女	ni
 如	ni
@@ -19469,7 +19541,6 @@ import_tables:
 歹	tai
 傣	tai
 打	tang
-打  to
 到	tau
 禱	tau
 倒	tau
@@ -20154,7 +20225,6 @@ import_tables:
 痑	thou
 鼧	thou
 拖	thou
-拖   tha
 詑	thou
 𧦭	thou
 涶	thou
@@ -20162,7 +20232,6 @@ import_tables:
 䜏	thou
 袉	thou
 妥	thou
-妥   tha
 媠	thou
 隋	thou
 䲊	thou
@@ -21122,7 +21191,7 @@ import_tables:
 推	tshei
 蓷	tshei
 揣	tshei
-揣  chioe
+揣	chioe
 㪜	tshei
 嘬	tsha
 䴝	tsha
@@ -26760,6 +26829,7 @@ import_tables:
 挭	gang
 搞	gau
 絞  gau
+桿  koe
 螯	gau
 搿	geh
 鉅	gei
@@ -26807,7 +26877,7 @@ import_tables:
 崑	kueng
 棍	kueng
 在	laeh
-在  lai
+在	lai
 攔	laeh
 喇	laeh
 㟹	lau
@@ -26952,7 +27022,7 @@ import_tables:
 蓋咾	kl
 蓋每	km
 垃圾	laza
-爸  pa
+爸	pa
 媽	ma
 的	t
 了	l
@@ -29860,7 +29930,7 @@ import_tables:
 手馱在
 手牽在仔
 手牽的
-扎落去
+紮落去
 打隻問號
 打隻照面
 打隻花
@@ -40321,7 +40391,7 @@ import_tables:
 倒蹲兒
 倒過兒
 倒還
-倒霉鬼
+倒黴鬼
 候教
 候補人
 候選人
@@ -43696,7 +43766,7 @@ import_tables:
 卡爾巴拉
 卡爾德
 卡爾德龍
-卡爾扎伊
+卡爾紮伊
 卡爾文
 卡爾斯魯厄
 卡爾頓
@@ -46220,7 +46290,7 @@ import_tables:
 垂於
 垂於將來
 垂死
-垂死掙扎
+垂死掙紮
 垂死者
 垂涎
 垂涎三尺
@@ -50501,7 +50571,7 @@ import_tables:
 巴爾幹半島
 巴爾幹山
 巴爾幹山脈
-巴爾扎克
+巴爾紮克
 巴爾札克
 巴爾的摩
 巴爾舍夫斯基
@@ -52257,14 +52327,14 @@ import_tables:
 才貫二酉
 才高行厚
 才高行潔
-扎乎
-扎了
-扎伊爾
-扎掙
-扎爾達里
-扎眉扎眼
-扎耳朵
-扎腦門兒
+紮乎
+紮了
+紮伊爾
+紮掙
+紮爾達里
+紮眉紮眼
+紮耳朵
+紮腦門兒
 扒自飯碗兒
 扒頭兒
 打乾淨毬兒
@@ -63487,7 +63557,7 @@ import_tables:
 納塔乃耳
 納尼亞傳奇
 納悶兒
-納扎爾巴耶夫
+納紮爾巴耶夫
 納撒尼爾霍桑
 納爾
 納爾遜
@@ -66267,8 +66337,8 @@ import_tables:
 莫怪
 莫愁
 莫愁湖
-莫扎特
-莫扎里拉
+莫紮特
+莫紮里拉
 莫折大提
 莫拉萊斯
 莫文蔚
@@ -71946,8 +72016,8 @@ import_tables:
 阿布加
 阿布叔醇
 阿布哈茲
-阿布扎比
-阿布扎比市
+阿布紮比
+阿布紮比市
 阿布杜拉
 阿布沙耶夫
 阿布爾
@@ -71972,8 +72042,8 @@ import_tables:
 阿房宮
 阿房宮賦
 阿扁
-阿扎倫卡
-阿扎尼亞
+阿紮倫卡
+阿紮尼亞
 阿托品
 阿拉丁
 阿拉乾山脈
@@ -73583,8 +73653,8 @@ import_tables:
 馬戛爾尼
 馬戛爾尼使團
 馬扁兒
-馬扎爾
-馬扎爾語
+馬紮爾
+馬紮爾語
 馬拉
 馬拉加
 馬拉加西
@@ -75651,7 +75721,7 @@ import_tables:
 下跪
 下載
 下僚
-下厰
+下廠
 下墜
 下榻
 下獄
@@ -76081,7 +76151,7 @@ import_tables:
 大路
 大骱
 大鼓
-大厰
+大廠
 大夥
 大端
 大網
@@ -77530,7 +77600,7 @@ import_tables:
 分裂分子
 分群
 分腿
-分厰
+分廠
 分頭
 分竈
 分贓
@@ -77962,8 +78032,8 @@ import_tables:
 手頭緊
 手臂把
 手癬
-扎芡
-扎鈎
+紮芡
+紮鈎
 支人
 支助
 支吾
@@ -84437,7 +84507,7 @@ import_tables:
 車鈴
 車鉤
 車閘
-車厰
+車廠
 車墊
 車模
 車影
@@ -85919,7 +85989,7 @@ import_tables:
 松枝
 松寬
 松蘿
-板扎
+板紮
 板主
 板床
 板車
@@ -86061,7 +86131,7 @@ import_tables:
 治稅
 治黑
 治罪
-治厰
+治廠
 沼澤
 沾光
 沾衣
@@ -86684,11 +86754,11 @@ import_tables:
 迫害
 迫脅
 迭出
-迭能
+昰能
 迭起
 迭連
 迭創
-迭頭
+昰頭
 述記
 述略
 述說
@@ -89707,7 +89777,7 @@ import_tables:
 倒會
 倒箱囡兒
 倒豎
-倒霉
+倒黴
 倒竈
 倔強
 倘不
@@ -91161,7 +91231,7 @@ import_tables:
 紙硯
 紙筋
 紙煙
-紙厰
+紙廠
 紙撚
 紙糊
 紙頭紙腦
@@ -92022,7 +92092,7 @@ import_tables:
 馬匹
 馬太
 馬夫
-馬扎
+馬紮
 馬仔
 馬可
 馬市
@@ -98547,7 +98617,7 @@ import_tables:
 煤球風爐
 煤球爐
 煤黑
-煤厰
+煤廠
 煤碳
 煤頭紙
 照牢
@@ -99578,13 +99648,13 @@ import_tables:
 厭戰
 厭膩
 厭舊
-厰內
-厰長
-厰務
-厰家
-厰部
-厰區
-厰裏
+廠內
+廠長
+廠務
+廠家
+廠部
+廠區
+廠裏
 厲害
 厲聲
 嘆死氣
@@ -102272,12 +102342,12 @@ import_tables:
 震波
 震感
 震顫
-霉夫
-霉味
-霉鬼星
-霉氣
-霉乾菜
-霉塔臭
+黴夫
+黴味
+黴鬼星
+黴氣
+黴乾菜
+黴塔臭
 靚女
 靚仔
 靚妝
@@ -104151,7 +104221,7 @@ import_tables:
 戳透
 戳節頭
 戳槍戳箭
-戳霉頭
+戳黴頭
 戳壁腳
 戳鏟
 擺三擺四
@@ -105160,7 +105230,7 @@ import_tables:
 觸揢鬼
 觸景
 觸感
-觸霉頭
+觸黴頭
 觸鍵
 觸鬚
 譬是弗是
@@ -105991,7 +106061,7 @@ import_tables:
 有點事體
 一鑊子
 彎下腰
-扎辮子
+紮辮子
 喫鈍頭
 起唑頭
 劃飯
@@ -106541,7 +106611,7 @@ import_tables:
 假菸
 偏弗
 做脫儂
-做迭個
+做昰個
 # 停泊
 僞劣
 僞名
@@ -106605,10 +106675,9 @@ import_tables:
 冀圖
 冀東
 冀盼
-冇呀  meungo
-冇病  meubieng
-冇痛  meuthung
-冇野  meuya
+冇呀
+冇病
+冇痛
 冊報
 冊那
 再弗
@@ -106878,13 +106947,13 @@ import_tables:
 嚅囁
 嚎叫
 嚕蘇
-嚡裏
-嚡裏一種
-嚡裏一隻
-嚡裏個
-嚡裏墶
-嚡裏搭
-嚡裏面
+何裏
+何裏一種
+何裏一隻
+何裏個
+何裏墶
+何裏搭
+何裏面
 嚦嚦
 嚷嘴
 嚼爛
@@ -107155,7 +107224,7 @@ import_tables:
 扇區
 手指掐
 手節掐
-扎根
+紮根
 扒兒手
 # 扒開
 打溼
@@ -107303,7 +107372,7 @@ import_tables:
 會衆
 # 月大
 有𠲎
-有迭個
+有昰個
 有點字
 朋友道理
 望儂
@@ -107841,19 +107910,19 @@ import_tables:
 # 辟邪
 辨僞
 近個
-迭個
-迭個字
-迭個詞
-迭墶
-迭墶裏
-迭次
-迭歇
-迭歇裏
-迭歇辰光
-迭牌人
-迭眼
-迭種
-迭種事體
+昰個
+昰個字
+昰個詞
+昰墶
+昰墶裏
+昰次
+昰歇
+昰歇裏
+昰歇辰光
+昰牌人
+昰眼
+昰種
+昰種事體
 # 追琢
 這弗
 這菸
@@ -107971,45 +108040,44 @@ import_tables:
 敁份量
 # 比苗頭
 圐圙
-嗰一搶
-嗰代
-嗰件
-嗰個
-嗰個是
-嗰先
-嗰句
-嗰墶
-嗰墶裏
-嗰套
-嗰幾天
-嗰手
-嗰搭
-嗰檔碼子
-嗰歇
-嗰歇歇
-嗰歇裏
-嗰歇辰光
-嗰歇點
-嗰種
-嗰種事體
-嗰種人
-嗰種字
-嗰種視頻
-嗰種詞
-嗰種路名
-嗰種音
-嗰總
-嗰恁
-嗰恁介
-嗰恁個
-嗰記
-嗰趟
-嗰辰光
-嗰隻
-嗰面
-嗰面墶
-嗰頭
-嗰點
+箇一瑲
+箇代
+箇件
+箇個
+箇個是
+箇先
+箇句
+箇墶
+箇墶裏
+箇套
+箇幾天
+箇手
+箇檔碼子
+箇歇
+箇歇歇
+箇歇裏
+箇歇辰光
+箇歇點
+箇種
+箇種事體
+箇種人
+箇種字
+箇種視頻
+箇種詞
+箇種路名
+箇種音
+箇總
+箇能
+箇能介
+箇能個
+箇記
+箇趟
+箇辰光
+箇隻
+箇面
+箇面墶
+箇頭
+箇點
 囋叭
 漨浡
 商廈
@@ -108142,7 +108210,7 @@ import_tables:
 一個攏總
 一共攏總
 一人榻
-一扎花
+一紮花
 一平排
 一同
 一總
@@ -108197,7 +108265,7 @@ import_tables:
 一時一時
 一時頭裏
 一時頭浪
-一臘扎齊
+一臘紮齊
 一趟子
 一趟頭
 一脫眼
@@ -109022,7 +109090,7 @@ import_tables:
 小年夜
 小腳桶
 小學生子
-小扎秧苗
+小紮秧苗
 小意循環
 小腳伶仃
 小囡弗做病
@@ -109168,31 +109236,31 @@ import_tables:
 元寶樹
 元寶魚
 元宵節
-扎牢
-扎針
-扎弄
-扎䈆
-扎網
-扎搭
-扎鞋底
-扎仙
-扎作
-扎墩
-扎致
-扎狠
-扎頓
-扎登
-扎勁
-扎硬
-扎足
-扎板
-扎臺型
-扎底針
-扎腳褲
-扎腳帶
-扎襪帶
-扎底引線
-扎鞋底針
+紮牢
+紮針
+紮弄
+紮䈆
+紮網
+紮搭
+紮鞋底
+紮仙
+紮作
+紮墩
+紮致
+紮狠
+紮頓
+紮登
+紮勁
+紮硬
+紮足
+紮板
+紮臺型
+紮底針
+紮腳褲
+紮腳帶
+紮襪帶
+紮底引線
+紮鞋底針
 廿
 廿草頭
 廿三四五
@@ -109323,7 +109391,7 @@ import_tables:
 太保
 太保書
 匹
-匹扎
+匹紮
 仄轉睏
 牙籤
 牙刷杯
@@ -110429,7 +110497,7 @@ import_tables:
 包打官司
 包拍胸脯
 包做媒人包養兒子
-包扎
+包紮
 包涵
 包做媒人包養囡
 市秤
@@ -112987,17 +113055,16 @@ import_tables:
 易如
 制斷
 迭
-迭橫頭
-迭塊搭
-迭眼眼
-迭搭
-迭搭塊
-迭搭場化
-迭搭戶蕩
-迭場化
-迭浪
-迭個能
-迭能樣子
+昰橫頭
+昰塊搭
+昰眼眼
+昰搭
+昰搭塊
+昰搭場許
+昰搭戶蕩
+昰場許
+昰浪
+昰能
 迭為
 迭誠
 知肉
@@ -114663,11 +114730,11 @@ import_tables:
 捕快賊出身
 華司
 紮
-扎
-扎䈆（寶山）
-扎實
-扎台型
-扎底線
+紮
+紮䈆（寶山）
+紮實
+紮台型
+紮底線
 耿且骨癢
 荷月
 荷花
@@ -115464,7 +115531,7 @@ import_tables:
 紙撮
 紙撮頭
 紙催
-紙扎
+紙紮
 紙店
 紙媒頭
 紙錠灰
@@ -115618,7 +115685,7 @@ import_tables:
 掇馬桶
 掇臀捧屁
 堊
-基扎
+基紮
 聆盆
 著
 著打
@@ -118388,7 +118455,7 @@ import_tables:
 矮短短
 矮子肚裏疙瘩多
 矮矮紮墩
-矮盆扎墩
+矮盆紮墩
 矮子裏拔長子
 矮腳伏雞勤生蛋
 稗草子
@@ -119279,7 +119346,7 @@ import_tables:
 精明
 精光鋥亮
 精光削滑
-精神扎出
+精神紮出
 粽子
 粽子糖
 粽葉
@@ -119722,8 +119789,8 @@ import_tables:
 厲頭
 厲
 厲聲塌氣
-霉菜
-霉菜乾
+黴菜
+黴菜乾
 鴉片魚
 輩數
 瞌促
@@ -122146,6 +122213,8 @@ import_tables:
 太高	thakau
 銅涇	dungkieng
 上麗	zhiangli
+嗰咾	koklau
+如何	nahang
 
 #甌江片、台州片詞彙
 
