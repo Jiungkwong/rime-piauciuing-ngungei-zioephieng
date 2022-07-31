@@ -6,9 +6,10 @@
 schema:
   schema_id: zioephieng
   name: 標準吳語
-  version: "2022.7.23"
+  version: "2022.7.31"
   author:
     - 吳韻 <tittii@outlook.com>
+    - 重光 <viktorsalehwu@gmail.com>
   description: |
     Thanks to the following works:
       * CC-CEDICT
@@ -44,7 +45,8 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - script_translator
+    - script_translator              # 主翻譯器
+    - table_translator@custom_phrase # 用戶短語
     - reverse_lookup_translator
   filters:
     - simplifier
@@ -120,7 +122,16 @@ speller:
 
 translator:
   dictionary: zioephieng
+  prism: zioephieng
   spelling_hints: 8
+ 
+custom_phrase:
+  dictionary: ""
+  user_dict: zioephieng.words # 用戶詞典名
+  db_class: stabledb       # 詞典類型爲只讀格式
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
 
 reverse_lookup:
   dictionary: luna_pinyin
@@ -133,13 +144,13 @@ reverse_lookup:
     - xform/([jqxy])v/$1u/
 
 punctuator:
-  import_preset: default
+  import_preset: symbols # 句讀處理器，統一從外部導入
 
 key_binder:
-  import_preset: default
+  import_preset: default # 快捷鍵，統一從外部導入
 
 recognizer:
-  import_preset: default
+  import_preset: default # 特殊規則輸入碼，統一從外部導入
   patterns:
     reverse_lookup: "`[a-z]*'?$"
 

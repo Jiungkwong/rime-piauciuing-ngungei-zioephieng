@@ -19,17 +19,338 @@
 #
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
-# 版本號：1.0
+# 版本號：22.7.31
+# 附加字表加來罷，包括化學元素周期表、常用化學物質、《浙南甌語》、《吳語三門方言研究》替《吳語詞彙管窺——甌滬共通詞彙比較》裏頭個字替部分詞彙。
 
 ---
 name: zioephieng
-version:	"2022.7.27"
+version:	"2022.7.31"
 sort: by_weight
 use_preset_vocabulary: true
+import_tables:
+  - zioephieng.words # 增補詞庫
 ...
 
+# 附加字表
 
+〇	lieng
+㐅	go
+㽘	gong
+㽘	ghong
+徛	gai
+跔	geu
+沒	uek
+蟑	ciang
+螂	long
+絎	ghong
+䐥	ung
+盦	eng
+齾	ngaeh
+撎	iaeh
+㹙	ang
+佮	keh
+扴	kae
+撬	giau
+朣	jiong
+挾	geh
+挾	giaeh
+穿	chiuing
+繰	tshiau
+遷	tshie
+鏨	ze
+㪌	sung
+丵	zok
+㾷	si
+㾷	sy
+䂻	dzang
+長	dzang
+㪪	saeh
+楔	saeh
+㪪	zaeh
+楔	zaeh
+讖	tshae
+䰡	chik
+䋇	tshiek
+貯	tsi
+灒	zae
+如	na
+奪	doeng
+㣕	da
+吨	theng
+蛻	thoe
+螁	thoeng
+噋	thoeng
+豛	tuk
+沰	tok
+咄	tek
+降	gong
+䶕	bo
+伏	beu
+覆	phuk
+䤨	phak
+虻	bang
+萬	bae
+駛	sa
+嗅	hiung
+師	sy
+蝮	phuk
+破	pha
+跛	pa
+可	khak
+可	kha
+解	ga
+膯	teng
+撥	boeh
+蕻	hung
+莓	mieu
+斷	toe
+都	taeh
+拉	la
+㑚	na
+是	zeh
+蝤	yeu
+魷	yeu
+打	to
+濾	li
+省	sang
+毒	deu
+櫼	tsing
+女	na
+仗	ciang
+絞	gau
+架	go
+靠	gau
+扛	gong
+趟	thong
+爭	dzang
+鑽	dzoe
+儆	ging
+拖	da
+拖	tha
+拕	da
+隔	gak
+鐗	kae
+扦	tshiae
+釺	tshiae
+罩	tau
+慫	ziung
+甩	huaeh
+射	zhiak
+閘	zaeh
+蚻	zaeh
+飈	piau
+飆	piau
+餂	liae
+噇	dziong
+闔	ghaeh
+雩	heu
+浡	beh
+蘇	sa
+姑	ka
+胥	sa
+摜	guae
+㠮	phung
+䘼	ioe
+漈	tsi
+簰	ba
+靚	liang
+煲	pau
+鋞	kieng
+𨦡	yang
+鋶	lieu
+鏻	ling
+鉮	shing
+䏟	pik
+䏲	thi
+胂	shing
+膦	ling
+鎓	ung
+脲	niau
+胺	oe
+氰	tshieng
+胩	kha
+肼	tsieng
+肟	u
+苷	ke
+苄	bie
+蒽	eng
+磺	ghuong
+醌	kueng
+酰	siae
+酐	koe
+羧	sou
+酮	dung
+巰	gieu
+羰	thong
+烴	thieng
+炔	khioeh
+烷	ghuoe
+鉝	lik
+鈇	fu
+鉨	ni
+鎶	kou
+錀	liuing
+鐽	daeh
+䥑	mak
+𨭆	hek
+𨨏	pou
+𨭎	hi
+𨧀	Du
+嘟	tu
+鑪	lu
+鐒	lau
+惹	nia
+鍩	nok
+鍆	meng
+鐨	fi
+鐦	khai
+鉳	pek
+錇	bei
+碚	phei
+呸	phei
+鋦	giuk
+姖	gei
+焗	giuk
+佢	gei
+鎇	mi
+酶	mei
+錼	na
+倷	na
+萘	na
+鎿	no
+鏷	phuk
+釷	thu
+錒	ak
+氡	tung
+咚	tung
+砈	ak
+砹	nga
+鎄	ai
+鑀	ai
+釙	puk
+砵	poeh
+铋	pik
+鉈	thou
+褟	thaeh
+牠	thou
+汞	kung
+鉑	bok
+啵	pou
+鋨	ngou
+錸	lai
+鉭	thae
+鉿	ha
+鑥	lu
+擼	lu
+鐿	i
+銩	tieu
+鉺	ni
+鈥	hou
+哋	di
+怎	ciek
+釓	gaeh
+啡	fi
+咖	ka
+咖	kha
+銪	yeu
+鉕	phou
+釹	ni
+鐠	phu
+埔	phu
+噗	phuk
+鈰	zy
+鋇	pei
+銫	sek
+氙	siae
+搧	shie
+碲	ti
+摘	tiek
+啲	tiek
+銦	ing
+鎘	kak
+扒	bo
+掱	bo
+趴	phaeh
+啪	phak
+粑	bo
+銠	lau
+釕	liau
+鍀	tek
+鉬	muk
+鈮	ni
+跍	gu
+崮	ku
+佝	geu
+哽	gang
+鋯	kau
+着	ciak
+着	jiak
+螆	tshy
+蚝	hoe
+蚝	tshy
+釔	ik
+銥	i
+鍶	sy
+銣	ni
+氪	khek
+硒	si
+砷	shing
+锗	cio
+鎵	ko
+鋅	sing
+鎳	niaeh
+錳	mang
+釩	vae
+酚	feng
+肽	tha
+鈦	tha
+鈧	khong
+氬	o
+氯	luk
+硅	kui
+鎂	mi
+鈉	neh
+氖	nai
+氟	feh
+氮	dae
+弗	veh
+硼	beng
+鈹	bi
+鈈	peh
+鋰	li
+氫	khieng
+酯	tsy
+溴	hieu
+銨	oe
+氨	oe
+垮	khuo
+侉	khuo
+腈	zieng
+烯	hi
+醚	mi
+癟	pieh
+煉	liae
+炼	liae
+擱	gok
+醛	tshioe
+冇	meu
+𧟰	fiau  
+覅	fiau
+肥	bi
+縛	bok
+防	bong
+她	thou
+齣	chiuik
+無	m
+嘸	m
+支	ci
+支	ki
+枝	ki
+褪	thoeng
+也	gha
+𣍐	feng
 
+#字表
 
 藹	a
 壒	a
@@ -26636,17 +26957,10 @@ use_preset_vocabulary: true
 的	t
 了	l
 這	tseh
-們   meng
-你們  nimeng
-他們  thoumeng
-我們  ngoumeng
-她   thou
-怎麼  tsekmou
-甚麼  zhikmou
-為甚麼 yuzhikmou
-哪   no
-娜   nou
-吶   no
+們	meng
+哪	no
+娜	nou
+吶	no
 唸	niae
 協	yaeh
 俠	yaeh
@@ -26861,29 +27175,6 @@ use_preset_vocabulary: true
 䍙	vu
 𤍍	vu
 蕪	vu
-𧟰   fiau
-覅   fiau
-肥	bi
-縛	bok
-防	bong
-她	thou
-齣	chiuik
-無  m
-支   ci
-枝   ki
-褪   thoeng
-也   gha
-𣍐   feng
-吳越獨立 nguyoehduklik
-月絕書會 
-侉侉 ouou 1000
-癟三 piehsae  1000
-喫涴  khiekou 500
-傻逼  sopiek
-伏   beu
-煲   pau
-電飯煲 diaevaepau
-嘸   mu
 
 # 地名
 
@@ -28265,7 +28556,7 @@ use_preset_vocabulary: true
 一眼也嘸沒
 七十兩
 七十兩行
-丈二和尚摸弗着頭腦
+丈二和尚摸弗著頭腦
 三個和尚嘸沒水喝
 三個和尚嘸沒水喫
 三分之兩
@@ -28411,11 +28702,11 @@ use_preset_vocabulary: true
 弗發達國家
 弗省人事
 弗真弗假
-弗着
+弗著
 弗急
-弗着痕跡
-弗着邊際
-弗着陸飛行
+弗著痕跡
+弗著邊際
+弗著陸飛行
 弗睏覺
 弗瞭解
 弗曉得啥原因
@@ -28799,7 +29090,7 @@ use_preset_vocabulary: true
 你如話
 你是話
 你囥
-你覺着
+你覺著
 你講我
 你講的
 你講個
@@ -28943,7 +29234,7 @@ use_preset_vocabulary: true
 我行
 我要
 我覺得
-我覺着
+我覺著
 我講
 我講我
 我講的
@@ -29073,7 +29364,7 @@ use_preset_vocabulary: true
 八字還嘸沒一撇
 八號上半日
 八號下半日
-八竿子打弗着
+八竿子打弗著
 公私弗分
 再落去
 再弗去
@@ -29198,7 +29489,7 @@ use_preset_vocabulary: true
 受弗了
 受在
 只借弗還
-只覺着
+只覺著
 叫落去
 叫在
 好大好小
@@ -29352,8 +29643,8 @@ use_preset_vocabulary: true
 壞掉了
 壞事體
 壞個
-夠弗着
-夠在着
+夠弗著
+夠在著
 夢裏向個
 大半日
 大家一淘
@@ -29723,11 +30014,11 @@ use_preset_vocabulary: true
 摘落去
 摟在
 摸落去
-摸弗着
-摸弗着邊
-摸弗着邊際
-摸弗着頭腦
-摸在着
+摸弗著
+摸弗著邊
+摸弗著邊際
+摸弗著頭腦
+摸在著
 撈在
 撈在仔
 撈的
@@ -29797,8 +30088,8 @@ use_preset_vocabulary: true
 敲在
 整煞
 敷的
-數弗着
-數在着
+數弗著
+數在著
 數在
 斬落去
 日夜弗分
@@ -29897,7 +30188,7 @@ use_preset_vocabulary: true
 流落去
 流傳落去
 流在
-流着眼淚
+流著眼淚
 流鼻頭
 流鼻頭紅
 流鼻頭紅血
@@ -29953,8 +30244,8 @@ use_preset_vocabulary: true
 牽的
 牽在
 牽在走
-犯在着
-猜弗着
+犯在著
+猜弗著
 環的
 生落來
 生落去
@@ -29963,8 +30254,8 @@ use_preset_vocabulary: true
 生在
 生小人
 用弗了
-用弗着
-用在着
+用弗著
+用在著
 用餐辰光
 甩弗掉
 甩弗開
@@ -30068,7 +30359,7 @@ use_preset_vocabulary: true
 算落去
 算我
 算你
-管弗着
+管弗著
 簽落去
 簽的
 粘的
@@ -30143,12 +30434,12 @@ use_preset_vocabulary: true
 要你
 要馱
 要死弗活
-見弗着
+見弗著
 見在多了
-見在着
+見在著
 規模頂大
-覺着交關
-覺着自家
+覺著交關
+覺著自家
 解決弗了
 訂煞
 討人歡喜
@@ -30440,7 +30731,7 @@ use_preset_vocabulary: true
 黑白弗分
 默認個
 點落去
-點弗着
+點弗著
 炸肉圓
 弗出產
 天亮𡀂
@@ -36694,8 +36985,8 @@ use_preset_vocabulary: true
 一百分
 一盆火兒
 一目十行
-一着
-一着不慎
+一著
+一著不慎
 一瞄
 一瞬間
 一神教
@@ -36812,7 +37103,7 @@ use_preset_vocabulary: true
 七魄
 万俟
 丈二和尚
-丈二和尚摸不着頭腦
+丈二和尚摸不著頭腦
 丈二金剛
 三七兒
 三世
@@ -37234,9 +37525,9 @@ use_preset_vocabulary: true
 不的個風兒就雨兒
 不省人事
 不真不假
-不着陸飛行
-不着領頂兒
-不着頭頂兒
+不著陸飛行
+不著領頂兒
+不著頭頂兒
 不睡覺
 不瞭解
 不知不覺
@@ -37916,7 +38207,7 @@ use_preset_vocabulary: true
 乾圖
 乾土
 乾地
-乾坐着
+乾坐著
 乾坤
 乾坤一擲
 乾坤再造
@@ -38038,7 +38329,7 @@ use_preset_vocabulary: true
 乾硬
 乾禮
 乾稿
-乾站着
+乾站著
 乾笑
 乾等
 乾粉
@@ -38666,7 +38957,7 @@ use_preset_vocabulary: true
 交給
 交織
 交織成
-交織着
+交織著
 交臂
 交臂失之
 交與
@@ -39294,7 +39585,7 @@ use_preset_vocabulary: true
 仗托
 仗持
 仗火
-仗着
+仗著
 仗義
 仗義執言
 仗義疏財
@@ -39370,7 +39661,7 @@ use_preset_vocabulary: true
 以貨易貨
 以還
 仰仗
-仰仗着
+仰仗著
 仰光大金塔
 仰八腳兒
 仰天一望
@@ -39530,7 +39821,7 @@ use_preset_vocabulary: true
 伏特加
 伏特計
 伏生
-伏着
+伏著
 伏筆
 伏罪
 伏羅希洛夫
@@ -40422,7 +40713,7 @@ use_preset_vocabulary: true
 傳真發送
 傳真號碼
 傳真電報
-傳着
+傳著
 傳神
 傳票
 傳種
@@ -40650,7 +40941,7 @@ use_preset_vocabulary: true
 充分肯定
 充分認識
 充分體現
-充塞着
+充塞著
 充斥
 充斥市面
 充滿希望
@@ -41082,7 +41373,7 @@ use_preset_vocabulary: true
 兩百塊
 兩百多萬
 兩百萬
-兩着兒
+兩著兒
 兩碗
 兩科
 兩秒
@@ -41379,7 +41670,7 @@ use_preset_vocabulary: true
 冒牌
 冒牌貨
 冒生命危險
-冒着生命危險
+冒著生命危險
 冒金星兒
 冒險家
 冗長
@@ -41420,7 +41711,7 @@ use_preset_vocabulary: true
 冷湖行政區
 冷湖行政委員會
 冷熱自明
-冷竈上着一把兒
+冷竈上著一把兒
 冷藏櫃
 冷酒兒後犯
 冷鍋裏爆豆
@@ -42069,8 +42360,8 @@ use_preset_vocabulary: true
 划得來
 划拳
 划槳
-划着
-划着走
+划著
+划著走
 划算
 划船
 划行
@@ -42882,7 +43173,7 @@ use_preset_vocabulary: true
 包圍
 包圍住
 包圍圈
-包圍着
+包圍著
 包圍起來
 包園兒
 包圓兒
@@ -43982,7 +44273,7 @@ use_preset_vocabulary: true
 叫個
 叫牌
 叫的
-叫着
+叫著
 叫鬼
 召開大會
 召集
@@ -44460,8 +44751,8 @@ use_preset_vocabulary: true
 呆瓜
 呆癡
 呆登登
-呆着
-呆着臉
+呆著
+呆著臉
 呆立
 呆笑
 呆笨
@@ -45058,7 +45349,7 @@ use_preset_vocabulary: true
 喂喂
 喂喂喂
 喂眼
-喂着
+喂著
 喂藥
 喃喃自語
 善了
@@ -45691,7 +45982,7 @@ use_preset_vocabulary: true
 圍在
 圍坐
 圍坐在
-圍坐着
+圍坐著
 圍城
 圍城打援
 圍堰
@@ -45719,10 +46010,10 @@ use_preset_vocabulary: true
 圍爐
 圍的
 圍看
-圍着
+圍著
 圍籬
 圍繞
-圍繞着
+圍繞著
 圍聚
 圍脖
 圍脖兒
@@ -47541,7 +47832,7 @@ use_preset_vocabulary: true
 大藏經
 大蘇打
 大處
-大處着眼
+大處著眼
 大處落墨
 大蛇丸
 大蝦
@@ -47865,7 +48156,7 @@ use_preset_vocabulary: true
 天下無難事只怕有心人
 天下爲家
 天下雜誌
-天不着風兒晴不的
+天不著風兒晴不的
 天主教
 天主教堂
 天主教徒
@@ -48013,7 +48304,7 @@ use_preset_vocabulary: true
 夾山國家森林公園
 夾斷
 夾當兒
-夾着尾巴
+夾著尾巴
 夾被
 夾起尾巴
 夾雜
@@ -48202,7 +48493,7 @@ use_preset_vocabulary: true
 好死不如惡活
 好死不如歹活
 好死不如賴活
-好死不如賴活着
+好死不如賴活著
 好爲人師
 好牌
 好玩兒
@@ -50783,7 +51074,7 @@ use_preset_vocabulary: true
 引申
 引申作
 引申義
-引着
+引著
 引自
 引進人才
 引風吹火
@@ -51215,7 +51506,7 @@ use_preset_vocabulary: true
 忒兒嘍
 忒兒摟
 忖度
-忖着勁兒
+忖著勁兒
 志分
 志士仁人
 志學
@@ -51426,7 +51717,7 @@ use_preset_vocabulary: true
 悶弓兒
 悶悶不樂
 悶死
-悶着頭兒幹
+悶著頭兒幹
 悻悻而去
 悽切動人
 情不自勝
@@ -51657,7 +51948,7 @@ use_preset_vocabulary: true
 憑單日記
 憑單日記帳
 憑藉
-憑藉着
+憑藉著
 憤世
 憤世嫉俗
 憤然離去
@@ -51896,7 +52187,7 @@ use_preset_vocabulary: true
 戴爾公司
 戴的
 戴眼鏡
-戴着
+戴著
 戴秉國
 戴笠
 戴維
@@ -52102,7 +52393,7 @@ use_preset_vocabulary: true
 扛了
 扛大樑
 扛扛抬抬
-扛着
+扛著
 扛肩兒的
 扛長工
 扛鼎
@@ -52618,7 +52909,7 @@ use_preset_vocabulary: true
 拉皮手術
 拉皮條
 拉直
-拉着
+拉著
 拉祜族
 拉票
 拉科魯尼亞
@@ -52834,7 +53125,7 @@ use_preset_vocabulary: true
 拿摩溫
 拿撒勒
 拿波里
-拿着腔兒
+拿著腔兒
 拿破侖波拿巴
 拿破崙
 拿破崙帝國
@@ -52952,7 +53243,7 @@ use_preset_vocabulary: true
 捏出水兒來的
 捏死
 捏殺蠅子兒是的
-捏着鼻子
+捏著鼻子
 捏錯兒
 捏麪人
 捐助人
@@ -53313,7 +53604,7 @@ use_preset_vocabulary: true
 搶生意
 搶風航行
 搽穰捲兒
-搿着口兒
+搿著口兒
 摁釘兒
 摁釦兒
 摔了
@@ -53361,7 +53652,7 @@ use_preset_vocabulary: true
 摩門教會
 摳字眼兒
 摳門兒
-摸不着門兒
+摸不著門兒
 摸了
 摸吧
 摸門兒
@@ -53508,7 +53799,7 @@ use_preset_vocabulary: true
 擦了
 擦卓兒
 擦去
-擦着
+擦著
 擦黑兒
 擬人
 擬人化
@@ -53518,7 +53809,7 @@ use_preset_vocabulary: true
 擱不住
 擱得住
 擱心眼兒
-擱着
+擱著
 擱腳板
 擱起
 擱起來
@@ -53575,7 +53866,7 @@ use_preset_vocabulary: true
 攔洪壩
 攔洪水庫
 攔當
-攔着
+攔著
 攔網
 攔縱
 攔腰
@@ -53919,7 +54210,7 @@ use_preset_vocabulary: true
 教的
 教皇
 教益
-教着
+教著
 教研
 教研員
 教研室
@@ -55959,7 +56250,7 @@ use_preset_vocabulary: true
 望洋興嘆
 望眼欲穿
 望眼鏡
-望着
+望著
 望秋先零
 望穿
 望而
@@ -56063,7 +56354,7 @@ use_preset_vocabulary: true
 朝珠
 朝生暮死
 朝發夕至
-朝着
+朝著
 朝秦暮楚
 朝綱
 朝聖
@@ -56473,7 +56764,7 @@ use_preset_vocabulary: true
 架次
 架海金梁
 架爲
-架着
+架著
 架空
 架空索道
 架空電纜
@@ -56685,7 +56976,7 @@ use_preset_vocabulary: true
 棉被套
 棋格狀
 棋牌
-棋高一着
+棋高一著
 棍兒茶
 棒兒香
 棒子麪兒
@@ -57880,7 +58171,7 @@ use_preset_vocabulary: true
 沈甸甸
 沈痛
 沈痼
-沈着
+沈著
 沈睡
 沈睡不醒
 沈積
@@ -58584,7 +58875,7 @@ use_preset_vocabulary: true
 流涎症
 流淚
 流眼淚
-流着淚
+流著淚
 流芳後世
 流芳百世
 流血犧牲
@@ -58754,7 +59045,7 @@ use_preset_vocabulary: true
 涎水
 涎沫
 涎皮賴臉
-涎着臉
+涎著臉
 涓埃
 涓埃之力
 涔淚
@@ -58849,7 +59140,7 @@ use_preset_vocabulary: true
 混行
 混雜
 混雜物
-混雜着
+混雜著
 混雜起來
 淹死
 淹沒
@@ -59171,7 +59462,7 @@ use_preset_vocabulary: true
 潛伏
 潛伏性
 潛伏期
-潛伏着
+潛伏著
 潛望鏡
 潛水人
 潛沒
@@ -59246,7 +59537,7 @@ use_preset_vocabulary: true
 火爆
 火盆兒
 火眼金睛識真假
-火着心兒
+火著心兒
 火紙媒兒
 火紙煤兒
 火罐兒
@@ -59599,7 +59890,7 @@ use_preset_vocabulary: true
 熱淚盈眶
 熱火朝天
 熱爾韋
-熱竈上着一把兒
+熱竈上著一把兒
 熱膠
 熱門音樂
 熱電學
@@ -59641,7 +59932,7 @@ use_preset_vocabulary: true
 營生
 營生之道
 營銷人員
-營長
+營長	yungciang
 營養學
 營養學分
 營養學家
@@ -60021,8 +60312,8 @@ use_preset_vocabulary: true
 牽了
 牽制行動
 牽拉
-牽拉着
-牽着鼻子走
+牽拉著
+牽著鼻子走
 牽線人
 牽馬到河易
 犀鳥
@@ -60827,8 +61118,8 @@ use_preset_vocabulary: true
 生的
 生皮
 生眼
-生着
-生着氣
+生著
+生著氣
 生知
 生石灰
 生石膏
@@ -61526,7 +61817,7 @@ use_preset_vocabulary: true
 皮靴頁兒
 皺眉
 皺眉頭
-皺着眉頭
+皺著眉頭
 盆兒
 盈虧自負
 益胃生津
@@ -61581,7 +61872,7 @@ use_preset_vocabulary: true
 盛況
 盛況空前
 盛產
-盛着
+盛著
 盛稱
 盛筵
 盛筵必散
@@ -61601,7 +61892,7 @@ use_preset_vocabulary: true
 盛過來
 盛過去
 盛開
-盛開着
+盛開著
 盛飯
 盛饌
 盜去
@@ -61741,7 +62032,7 @@ use_preset_vocabulary: true
 盹兒
 盼了
 盼望
-盼望着
+盼望著
 盾牌
 盾牌座
 盾狀
@@ -61887,21 +62178,21 @@ use_preset_vocabulary: true
 眼觀六路耳聽八方
 眼觀鼻鼻觀心
 眼鏡架
-着三不着兩
-着上
-着兒
-着力
-着勁兒
-着火
-着火點
-着着
-着着失敗
-着色
-着色法
-着衣
-着裝
-着邊兒
-着重兒
+著三不著兩
+著上
+著兒
+著力
+著勁兒
+著火
+著火點
+著著
+著著失敗
+著色
+著色法
+著衣
+著裝
+著邊兒
+著重兒
 睜一眼
 睜一眼閉一眼
 睜一隻眼
@@ -61912,7 +62203,7 @@ use_preset_vocabulary: true
 睜眼
 睜眼瞎子
 睜眼說瞎話
-睜着
+睜著
 睜起
 睜開
 睜開眼
@@ -61932,7 +62223,7 @@ use_preset_vocabulary: true
 睡懶覺
 睡椅
 睡眠時間
-睡着了
+睡著了
 睡睡覺
 睡覺
 睡覺前
@@ -61951,7 +62242,7 @@ use_preset_vocabulary: true
 瞄好
 瞄準
 瞄準到
-瞄着
+瞄著
 瞄瞄
 瞇盹兒
 瞎了
@@ -61984,7 +62275,7 @@ use_preset_vocabulary: true
 瞳仁
 瞳孔放大
 瞻望
-矇着鍋兒
+矇著鍋兒
 矇頭大睡
 矚望
 矛柄
@@ -62629,10 +62920,10 @@ use_preset_vocabulary: true
 穿梭外交
 穿梭轟炸
 穿甲彈
-穿着打扮
-穿着講究
+穿著打扮
+穿著講究
 穿紅戴綠
-穿紅着綠
+穿紅著綠
 穿耳
 穿耳洞
 穿行
@@ -62888,7 +63179,7 @@ use_preset_vocabulary: true
 等會兒
 等死
 等的
-等着你
+等著你
 等閒人物
 筋節兒
 筒狀
@@ -63009,7 +63300,7 @@ use_preset_vocabulary: true
 簇合
 簇射
 簇擁
-簇擁着
+簇擁著
 簇擁而上
 簇新
 簇生
@@ -63550,7 +63841,7 @@ use_preset_vocabulary: true
 綵筆生花
 綸巾
 綻口兒
-綽着經兒
+綽著經兒
 綿綿不斷
 綿長
 緊了
@@ -63664,7 +63955,7 @@ use_preset_vocabulary: true
 繁雜
 繁雜性
 繃勁兒
-繃着臉兒
+繃著臉兒
 織田信長
 繞彎兒
 繞彎子兒
@@ -64486,7 +64777,7 @@ use_preset_vocabulary: true
 背叛
 背叛者
 背向
-背向着
+背向著
 背囊
 背回家去
 背在
@@ -64496,7 +64787,7 @@ use_preset_vocabulary: true
 背子
 背字
 背對
-背對着
+背對著
 背對背
 背山
 背山臨水
@@ -64530,8 +64821,8 @@ use_preset_vocabulary: true
 背的
 背盟
 背眼
-背着
-背着手
+背著
+背著手
 背筐
 背篼
 背簍
@@ -64540,10 +64831,10 @@ use_preset_vocabulary: true
 背興
 背袋
 背誦
-背誦着
+背誦著
 背謬
 背負
-背負着
+背負著
 背起
 背起來
 背逆
@@ -64608,7 +64899,7 @@ use_preset_vocabulary: true
 胸甲
 能乾巴巴
 能乾杯
-能乾着急
+能乾著急
 能乾耗
 能乾脆
 能人
@@ -64741,8 +65032,8 @@ use_preset_vocabulary: true
 膠版紙
 膠狀
 膠皮
-膠着
-膠着狀態
+膠著
+膠著狀態
 膠粒
 膠膜
 膠質
@@ -66373,7 +66664,7 @@ use_preset_vocabulary: true
 藉此機會
 藉甚
 藉由
-藉着
+藉著
 藉端
 藉端生事
 藉箸代籌
@@ -67061,8 +67352,8 @@ use_preset_vocabulary: true
 衣櫃
 衣物櫃
 衣甲
-衣着
-衣着打扮
+衣著
+衣著打扮
 衣繡晝行
 衣補兒
 衣裳鉤兒
@@ -67200,7 +67491,7 @@ use_preset_vocabulary: true
 被褐懷金
 被褐藏輝
 被覆
-被覆着
+被覆著
 被視爲
 被訪者
 被評爲
@@ -68084,7 +68375,7 @@ use_preset_vocabulary: true
 說書人
 說溜了嘴
 說白了
-說着玩兒
+說著玩兒
 說短論長
 說穿了
 說章兒
@@ -69138,7 +69429,7 @@ use_preset_vocabulary: true
 身板兒
 身無分文
 身無長物
-身着
+身著
 身負重任
 身長
 身體力行
@@ -69632,7 +69923,7 @@ use_preset_vocabulary: true
 逛道兒
 逝世
 逝去
-逞着勁兒
+逞著勁兒
 速動比率
 速溶咖啡
 速率
@@ -69705,7 +69996,7 @@ use_preset_vocabulary: true
 進行曲
 進行檢查
 進行比較
-進行着
+進行著
 進行研究
 進行編程
 進行調整
@@ -70216,7 +70507,7 @@ use_preset_vocabulary: true
 還起來
 還跟
 還跟到
-還跟着
+還跟著
 還載
 還辟
 還通
@@ -71136,7 +71427,7 @@ use_preset_vocabulary: true
 長相思
 長眠
 長眠不醒
-長着
+長著
 長矛
 長短
 長短不一
@@ -71435,7 +71726,7 @@ use_preset_vocabulary: true
 間歇訓練
 間深裏
 間的
-間着
+間著
 間腦
 間色
 間苗
@@ -71454,7 +71745,7 @@ use_preset_vocabulary: true
 間隔號
 間隙
 間雜
-間雜着
+間雜著
 閔行
 閔行區
 閔采爾
@@ -71519,7 +71810,7 @@ use_preset_vocabulary: true
 防火長城
 防爆
 防的
-防着
+防著
 防禦率
 防禦率王
 防衛大臣
@@ -71528,7 +71819,7 @@ use_preset_vocabulary: true
 防防
 阻擋不了
 阻攔
-阻攔着
+阻攔著
 阻斷
 阻止不了
 阻礙交通
@@ -72021,7 +72312,7 @@ use_preset_vocabulary: true
 陰沈
 陰沈沈
 陰盛陽衰
-陰着兒
+陰著兒
 陰謀家
 陰錯陽差
 陰間
@@ -72123,7 +72414,7 @@ use_preset_vocabulary: true
 隨身行李
 險些兒
 險象環生
-險道神撞着壽星老兒
+險道神撞著壽星老兒
 隱伏
 隱伏性
 隱去
@@ -72134,7 +72425,7 @@ use_preset_vocabulary: true
 隻貓
 隻身一人
 雀兒山
-雀兒揀着旺處飛
+雀兒揀著旺處飛
 雁杳魚沈
 雁杳魚沉
 雁行
@@ -72766,7 +73057,7 @@ use_preset_vocabulary: true
 面折廷爭
 面斥
 面朝
-面朝着
+面朝著
 面朝黃土背朝天
 面無人色
 面生
@@ -73374,7 +73665,7 @@ use_preset_vocabulary: true
 駕駛人
 駕鶴西去
 駛去
-駝着背
+駝著背
 駝背鯨
 駝鳥
 駭人
@@ -73521,7 +73812,7 @@ use_preset_vocabulary: true
 高爾機體
 高甲戲
 高盛
-高着兒
+高著兒
 高等學府
 高等學校
 高等教育
@@ -73608,7 +73899,7 @@ use_preset_vocabulary: true
 鬧彆扭
 鬧心眼兒
 鬧戲兒
-鬧着玩兒
+鬧著玩兒
 鬧竿兒
 鬧騰勁兒
 鬧鬼
@@ -74039,7 +74330,7 @@ use_preset_vocabulary: true
 黛安娜
 黛眉
 黜斥
-點不着
+點不著
 點了
 點交
 點個
@@ -74048,7 +74339,7 @@ use_preset_vocabulary: true
 點擊一個鏈接
 點擊率
 點的
-點着
+點著
 點腳尖兒
 點閱召集
 點集
@@ -75589,7 +75880,7 @@ use_preset_vocabulary: true
 叉扁魚
 叉胸袋
 叉著
-叉着
+叉著
 叉開
 叉腰
 叉路
@@ -77958,7 +78249,7 @@ use_preset_vocabulary: true
 比做
 比國
 比著
-比着
+比著
 比喻
 比爲
 比量
@@ -78078,7 +78369,7 @@ use_preset_vocabulary: true
 火烙
 火控
 火著
-火着
+火著
 火蛇
 火場
 火撚
@@ -78835,7 +79126,7 @@ use_preset_vocabulary: true
 叼子
 叼起
 叼著
-叼着
+叼著
 叼煙
 叼鑽促掐
 囚人
@@ -79049,7 +79340,7 @@ use_preset_vocabulary: true
 巨商
 巨細
 巨著
-巨着
+巨著
 巨鹿
 巨傘
 巨富
@@ -79142,7 +79433,7 @@ use_preset_vocabulary: true
 弗可以
 弗可能
 弗犯著
-弗犯着
+弗犯著
 弗生勢
 弗用
 弗用个人
@@ -79197,7 +79488,7 @@ use_preset_vocabulary: true
 弗清爽
 弗爽氣
 弗著弗落
-弗着弗落
+弗著弗落
 弗萊
 弗許
 弗過
@@ -79245,7 +79536,7 @@ use_preset_vocabulary: true
 弗識貨
 弗識頭
 弗覺著
-弗覺着
+弗覺著
 弗響
 弗歡喜
 弗靈笨
@@ -79316,7 +79607,7 @@ use_preset_vocabulary: true
 打從
 打掇
 打著
-打着
+打著
 打菱角
 打野鵲
 打頂心
@@ -79583,7 +79874,7 @@ use_preset_vocabulary: true
 犯沖
 犯怵
 犯著
-犯着
+犯著
 犯睏
 犯嫌
 犯罪
@@ -79704,9 +79995,9 @@ use_preset_vocabulary: true
 用在
 用在多
 用著了
-用着了
+用著了
 用船
-用場
+用場	yungjiang
 用場个
 用最
 用爲
@@ -79750,7 +80041,7 @@ use_preset_vocabulary: true
 由這
 由得
 由著
-由着
+由著
 甲乙
 甲子
 甲亢
@@ -80023,7 +80314,7 @@ use_preset_vocabulary: true
 仰起
 仰高
 仰著
-仰着
+仰著
 仰視
 仰慕
 仰韶
@@ -80467,7 +80758,7 @@ use_preset_vocabulary: true
 合眼
 合眾
 合著
-合着
+合著
 合符
 合組
 合掌
@@ -80508,7 +80799,7 @@ use_preset_vocabulary: true
 吊射
 吊桿
 吊著
-吊着
+吊著
 吊煙囱
 吊煞
 吊煞鬼
@@ -81062,7 +81353,7 @@ use_preset_vocabulary: true
 存查
 存執
 存著
-存着
+存著
 存單
 存爲
 存摺
@@ -81189,7 +81480,7 @@ use_preset_vocabulary: true
 忙迫
 忙看
 忙著
-忙着
+忙著
 戎馬
 成仁
 成化
@@ -81250,7 +81541,7 @@ use_preset_vocabulary: true
 收條
 收梢
 收著過
-收着過
+收著過
 收隊
 收場
 收費
@@ -81315,7 +81606,7 @@ use_preset_vocabulary: true
 有仇
 有介事
 有介歇
-有冇
+有冇  yeumeu
 有弗有
 有心有想
 有心思
@@ -81333,7 +81624,7 @@ use_preset_vocabulary: true
 有四
 有它
 有生
-有用場
+有用場	yeuyungjiang
 有份
 有伐
 有光
@@ -81409,7 +81700,7 @@ use_preset_vocabulary: true
 有眼光
 有眼抖
 有著
-有着
+有著
 有第
 有規範
 有責
@@ -82251,7 +82542,7 @@ use_preset_vocabulary: true
 伯勞
 伯爵
 估著數
-估着數
+估著數
 估單
 伴月
 伴生
@@ -82259,7 +82550,7 @@ use_preset_vocabulary: true
 伴食
 伴宴
 伴著
-伴着
+伴著
 伴嫁
 伴襯
 伴讀
@@ -82329,7 +82620,7 @@ use_preset_vocabulary: true
 低啞
 低渦
 低著
-低着
+低著
 低階
 低調
 低薪
@@ -82579,7 +82870,7 @@ use_preset_vocabulary: true
 判讀
 別了
 別弗著
-別弗着
+別弗著
 別弗轉
 別毛
 別地方
@@ -82698,7 +82989,7 @@ use_preset_vocabulary: true
 吧臺
 含豆
 含著
-含着
+含著
 含嘴
 吭氣
 吭聲
@@ -82748,7 +83039,7 @@ use_preset_vocabulary: true
 吸毒
 吸食
 吸著
-吸着
+吸著
 吸煙
 吸頭
 吸濕
@@ -82775,7 +83066,7 @@ use_preset_vocabulary: true
 吹得
 吹捧
 吹著
-吹着
+吹著
 吹笛
 吹進
 吹過
@@ -82896,7 +83187,7 @@ use_preset_vocabulary: true
 坐浴
 坐望
 坐著
-坐着
+坐著
 坐窠
 坐臺
 坐標
@@ -82948,7 +83239,7 @@ use_preset_vocabulary: true
 夾帶
 夾眼睛
 夾著
-夾着
+夾著
 夾菜
 夾雪
 夾棍
@@ -83131,7 +83422,7 @@ use_preset_vocabulary: true
 忍氣
 忍辱
 忍著
-忍着
+忍著
 忍痛
 忍讓
 忐忑
@@ -83301,7 +83592,7 @@ use_preset_vocabulary: true
 找准
 找啊
 找著
-找着
+找著
 找喫
 找遍
 找碴
@@ -83558,7 +83849,7 @@ use_preset_vocabulary: true
 沉降
 沉思
 沉陷
-沉着
+沉著
 沉著
 沉溺
 沉肅
@@ -83572,7 +83863,7 @@ use_preset_vocabulary: true
 沒不通風
 沒心想
 沒扔
-沒用場
+沒用場	mehyungjiang
 沒安
 沒老
 沒辰光
@@ -83728,14 +84019,14 @@ use_preset_vocabulary: true
 盯防
 盯住
 盯著
-盯着
+盯著
 社員
 社區
 社會
 社群
 社戲
 禿著
-禿着
+禿著
 禿發
 秀巧
 秀全
@@ -83772,7 +84063,7 @@ use_preset_vocabulary: true
 系指
 系帶
 系著
-系着
+系著
 系統化
 系嗎
 系緊
@@ -84011,7 +84302,7 @@ use_preset_vocabulary: true
 赤骨落
 赤徑
 赤著
-赤着
+赤著
 赤塔
 赤黑
 赤塵
@@ -84170,7 +84461,7 @@ use_preset_vocabulary: true
 迎人
 迎合
 迎著
-迎着
+迎著
 近一搶
 近人
 近山
@@ -84255,7 +84546,7 @@ use_preset_vocabulary: true
 附約
 附頁
 附著
-附着
+附著
 附會
 附屬
 並力
@@ -84273,7 +84564,7 @@ use_preset_vocabulary: true
 並能
 並從
 並著
-並着
+並著
 並就
 並提
 並曾
@@ -84325,7 +84616,7 @@ use_preset_vocabulary: true
 亞鉛
 享服
 享著
-享着
+享著
 京曲
 京味
 京杭
@@ -84422,7 +84713,7 @@ use_preset_vocabulary: true
 來華
 來得正好
 來著
-來着
+來著
 來喫
 來提
 來爲
@@ -84578,7 +84869,7 @@ use_preset_vocabulary: true
 刷地
 刷屏
 刷著
-刷着
+刷著
 刷齊
 刷鞋
 刷鍋
@@ -85052,7 +85343,7 @@ use_preset_vocabulary: true
 念起
 念得
 念著
-念着
+念著
 念過
 念給
 念頭
@@ -85237,7 +85528,7 @@ use_preset_vocabulary: true
 抱負
 抱娘娘
 抱著
-抱着
+抱著
 抱裙
 抱撼
 抵估
@@ -85261,7 +85552,7 @@ use_preset_vocabulary: true
 押往
 押後
 押著
-押着
+押著
 押禁
 押解
 押頭
@@ -85640,7 +85931,7 @@ use_preset_vocabulary: true
 板面孔
 板桌
 板著
-板着
+板著
 板脫
 板魚
 板硬襯
@@ -85783,7 +86074,7 @@ use_preset_vocabulary: true
 沿革
 沿馬路
 沿著
-沿着
+沿著
 沿帽
 況且
 泄泄
@@ -85919,7 +86210,7 @@ use_preset_vocabulary: true
 爭高
 爭產
 爭著
-爭着
+爭著
 爭頂
 爭價
 爭辦
@@ -86014,7 +86305,7 @@ use_preset_vocabulary: true
 玩得
 玩球
 玩著
-玩着
+玩著
 玩票
 玩過
 玩雪
@@ -86195,7 +86486,7 @@ use_preset_vocabulary: true
 臥車
 臥射
 臥著
-臥着
+臥著
 舍己
 舍弗得
 舍去
@@ -86361,7 +86652,7 @@ use_preset_vocabulary: true
 軋帳
 軋淘
 軋著
-軋着
+軋著
 軋票
 軋場
 軋棉
@@ -86760,7 +87051,7 @@ use_preset_vocabulary: true
 冒昧
 冒起
 冒著
-冒着
+冒著
 冒進
 冒雪
 冒頂
@@ -87018,7 +87309,7 @@ use_preset_vocabulary: true
 受涼
 受眾
 受著
-受着
+受著
 受測
 受落
 受雇
@@ -87045,7 +87336,7 @@ use_preset_vocabulary: true
 咬破
 咬掉
 咬著
-咬着
+咬著
 咬過
 咬嘴
 咬壞
@@ -87548,7 +87839,7 @@ use_preset_vocabulary: true
 按健
 按動
 按著
-按着
+按著
 按孳
 按揭
 按期
@@ -87634,7 +87925,7 @@ use_preset_vocabulary: true
 映射
 映眼
 映著
-映着
+映著
 映象
 映雪
 映像
@@ -87908,7 +88199,7 @@ use_preset_vocabulary: true
 歪理
 歪眼
 歪著
-歪着
+歪著
 歪過
 歪詩
 歪路
@@ -88044,7 +88335,7 @@ use_preset_vocabulary: true
 活拉
 活剝鮮跳
 活著
-活着
+活著
 活脫勢象
 活期
 活棋
@@ -88292,7 +88583,7 @@ use_preset_vocabulary: true
 看得緊
 看情況
 看著
-看着
+看著
 看野眼
 看雪
 看嗎
@@ -88418,7 +88709,7 @@ use_preset_vocabulary: true
 穿孝
 穿星
 穿著
-穿着
+穿著
 穿棱
 穿幫
 穿繃
@@ -88980,7 +89271,7 @@ use_preset_vocabulary: true
 追授
 追掉
 追著
-追着
+追著
 追過
 追尋
 追棒
@@ -89599,10 +89890,10 @@ use_preset_vocabulary: true
 哼唧
 哼唱
 哼著
-哼着
+哼著
 哼歌
 哽著
-哽着
+哽著
 哽塞
 唇舌
 唇吻
@@ -89934,7 +90225,7 @@ use_preset_vocabulary: true
 拿起
 拿掉
 拿著
-拿着
+拿著
 拿過
 拿給
 拿開
@@ -89953,7 +90244,7 @@ use_preset_vocabulary: true
 挨門
 挨鬥
 挨著
-挨着
+挨著
 挨過
 挨揍
 挨罵
@@ -89969,7 +90260,7 @@ use_preset_vocabulary: true
 挽住
 挽惜
 挽著
-挽着
+挽著
 挽歌
 挽詩
 挽聯
@@ -90011,7 +90302,7 @@ use_preset_vocabulary: true
 捏住
 捏拳頭
 捏著
-捏着
+捏著
 捏閘
 捏緊
 捏鰨魚
@@ -90073,7 +90364,7 @@ use_preset_vocabulary: true
 晃身
 晃个
 晃著
-晃着
+晃著
 晃開
 晃蕩
 晉江
@@ -90811,7 +91102,7 @@ use_preset_vocabulary: true
 站相
 站哨
 站著
-站着
+站著
 站滿
 站樁
 站頭
@@ -91298,7 +91589,7 @@ use_preset_vocabulary: true
 起釘
 起隻
 起著
-起着
+起著
 起惑
 起亂頭
 起會
@@ -91560,7 +91851,7 @@ use_preset_vocabulary: true
 閃動
 閃現
 閃著
-閃着
+閃著
 閃過
 閃開
 閃腰
@@ -91964,7 +92255,7 @@ use_preset_vocabulary: true
 做情
 做淘
 做著
-做着
+做著
 做脫
 做脫渠
 做脫倷
@@ -92139,7 +92430,7 @@ use_preset_vocabulary: true
 唱書
 唱喏
 唱著
-唱着
+唱著
 唱棋
 唱道
 唱會
@@ -92212,7 +92503,7 @@ use_preset_vocabulary: true
 啥人
 啥叫
 啥犯著
-啥犯着
+啥犯著
 啥地方
 啥字
 啥忙
@@ -92305,7 +92596,7 @@ use_preset_vocabulary: true
 堵住
 堵車
 堵著
-堵着
+堵著
 堵緊
 夠事
 夠勁
@@ -92445,7 +92736,7 @@ use_preset_vocabulary: true
 帶晚
 帶帶過
 帶著
-帶着
+帶著
 帶魚
 帶黃
 帶離
@@ -92723,7 +93014,7 @@ use_preset_vocabulary: true
 捱的
 捱苦
 捱著
-捱着
+捱著
 捱幾日
 捲子
 捲煙
@@ -92830,7 +93121,7 @@ use_preset_vocabulary: true
 接活
 接晌
 接著
-接着
+接著
 接報
 接嘴
 接龍牌
@@ -92860,7 +93151,7 @@ use_preset_vocabulary: true
 掩住
 掩映
 掩著
-掩着
+掩著
 掩蓋
 掩碼
 掩懷
@@ -92916,7 +93207,7 @@ use_preset_vocabulary: true
 斜王旁
 斜垛裏
 斜著
-斜着
+斜著
 斜對過
 斜壁
 斬肉
@@ -93227,7 +93518,7 @@ use_preset_vocabulary: true
 牽風引頭
 牽強
 牽著
-牽着
+牽著
 牽絲扳藤
 牽緊
 牽磨
@@ -93365,7 +93656,7 @@ use_preset_vocabulary: true
 眯成
 眯起
 眯著
-眯着
+眯著
 眯縫
 眯瞪
 眴眼
@@ -93456,33 +93747,33 @@ use_preset_vocabulary: true
 著墨
 著錄
 著魔
-着手
-着地
-着地雷
-着衣裳
-着衣鏡
-着冷
-着杠
-着呢
-着急
-着迷
-着重
-着哩
-着連襠褲
-着陸
-着涼
-着眼
-着慌
-着棋
-着港
-着筆
-着落
-着想
-着意
-着實
-着墨
-着錄
-着魔
+著手
+著地
+著地雷
+著衣裳
+著衣鏡
+著冷
+著杠
+著呢
+著急
+著迷
+著重
+著哩
+著連襠褲
+著陸
+著涼
+著眼
+著慌
+著棋
+著港
+著筆
+著落
+著想
+著意
+著實
+著墨
+著錄
+著魔
 硌腳
 硒礦
 硭硝
@@ -93688,7 +93979,7 @@ use_preset_vocabulary: true
 聆聽
 聊了
 聊著
-聊着
+聊著
 聊賴
 脖口
 脖間
@@ -93765,9 +94056,9 @@ use_preset_vocabulary: true
 著文
 著光
 著地聾
-着文
-着光
-着地聾
+著文
+著光
+著地聾
 處女
 處之
 處份
@@ -93959,7 +94250,7 @@ use_preset_vocabulary: true
 過猛
 過盛
 過著
-過着
+過著
 過剩
 過場
 過期
@@ -94408,7 +94699,7 @@ use_preset_vocabulary: true
 喝彩
 喝得
 喝著
-喝着
+喝著
 喝湯
 喝粥
 喝道
@@ -94497,7 +94788,7 @@ use_preset_vocabulary: true
 喫掉
 喫著
 喫著受用
-喫着
+喫著
 喫菜
 喫菸
 喫過
@@ -94750,7 +95041,7 @@ use_preset_vocabulary: true
 尋工作
 尋弗到
 尋弗著
-尋弗着
+尋弗著
 尋孔討氣
 尋出
 尋生活
@@ -94773,9 +95064,9 @@ use_preset_vocabulary: true
 尋隻
 尋得
 尋得著
-尋得着
+尋得著
 尋著
-尋着
+尋著
 尋尋看
 尋夢
 尋銅鈿
@@ -94798,7 +95089,7 @@ use_preset_vocabulary: true
 就能
 就問
 就著
-就着
+就著
 就喫
 就嫌
 就幹
@@ -94976,7 +95267,7 @@ use_preset_vocabulary: true
 愣住
 愣怔
 愣著
-愣着
+愣著
 愧爲
 愧憾
 慌促
@@ -94991,7 +95282,7 @@ use_preset_vocabulary: true
 掽杯
 掽釘子
 掽著
-掽着
+掽著
 掽頂
 掽僵
 掽檯子
@@ -95048,7 +95339,7 @@ use_preset_vocabulary: true
 提桶
 提現
 提著
-提着
+提著
 提貨
 提過
 提單
@@ -95111,10 +95402,10 @@ use_preset_vocabulary: true
 握住
 握珠
 握著
-握着
+握著
 揣情
 揣著
-揣着
+揣著
 揣測
 揣想
 揣摸
@@ -95153,7 +95444,7 @@ use_preset_vocabulary: true
 援助
 援敵
 揹著
-揹着
+揹著
 揹運
 搓板
 搓洗
@@ -95189,7 +95480,7 @@ use_preset_vocabulary: true
 搭酒
 搭得夠
 搭得著
-搭得着
+搭得著
 搭脫
 搭釦
 搭棚睏
@@ -95304,7 +95595,7 @@ use_preset_vocabulary: true
 智圓
 智囊
 晾著
-晾着
+晾著
 晾曬
 暑夜
 暑假
@@ -95976,7 +96267,7 @@ use_preset_vocabulary: true
 爲您
 爲情
 爲著
-爲着
+爲著
 爲傲
 爲善
 爲惡
@@ -96165,7 +96456,7 @@ use_preset_vocabulary: true
 睇真
 睇睇
 睏弗著
-睏弗着
+睏弗著
 睏出來
 睏失寣
 睏衣
@@ -96213,7 +96504,7 @@ use_preset_vocabulary: true
 硬張
 硬強
 硬著
-硬着
+硬著
 硬紮
 硬軟
 硬頂
@@ -96312,7 +96603,7 @@ use_preset_vocabulary: true
 等流
 等這
 等著
-等着
+等著
 等脫歇
 等閑
 等會
@@ -96372,7 +96663,7 @@ use_preset_vocabulary: true
 結婚
 結彩
 結著
-結着
+結著
 結脫
 結棍
 結爲
@@ -96448,13 +96739,13 @@ use_preset_vocabulary: true
 綁住
 綁接
 綁著
-綁着
+綁著
 綁縛
 脹大
 脾炎
 脾家
 腆著
-腆着
+腆著
 腈肉
 腋下
 腋臭
@@ -96837,7 +97128,7 @@ use_preset_vocabulary: true
 趁他
 趁此
 趁著
-趁着
+趁著
 趁興
 超車
 超音
@@ -96898,7 +97189,7 @@ use_preset_vocabulary: true
 跑馬
 跑圈
 跑著
-跑着
+跑著
 跑脫
 跑脫了
 跑跑光
@@ -96916,7 +97207,7 @@ use_preset_vocabulary: true
 逼問
 逼眼
 逼著
-逼着
+逼著
 逼搶
 逼徹
 逾期
@@ -96925,7 +97216,7 @@ use_preset_vocabulary: true
 遇見
 遇害
 遇著
-遇着
+遇著
 遊來
 遊泳頭
 遊玩
@@ -96937,7 +97228,7 @@ use_preset_vocabulary: true
 遊盪
 運下
 運著
-運着
+運著
 運單
 運費
 運會
@@ -97045,7 +97336,7 @@ use_preset_vocabulary: true
 開啟
 開眼烏龜
 開著
-開着
+開著
 開單
 開場
 開場戲
@@ -97114,7 +97405,7 @@ use_preset_vocabulary: true
 隔宿
 隔宿氣
 隔著
-隔着
+隔著
 隔間
 隔槍籬
 隔壁頭
@@ -97197,7 +97488,7 @@ use_preset_vocabulary: true
 順從
 順理
 順著
-順着
+順著
 順達
 順當
 順變
@@ -97304,7 +97595,7 @@ use_preset_vocabulary: true
 催肥
 催耕
 催著
-催着
+催著
 催發
 催還
 催醒
@@ -97643,7 +97934,7 @@ use_preset_vocabulary: true
 想問
 想眼
 想著喫
-想着喫
+想著喫
 想喫
 想爲
 想搞
@@ -97712,7 +98003,7 @@ use_preset_vocabulary: true
 愛崗
 愛欲
 愛著
-愛着
+愛著
 愛雪
 愛喝
 愛喫
@@ -97780,7 +98071,7 @@ use_preset_vocabulary: true
 搖映
 搖紗椅子
 搖著
-搖着
+搖著
 搖碎
 搖蕩
 搖醒
@@ -97838,7 +98129,7 @@ use_preset_vocabulary: true
 搶球
 搶眼
 搶著
-搶着
+搶著
 搶過
 搶渡
 搶答
@@ -97859,7 +98150,7 @@ use_preset_vocabulary: true
 摸和
 摸查
 摸著
-摸着
+摸著
 摸蛆
 摸魚
 摸魚公
@@ -98265,7 +98556,7 @@ use_preset_vocabulary: true
 照映
 照射
 照著
-照着
+照著
 照牌頭
 照給
 照遍
@@ -98340,7 +98631,7 @@ use_preset_vocabulary: true
 睡臥
 睡室
 睡著
-睡着
+睡著
 睡夢
 睡龍
 督助
@@ -98387,13 +98678,13 @@ use_preset_vocabulary: true
 碗頭碗腳
 碘片
 碰弗著
-碰弗着
+碰弗著
 碰見
 碰哭精
 碰隻
 碰得點啥
 碰著
-碰着
+碰著
 碰落
 碰碎
 碰碰攏
@@ -98426,7 +98717,7 @@ use_preset_vocabulary: true
 窩內
 窩家
 窩著
-窩着
+窩著
 窩裏
 窩團
 窩囊
@@ -98479,7 +98770,7 @@ use_preset_vocabulary: true
 經懺
 罩住
 罩著
-罩着
+罩著
 罩褲
 罩籃
 罪囚
@@ -98932,7 +99223,7 @@ use_preset_vocabulary: true
 跟鬥
 跟從
 跟著
-跟着
+跟著
 跟儂
 跟嘴跟舌
 跨洋
@@ -99516,7 +99807,7 @@ use_preset_vocabulary: true
 對國
 對掉
 對著
-對着
+對著
 對進
 對過
 對景
@@ -99641,7 +99932,7 @@ use_preset_vocabulary: true
 摟定
 摟抱
 摟著
-摟着
+摟著
 摧折
 摧堅
 摳心挖膽
@@ -99770,7 +100061,7 @@ use_preset_vocabulary: true
 演員
 演秘
 演著
-演着
+演著
 演說
 演戲
 演講
@@ -99913,7 +100204,7 @@ use_preset_vocabulary: true
 瞅見
 瞅准
 瞅著
-瞅着
+瞅著
 瞇花眼笑
 瞇覷眼
 碟友
@@ -99975,7 +100266,7 @@ use_preset_vocabulary: true
 端茶
 端接
 端著
-端着
+端著
 端組
 端蛋湯
 端雅
@@ -100198,7 +100489,7 @@ use_preset_vocabulary: true
 緊挨
 緊記
 緊著
-緊着
+緊著
 緊腿
 緊縛
 緊壓
@@ -100471,7 +100762,7 @@ use_preset_vocabulary: true
 說清
 說理
 說著
-說着
+說著
 說過
 說媒
 說給
@@ -100679,7 +100970,7 @@ use_preset_vocabulary: true
 隨常
 隨從
 隨著
-隨着
+隨著
 隨感
 隨群
 雌伏雄
@@ -100856,7 +101147,7 @@ use_preset_vocabulary: true
 噴紅
 噴射
 噴著
-噴着
+噴著
 噴湧
 噴畫
 噴塑
@@ -100922,7 +101213,7 @@ use_preset_vocabulary: true
 寫得光
 寫得準
 寫著
-寫着
+寫著
 寫就
 寫景
 寫意
@@ -101057,7 +101348,7 @@ use_preset_vocabulary: true
 撞衫
 撞破
 撞著法
-撞着法
+撞著法
 撞痛
 撞碎
 撞翻
@@ -101455,7 +101746,7 @@ use_preset_vocabulary: true
 編校
 編配
 編著
-編着
+編著
 編就
 編爲
 編發
@@ -101826,7 +102117,7 @@ use_preset_vocabulary: true
 踏車
 踏扁青
 踏著
-踏着
+踏著
 踏鋪
 踡頭縮頸
 踢成
@@ -101842,7 +102133,7 @@ use_preset_vocabulary: true
 躺下
 躺死屍
 躺著
-躺着
+躺著
 輝映
 輟步
 輥軸
@@ -102014,7 +102305,7 @@ use_preset_vocabulary: true
 頡頏
 颳風
 颳著
-颳着
+颳著
 養刁囡
 養女
 養小囝
@@ -102024,7 +102315,7 @@ use_preset_vocabulary: true
 養胖
 養陰
 養著
-養着
+養著
 養魚
 養鳥
 養植
@@ -102033,7 +102324,7 @@ use_preset_vocabulary: true
 餓鬼
 餓殺
 餓著
-餓着
+餓著
 餓極
 餘下
 餘光
@@ -102074,7 +102365,7 @@ use_preset_vocabulary: true
 鬧哄
 鬧猛
 鬧著
-鬧着
+鬧著
 魯北
 魯能
 魷魚
@@ -102168,7 +102459,7 @@ use_preset_vocabulary: true
 憑卡
 憑借
 憑著
-憑着
+憑著
 憲報
 憶念
 憶想
@@ -102212,7 +102503,7 @@ use_preset_vocabulary: true
 操閩
 擎起
 擎著
-擎着
+擎著
 擔心
 擔心思
 擔老
@@ -102406,7 +102697,7 @@ use_preset_vocabulary: true
 燃心
 燃素
 燃著
-燃着
+燃著
 燃遍
 燃燈
 燈
@@ -102433,7 +102724,7 @@ use_preset_vocabulary: true
 燒穿
 燒陶
 燒著
-燒着
+燒著
 燒過
 燒野飯
 燒麥
@@ -102455,7 +102746,7 @@ use_preset_vocabulary: true
 燙人
 燙婆子
 燙著
-燙着
+燙著
 燙粥
 燙腳
 燙燙鹵水
@@ -102494,7 +102785,7 @@ use_preset_vocabulary: true
 盧江
 盧潯
 瞞著
-瞞着
+瞞著
 瞞過
 瞞緊
 瞞騙
@@ -102602,7 +102893,7 @@ use_preset_vocabulary: true
 舉人
 舉借
 舉著
-舉着
+舉著
 舉賢
 舉壁架子
 蕭條
@@ -103037,7 +103328,7 @@ use_preset_vocabulary: true
 嚮晚
 嚮這
 嚮著
-嚮着
+嚮著
 嚮裏
 嚮道
 嚮儂
@@ -103061,7 +103352,7 @@ use_preset_vocabulary: true
 壓強
 壓產
 壓著
-壓着
+壓著
 壓場
 壓場子
 壓塌
@@ -103118,7 +103409,7 @@ use_preset_vocabulary: true
 應能
 應從
 應著
-應着
+應著
 應許
 應循
 應景
@@ -103511,7 +103802,7 @@ use_preset_vocabulary: true
 臨時末結
 臨時佛腳
 臨著
-臨着
+臨著
 臨場
 舊人
 舊生
@@ -103557,7 +103848,7 @@ use_preset_vocabulary: true
 藏南
 藏垢
 藏著
-藏着
+藏著
 藏戲
 虧心
 虧欠
@@ -103631,7 +103922,7 @@ use_preset_vocabulary: true
 講理
 講眼
 講著
-講着
+講著
 講習
 講過
 講喪
@@ -103803,7 +104094,7 @@ use_preset_vocabulary: true
 鴿嘴
 黏介介
 黏著
-黏着
+黏著
 黏滋疙瘩
 黛藍
 點七
@@ -103983,7 +104274,7 @@ use_preset_vocabulary: true
 織品
 織造
 織著
-織着
+織著
 織絨線
 織補
 織機
@@ -103997,7 +104288,7 @@ use_preset_vocabulary: true
 繞軋
 繞圈
 繞著
-繞着
+繞著
 繞緊
 翹出
 翹企
@@ -104412,7 +104703,7 @@ use_preset_vocabulary: true
 懷海
 懷特
 懷著
-懷着
+懷著
 懷揣
 懷想
 懷裏
@@ -104640,7 +104931,7 @@ use_preset_vocabulary: true
 蹲坑
 蹲姿
 蹲著
-蹲着
+蹲著
 蹲點
 蹲蹲
 蹺腳
@@ -104858,7 +105149,7 @@ use_preset_vocabulary: true
 蘭譜
 覺猜
 覺著
-覺着
+覺著
 覺像
 覺算
 覺識
@@ -105074,7 +105365,7 @@ use_preset_vocabulary: true
 纏夾二
 纏事
 纏著
-纏着
+纏著
 纏訟
 纏魂
 纏緊
@@ -105147,7 +105438,7 @@ use_preset_vocabulary: true
 露梯
 露眼
 露著
-露着
+露著
 露餡
 露臍
 霸實
@@ -105199,7 +105490,7 @@ use_preset_vocabulary: true
 彎垂
 彎眉
 彎著
-彎着
+彎著
 彎腿
 彎鉤
 彎管
@@ -105265,7 +105556,7 @@ use_preset_vocabulary: true
 聽清爽
 聽眾
 聽著
-聽着
+聽著
 聽會
 聽厭
 聽聞
@@ -105611,7 +105902,7 @@ use_preset_vocabulary: true
 鑲合
 鑲拱籠
 鑲著
-鑲着
+鑲著
 顱內
 顱腦
 饞佬坯
@@ -105649,7 +105940,7 @@ use_preset_vocabulary: true
 鑿好
 鑿眼子
 鑿著法
-鑿着法
+鑿著法
 鑿頭
 鸚哥
 鬱江
@@ -105693,7 +105984,7 @@ use_preset_vocabulary: true
 脫來
 回弗轉
 著褲子
-着褲子
+著褲子
 拖濕帚
 料頭
 有點事
@@ -105725,10 +106016,10 @@ use_preset_vocabulary: true
 轉弗轉
 帶弗牢
 著弗牢
-着弗牢
+著弗牢
 摒弗牢
 燒弗著
-燒弗着
+燒弗著
 開弗開
 登弗上
 哆啦夢
@@ -106314,10 +106605,10 @@ use_preset_vocabulary: true
 冀圖
 冀東
 冀盼
-冇呀
-冇病
-冇痛
-冇野
+冇呀  meungo
+冇病  meubieng
+冇痛  meuthung
+冇野  meuya
 冊報
 冊那
 再弗
@@ -106349,7 +106640,7 @@ use_preset_vocabulary: true
 劑子
 加羣
 劣習
-努着
+努著
 孛落頭
 勃朗
 勉強
@@ -106416,7 +106707,7 @@ use_preset_vocabulary: true
 # 右頰
 叼菸
 吁吁
-喫着受用
+喫著受用
 喫香菸
 各弗
 吆喝
@@ -106436,7 +106727,7 @@ use_preset_vocabulary: true
 向壁
 向它
 向晚
-向着
+向著
 向美
 向裏
 向誰
@@ -106446,7 +106737,7 @@ use_preset_vocabulary: true
 向那
 吞嚥
 吧裏向
-吮着
+吮著
 吶亨
 吸溼
 吸菸
@@ -106573,7 +106864,7 @@ use_preset_vocabulary: true
 噁形噁狀
 噎住
 噎嗝
-噎着
+噎著
 噓唏
 噓聲
 噗咚
@@ -106610,7 +106901,7 @@ use_preset_vocabulary: true
 固頂
 # 國粹
 # 園圃
-土着
+土著
 一圤惡
 一圤污
 在牀
@@ -106630,7 +106921,7 @@ use_preset_vocabulary: true
 域網
 埰地
 # 執拗
-執着
+執著
 培優
 堊壅
 堙沒
@@ -106788,7 +107079,7 @@ use_preset_vocabulary: true
 廚房間
 弄溼
 弄白相
-弓着
+弓著
 弔孝
 引薦
 弗一樣個
@@ -107017,9 +107308,9 @@ use_preset_vocabulary: true
 朋友道理
 望儂
 木牀
-末着
+末著
 本弗
-本着
+本著
 朱啓
 # 朱提
 杌子
@@ -107646,7 +107937,7 @@ use_preset_vocabulary: true
 風溼
 食菸
 飼餵
-餵着
+餵著
 餵食
 餵魚
 香菸
@@ -109426,7 +109717,7 @@ use_preset_vocabulary: true
 弗時露
 弗做淘
 弗見脫
-弗着杠
+弗著杠
 弗碌局
 弗好看
 弗習上
@@ -116123,21 +116414,21 @@ use_preset_vocabulary: true
 烹漿飯餈
 商號
 毫光煞煞
-着
-着寣
-着頭
-着夜燒
-着夜燥
-着壁腳
-着末腳
-着前日
-着前年子
-着慣日子
-着着前頭
-着個日子
-着生頭裡
-着陌生頭
-着陌生裡
+著
+著寣
+著頭
+著夜燒
+著夜燥
+著壁腳
+著末腳
+著前日
+著前年子
+著慣日子
+著著前頭
+著個日子
+著生頭裡
+著陌生頭
+著陌生裡
 粗紙
 粗胚
 粗致大略
@@ -119542,8 +119833,8 @@ use_preset_vocabulary: true
 嘸手撳
 嘸捏手
 嘸奈何
-嘸卵用
-嘸用場
+嘸卵用	mloeyung
+嘸用場	myungjiang
 嘸用胚
 嘸用
 嘸用黑心人
@@ -120081,7 +120372,7 @@ use_preset_vocabulary: true
 鞔
 遷就
 𧼱苗頭
-𧼱弗着
+𧼱弗著
 瞖
 磚街
 磚頭
@@ -121793,25 +122084,117 @@ use_preset_vocabulary: true
 鸞拍
 齾
 齾七齾八
-貤來
-貤做
-貤去
-貤喫
-貤呷
-貤買
-貤賣
-已经
-已二审
-已吹风
-已修改
-已配图
-已提交
-提交了
-又来
-又写
-鼠标㼭
-显示器
-机箱
-公交卡
-键盘
-手机
+貤來	yilai
+貤做	yitsou
+貤去	yikhei
+貤喫	yikhiek
+貤呷	yihaeh
+貤買	yima
+貤賣	yima
+上先	zhiangsiae
+頭卯	deumau
+已經	yikieng
+已二審	yinishing
+已吹風	yichiufung
+已提交	yidikau
+已配圖	yipheidu
+請配圖	tshiengpheidu
+待吹風	daichiufung
+校對修改    kauteisieukai
+已發稿	yifaehkau
+已修改	yisieukai
+休要
+望是
+望未
+煞甲
+月絕書會
+癟三	piehsae
+喫涴
+射涴
+傻逼
+傻屄
+製錶符
+語法化
+虛詞化
+寫隻屁
+寫隻卵
+笑飛  siaufi
+你們  nm
+他們  thm
+我們  ngm
+她   thou
+怎麼  cm
+甚麼  zm
+為甚麼 yzm
+鹹煞	ghaesaeh
+鹹殺	ghaesaeh
+鹹人	ghaening
+撳按鈕	khingoenieu
+鍵盤	gieboe
+鼠標	tshypiau
+鼠標㼭	tshypiaudiae
+顯示器	hiaezykhi
+手機	shieuki
+著膩	ciakni
+婺州	mucieu
+金衢	kinggiu
+宣州	sioecieu
+徽嚴	hiungie
+臨紹	lingzhiau
+蘇滬嘉	sughuko
+毗陵	bilieng
+太高	thakau
+銅涇	dungkieng
+上麗	zhiangli
+
+#甌江片、台州片詞彙
+
+蛟蚻	kauzaeh
+瑲基	tshiangki
+許瑲	heitshiang
+手䘼	shieuioe
+蝤蛑	yeumeu
+是我	zehngou
+是汝	zehni
+是渠	zehgei
+是佢	zehgei
+佢拉	geila
+佢儂	geinung
+渠儂	geinung
+佢都	geitaeh
+渠都	geitaeh
+汝都	geitaeh
+我都	ngoutaeh
+汝儂	ninung
+我儂	ngounung
+佢個	geikeh
+佢拉個	geilakeh
+磉礎	songtshu
+埲塵	bungjing
+打降	tanggong
+丁倒	tiengtau
+如能	naneng
+如然	nanie
+積力	tsiekliek
+稅器店	shiukhitiae
+叫扁	kiaupiae
+康䘆	khonghie
+早界	tsauka
+晏界	aeka
+日晝	nikcieu
+天光	thiaekuong
+牛牯	ngieuku
+雞娘	kiniang
+牛娘	ngieuniang
+牛兒	ngieuni
+老伯ㄦ瓜	laupakngkuo
+豬牯	tsyku
+豬娘	tsyniang
+囡囡豬	noenoetsy
+老鼠皮翼	lautshybiyek
+飛絲拉網ㄦ	fisylehmongng
+飛螢光光	fighiungkuongkuong
+蟑蜢	ciangmang
+眠床	miaezhiong
+雞卵	kiloe
+飯焦	vaetsiau
