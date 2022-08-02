@@ -23,6 +23,8 @@
 # 附加字表加來罷，包括化學元素周期表、常用化學物質、《浙南甌語》、《吳語三門方言研究》替《吳語詞彙管窺——甌滬共通詞彙比較》裏頭個字替部分詞彙。
 # 部分常用字個吳音加來罷，疑問代詞加來罷。
 # 表示烹飪技巧個字許加來罷。
+# 新聞詞彙、國際政治詞彙加來罷。
+# 標準吳語翻譯個國家名頭加來罷，統對牢渠都自家語言裏頭國家名頭個發音。
 ---
 name: zioephieng
 version:	"2022.8.2"
@@ -35,7 +37,9 @@ import_tables:
 # 附加字表
 
 〇	lieng
+箍	khu
 炆	meng
+池	dzy
 燴	ghuei
 熗	tshiang
 訤	gau
@@ -2852,7 +2856,7 @@ import_tables:
 諟	zy
 媞	zy
 氏	zy
-是	zy
+是	zy	80%
 𢐂	zy
 䊓	zy
 䩃	zy
@@ -18478,7 +18482,7 @@ import_tables:
 騻	song
 蠰	song
 𤕤	song
-爽	song
+爽	song	70%
 𦄍	song
 鷞	song
 塽	song
@@ -23581,7 +23585,7 @@ import_tables:
 䴷	ghuae
 皖	ghuae
 莞	ghuae
-嬽	wae
+嬽	ghuae
 滑	ghuaeh
 猾	ghuaeh
 䱻	ghuaeh
@@ -23692,7 +23696,7 @@ import_tables:
 𡰅	ghueh
 滑	ghueh
 𦗣	ghueh
-倄	wei
+倄	ghuei
 潰	ghuei
 迴	ghuei
 繢	ghuei
@@ -26924,7 +26928,7 @@ import_tables:
 佬	lau
 咾	lau
 擂	lei
-垃	lep
+垃	leh
 疁	leu
 俐	li
 莉	li
@@ -27023,8 +27027,8 @@ import_tables:
 齆	ung
 搲	uo
 𧼱	biek
-烷	woe
-鬍	wu
+烷	ghuoe
+鬍	ghu
 氧	yang
 榕	yung
 全	zae
@@ -27056,9 +27060,6 @@ import_tables:
 系	ghei
 許頭	heideu
 許場	heitak
-蓋	k
-蓋咾	kl
-蓋每	km
 垃圾	laza
 爸	pa
 媽	ma
@@ -70722,7 +70723,7 @@ import_tables:
 部分組成
 部會首長
 部部長
-部長
+部長	buciang
 部長會
 部長會議
 部長級
@@ -79919,12 +79920,11 @@ import_tables:
 正北
 正正字
 正兇
-正好垃拉
+正好在
 正式
 正而巴緊
 正言
 正兒巴緊
-正垃
 正宗
 正的
 正肥
@@ -80347,7 +80347,7 @@ import_tables:
 立住
 立囤
 立言
-立垃
+立在
 立於
 立契
 立約
@@ -81457,7 +81457,7 @@ import_tables:
 存亡
 存心
 存吳
-存垃
+存在
 存查
 存執
 存著
@@ -84587,7 +84587,6 @@ import_tables:
 近覷眼
 近觀
 迓迓較
-迓垃
 返防
 返校
 返道
@@ -85116,13 +85115,7 @@ import_tables:
 垂范
 垂盼
 垂懸
-垃末
-垃圾
-垃拉
 垃陌生頭
-垃做
-垃想
-垃該
 垃壗
 夜叉
 夜心
@@ -85964,7 +85957,7 @@ import_tables:
 明講
 明霜
 明點
-明擺垃个
+明擺了个
 明鑑
 明鑒
 昏死
@@ -104265,7 +104258,6 @@ import_tables:
 擺三擺四
 擺下
 擺弗平
-擺明垃个
 擺奎勁
 擺晃
 擺酒水
@@ -107368,7 +107360,6 @@ import_tables:
 擱牢
 擱下來
 擷英
-擺明垃個
 擼順毛
 攏共
 # 攔牢
@@ -107391,7 +107382,6 @@ import_tables:
 既弗
 早晏點
 旱菸
-明擺垃個
 星羣
 是個淮
 晁蓋
@@ -108839,7 +108829,7 @@ import_tables:
 大講張
 大弄成場
 大推野板
-大鑊移垃小鑊裏
+大鑊移在小鑊裏
 大弗好小算
 大人話錯話話過，小人話錯打屁股
 大蟲欺小蟲，蚱蜢欺蝗蟲
@@ -110121,7 +110111,7 @@ import_tables:
 打呵喜
 打虼頓
 打千年樁
-打蛇打垃七寸裏
+打蛇打在七寸裏
 打殺老婆肏死屄
 巧
 巧月
@@ -110142,7 +110132,7 @@ import_tables:
 正中
 正經
 正巧
-正立垃
+正立在
 正啊正經
 扒
 扒耳朵
@@ -110262,7 +110252,7 @@ import_tables:
 田雞褲
 田雞鼓
 田雞鼓脹
-田雞捉垃簏裏
+田雞捉在簏裏
 田頭
 田摸角
 田岸
@@ -110344,7 +110334,7 @@ import_tables:
 生意經
 生死簿
 生心
-生垃
+生在
 生青
 生孛碌霍
 生胎
@@ -111081,8 +111071,7 @@ import_tables:
 有才情
 有長性
 有脹
-有垃
-有垃沿咾
+有在
 有意識
 有意
 有心
@@ -111093,7 +111082,6 @@ import_tables:
 有一點
 有一點點
 有一趟
-有垃起
 有盡
 有嵌
 有心有相
@@ -111272,7 +111260,7 @@ import_tables:
 肉䏧䏧
 肉靈靈
 肉裏鈿
-肉酥垃汁裏
+肉酥在汁裏
 肉屈
 肉曲
 肉片
@@ -111669,7 +111657,7 @@ import_tables:
 好花自謝
 好貓弗傳種
 好人家囡大細
-好戲有垃後頭
+好戲有在後頭
 好記性弗如爛筆頭
 羽毛紗
 羽綢
@@ -111779,7 +111767,6 @@ import_tables:
 赤肉赤勢
 赤刮拉新
 赤刮新
-赤呱垃
 赤膊等衣乾
 赤腳伶仃天養人
 李子
@@ -111898,7 +111885,6 @@ import_tables:
 花臉小狗
 花姑小囡
 花里花綠
-花里不垃
 芭蕉扇
 苣筍
 杜
@@ -112389,7 +112375,7 @@ import_tables:
 忘胖
 忘伯伯
 忘記大
-忘記脫垃
+忘記脫了
 忘記脫哉
 庎櫥
 㽱腸炎
@@ -115269,7 +115255,7 @@ import_tables:
 㩻頭怪腦
 記
 記認
-記垃心裏
+記在心裏
 討
 討煩雜
 討話
@@ -116009,7 +115995,7 @@ import_tables:
 眼窠盈盈
 眼胖蒲桃
 眼睛裏著弗得𤎤𡮦
-眼睛生垃額角頭路
+眼睛生在額角頭路
 䀨
 䀫
 眴
@@ -118324,7 +118310,7 @@ import_tables:
 頓時立刻
 歲朝
 歲數弗讓人
-歲數活垃狗身路
+歲數活在狗身路
 當午節
 當午信
 當午
@@ -118392,7 +118378,7 @@ import_tables:
 暗底裏想
 暗洞頭裏
 號
-號頭
+號頭	ghaudeu	90%
 號頭浪
 號子
 照
@@ -121315,7 +121301,6 @@ import_tables:
 雜支谷隆冬
 雜革亂盤
 雜支雜骨
-雜七不垃
 雜里雜佮
 離皮
 離攲
@@ -122255,40 +122240,41 @@ import_tables:
 如何	nahang
 光火	kuanghou
 汝個	nikeh
-在上	lailong
-汝倈	nila
-渠倈	geila
-我倈	ngoula
+在上	lailong	60%
+汝倈	nila	70%
+渠倈	geila	70%
+我倈	ngoula	70%
 佢倈	geila
-卻情	khiakzieng
-因之	ingtsy
-爲之	yutsy
-阿語	akngei
-雖則	siutsek
-然則	nietsek
-便算	biesoe
-寧之	niengtsy
-實則	zhiktsek
-實之	zhiktsy
-唕瑲	zautshiang
-何瑲	ghatshiang
-爲何物	yugam
-何辰光	ghazhingkuong
-如何	naga
-何里	ghali
+卻情	khiakzieng	50%
+因之	ingtsy	50%
+爲之	yutsy	50%
+阿語	akngei	90%
+雖則	siutsek	90%
+然則	nietsek	90%
+便算	biesoe	90%
+寧之	niengtsy	90%
+實則	zhiktsek	90%
+實之	zhiktsy	90%
+唕瑲	zautshiang	90%
+何瑲	ghatshiang	90%
+爲何物	yugam	90%
+何辰光	ghazhingkuong	90%
+如何	naga	90%
+何里	ghali	
 何里都	ghalitaeh
 加來罷	kolaiba
 快來也	khualaigha
 以正視聽	yiciengzythieng
-何裡	ghali
-何裡都	ghalitaeh
-換個	ghuoekeh
+何裡	ghali	90%
+何裡都	ghalitaeh	50%
+換個	ghuoekeh	80%
 有條	yeudiau	50%
 換圖	ghuoedu	50%
 快訊圖	khuasingdu
-改好了	kaihaul
+改好了	kaihauliau
+調隻	diauciek	90%
 何物	gham
-何人	ghaning
+何人	ghaning	90%
 啥人	saning	50%
 駛來	salai
 加在	kozai
@@ -122329,14 +122315,487 @@ import_tables:
 還來	ghuaelai
 還在	ghuaezai
 天架	thiaeko
-外加	ngako
+外加	ngako	50%
 充電線	chiungdiaesie
 充電寶	chiungdiaepau
 收到	st	90%
-谢谢	zz
+谢谢	zz	90%
 麻烦	mv
-看看	khkh
-箇咾	kl
+看看	kk
+箇咾	kl	50%
+提交	dk
+已提交	ydk
+
+#新聞詞彙
+
+國際	kt
+部門	bm
+記者	kc
+編輯	pt
+提問	dm
+開會	kg
+假使	ks
+若	n
+因此	it
+因爲	iy
+所以	sy
+雖然	sn
+但是	dz
+盡管	zingkuoe	80%
+盡管	zk
+無論	ml
+當地時間	tdzk
+報道	pd
+襲擊	zikkiek	90%
+恐怖襲擊	kpzk
+爆炸	pt
+無人機	muningki	90%
+無人機	mnk
+戰鬥機	cieteuki	90%
+轟炸機	huangtsoki	90%
+轟炸機	htk
+戰爭	cietsang
+戰爭	ct	40%
+罪行	zg
+疫情	yz
+防疫	by
+自衛隊	zyd
+陸軍	lk
+海軍	hk	50%
+空軍	kk	70%
+香港	hk	80%
+經濟	kt
+市場	zj
+火箭	ht
+坦克	tk
+火炮	hp
+火箭炮	htp
+海瑪斯	hms
+潛艇	ziedieng 100%
+潛艇	zd
+皇帝	ghuongti
+皇帝	gt	20%
+國王	kuekyong
+國王	ky
+蘇丹	st
+哈里發	hlf
+埃米爾	amn
+女王	ny
+國家元首	kkns
+總統	tt
+大統領	dathunglieng	80%
+副總統	ftt	30%
+總理	tl
+副總理	ftl
+首相	shieusiang
+首相	ss
+首席部長	szbc
+部長	bc
+當局	tg
+政黨	ct	30%
+執政黨	ctt
+反對黨	ftt	90%
+多數席位	tszy
+準備	cb	90%
+投票	deuphiau
+投票	dp
+棄權	kg
+反對	faetei
+反對	ft
+贊成	tz
+通過	thungkou
+通過	tk
+一致同意	itdi
+克里姆林宮	klmlk
+軍事基地	kzkd
+海軍基地	hkkd
+空軍基地	kkkd
+跑道	baudau
+跑道	bd
+塔利班	tlp
+伊斯蘭國	islk
+組織	tsuciek	100%
+組織	tc
+極端	giektoe
+極端	gt	90%
+極端組織	gttc
+恐怖組織	kptc
+自殺式爆炸襲擊	zssptzk
+失去	sk	50%
+外交部	nkb	80%
+外交部長	nkbc
+外交大臣	nkdz
+外相	ns
+國防部	kbb	80%
+國防部長	kbbc
+國防大臣	kbdz
+防衛大臣	bydz
+防相	bs
+財政部	zcb	70%
+財政部長	zcbc	80%
+財政大臣	zcdz	80%
+白宮	bk	60%
+比較	pk	50%
+包括	pk	50%
+北京	pk	60%
+核平	gb	60%
+華盛頓	gzt	90%
+市長	zc	50%
+財政收入	zaiciengshieunik
+財政支出	zaiciengtsychiuik
+財政收入	zcsn
+財政支出	zctc
+選舉	sk	70%
+大選	ds
+競選	gs
+候選人	gsn
+突厥語	doekkioehngei
+北約	pekiak
+歐盟	em
+東盟	tm
+非盟	fm
+阿盟	am
+阿拉伯國家聯盟	alpkklm
+聯盟	liemang
+聯盟	lm
+盟友	my
+吳越	ny
+日本	np
+韓國	gk
+朝鮮	js
+支那	tn
+印度支那	idtn
+密支那	mtn
+越南	yn
+老撾	lt
+滿洲	mc
+蒙古	mk
+柬埔寨	kpz
+南海	nh
+東海	th
+海峽	hg
+沖繩	jiungzhieng
+沖繩	jz
+琉球	lg
+俄羅斯	nls
+印度	id
+泰國	tk
+緬甸	md
+馬來西亞	mlso
+新加坡	skp
+文萊	ml
+菲律賓	flp
+印尼	ingni	90%
+因而	ingni	40%
+而且	nitshia	90%
+然而	nieni	90%
+可是	kz
+印度尼西亞	idnso
+東帝汶	ttm
+巴布亞新幾內亞	pposkno
+澳大利亞	adlo
+新西蘭	ssl
+所羅門羣島	slmgt
+羣島	gt	50%
+沒啥	ms	70%
+孟加拉國	mklk
+斯里蘭卡	sllk
+巴基斯坦	pkst
+尼泊爾	nbn
+不丹	ft
+阿富汗	afg
+伊朗	il
+塔吉克斯坦	tkkst
+吉爾吉斯斯坦	knksst
+哈薩克斯坦	hskst
+烏茲別克斯坦	uzbkst
+土庫曼斯坦	tkmst
+阿塞拜疆	aspk
+亞美尼亞	omno
+格魯吉亞	klko
+土耳其	tng
+伊拉克	ilk
+敘利亞	zlo
+黎巴嫩	lpn
+巴勒斯坦	plst
+哈馬斯	hms	20%
+法塔赫	fth
+以色列	ysl
+約旦	it
+沙特	sd
+巴林	pl
+科威特	kid
+卡塔爾	ktn
+阿聯酋	alz
+迪拜	dp
+阿布紮比	aptb
+阿曼	am
+也門	ym
+內置	nt
+內志	nt
+漢志	ht
+埃及	ag
+西奈半島	snpt
+尼羅河	nlg
+利比亞	lpo
+突尼斯	dns
+阿爾及利亞	anglo
+摩洛哥	mlk
+摩納哥	mnk
+毛里塔尼亞	mltno
+南蘇丹	nst
+埃塞俄比亞	asnpo
+索馬里	sml
+吉布提	kpd
+科摩羅	kmm
+坦桑尼亞	tsno
+肯尼亞	kno
+烏干達	ukd
+剛果	kk
+尼日利亞	nnlo
+尼日爾	nnn
+馬里	ml
+安哥拉	okl
+津巴布韋	tppy
+馬達加斯加	mdksk
+南非	nf
+阿拉伯	alp
+希臘	hl
+伊斯坦布爾	istpn
+君士坦丁堡	kzttp
+羅馬尼亞	lmno
+保加利亞	pklo
+塞爾維亞	snyo
+克羅地亞	kldo
+科索沃	ksu
+阿爾巴尼亞	anbno
+波斯尼亞	psno
+波黑	ph
+塞族	sz
+塞浦路斯	spls
+馬耳他	mnt
+意大利	idl
+斯洛文尼亞	slmno
+南斯拉夫	nslf
+蘇聯	sl
+黑山	hs
+匈牙利	hnl
+烏克蘭	ukl
+白俄羅斯	bnls
+芬蘭	fl
+瑞典	zhiutiae	90%
+瑞典	zt
+挪威	ni
+冰島	pt
+格陵蘭	kll
+丹麥	tm
+愛沙尼亞	asno
+拉脫維亞	ltyo
+立陶宛	ldi
+普魯士	plz
+德國	tk
+盧森堡	lsp
+老色胚	lsp	50%
+波蘭	pl
+捷克	zk
+斯洛伐克	slvk
+荷蘭	gl
+比利時	plz
+瑞士	zz
+奧地利	adl
+教皇	kg
+梵蒂岡	vtk
+法國	fk
+英國	ik
+英格蘭	ikl
+蘇格蘭	skl
+威爾士	inz
+愛爾蘭	anl
+加拿大	knd
+美國	mk
+紐約	ni
+佐治亞州	tdoc
+馬里蘭州	mllc
+路易斯安那州	lysonc
+佛羅里達州	vlldc
+內華達州	ngdc
+得克薩斯州	tkssc
+佛州	vc
+得州	tc
+加州	kc
+加利福尼亞州	klfnoc
+俄克拉荷馬州	nklgmc
+密歇根州	mhkc
+俄勒岡州	nlkc
+華盛頓州	gztc
+夏威夷州	giyc
+阿拉斯加州	alskc
+肯塔基州	ktkc
+關島	kuaetau	70%
+關島	kt
+薩摩亞	smo
+古巴	kp
+墨西哥	msk
+巴拿馬	pnm
+巴西	ps
+阿根廷	akd
+智利	tl
+委內瑞拉	inzl
+哥倫比亞	klbo
+祕魯	pilu
+烏拉圭	ulk
+巴拉圭	plk
+薩爾瓦多	snnt
+西班牙	spn
+直布羅陀	jpld
+英屬	iz
+美屬	mz
+法屬	fz
+西屬	sz
+殖民地	zmd
+聯合國	lgk
+發言	fn
+演講	yk
+大會	dg
+表決	pk
+皇家海軍	gkhk
+皇家空軍	gkkk
+海軍陸戰隊	hklcd
+葡萄牙	bdn
+穆斯林	msl
+伊斯蘭教	islk
+宗教	tk
+基督教	ktk
+東正教	tck
+天主教	tck
+教堂	kd
+清真寺	tcz
+寺廟	zm
+廟宇	my
+印度教	idk
+錫克教	skk
+佛教	vk
+神職人員	zcny
+宗教領袖	tklz
+國會	kg	70%
+國會大廈	kgdg
+教會	kg	40%
+議會	ng
+衆議院	cny	40%
+衆議員	cny	70%
+參議院	sny	40%
+參議員	sny	70%
+參衆兩院	scly
+冗長議事	njnz
+議事	nz
+上院	zy
+下院	gy
+美元	mn
+人民幣	nmb
+英鎊	ip
+歐元	en
+盧布	lp
+日元	nn
+韓元	gn
+盧比	lp
+里拉	ll
+迪拉姆	dlm
+迪爾汗	dng
+克朗	kl
+落班	lokpae
+落班	lp
+上班	zhiangpae
+上班	zp
+幾點	kitiae
+一塌糊塗	itgd
+北極	pekgiek
+南極	negiek
+新聞	sm
+太平洋島國	tbytk
+發展中國家	fcckk
+發達國家	fdkk
+南南合作	nngt
+外交關系	nkkg
+拜登	pt
+特朗普	dlp
+馬克龍	mkl
+普京	pk
+澤連斯基	dlsk
+朔爾茨	snz
+約翰遜	igs
+莫迪	md
+佐科	tk
+岸田文雄	ndmy
+尹錫悅	ysy
+特魯多	dlt
+穆罕默德	mhmt
+內塔尼亞胡	ntnog
+埃爾多安	anto
+特區	dk
+行政長官	gcck
+特別行政區	dbgck
+城市	zz	40%
+
+#標準吳語國名
+利	ri
+阿曼利卡	akmaerika
+孛瀨齊胡	behrazighu
+瀨	ra
+孛哈瀨脫	behharathoeh
+露	ru
+露西耶	rusiya
+墨西加	meksiko
+般露	paeru
+掣嵐	chile
+喑斯班艾	esypaenga
+朗	rong
+伊朗	irong
+各老無比耶	koklaumbiya
+孛利吞	behritheng
+派溪斯淌	phakhisythong
+蘇歐地葉	sueudiyeh
+衣帶利耶	italiya
+彭啦迪舒	bangladiekshy
+奪伊掣冷脫	doehichilangthoeh
+於瀨克	eirakhek
+垃	reh
+高島勒	kautaureh
+伊斯瀨晏勒	isyraaelek
+歐曼	eumae
+蘇利耶	suriya
+魯孛南	lubehne
+非萊斯丁	filaisytieng
+炎文	yemeng
+土垃溪炎	thurehkhiye
+蘭	rae
+弗朗斯	fehrongsy
+巴垃都也勒	porehtughalek
+喑啦斯	elas
+蓮	rie
+喑蓮	erie
+蘇亞米	suomi
+烏克瀨伊那	ukhekraina
+介那大	kanada
+蘇淡	sudae
+巴勒斯介	poleksyka
+南特冷脫	nedeklangdoeh
+羅	rou
+唻	rai
+安斯脫唻世	oesythoehraishi
+舒萬伊次	shyvaeitshy
+欒	roe
+嘍	reu
+斯垃畀斯介	syrehpehsyka
+掣喑舒介	chieshyka
+卡柴卡斯淌	khazakhasythong
+基垃其士斯淌	kirehgizysythong
+安士別基斯淌	oezybiehkisythong
+土垃克曼尼斯淌	thurehkhekmaenisythong
+叨叱基斯淌	thauchikkisythong
+阿夫也尼斯淌	akfughanisythong
+阿瀨孛	akrabeh
+庫垃特	khurehdek
+庫垃地斯淌	khurehdisythong
 
 #甌江片、台州片詞彙
 
@@ -122349,7 +122808,7 @@ import_tables:
 是汝	zekni
 是渠	zekgei
 是佢	zekgei
-佢拉	geila
+佢倈	geila
 佢儂	geinung
 渠儂	geinung
 佢都	geitaeh
@@ -122359,7 +122818,7 @@ import_tables:
 汝儂	ninung
 我儂	ngounung
 佢個	geikeh
-佢拉個	geilakeh
+佢倈個	geilakeh
 磉礎	songtshu
 埲塵	bungjing
 打降	tanggong
