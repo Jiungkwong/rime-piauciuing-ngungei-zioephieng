@@ -19,12 +19,13 @@
 #
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
-# 版本號：22.7.31.1
+# 版本號：22.8.2
 # 附加字表加來罷，包括化學元素周期表、常用化學物質、《浙南甌語》、《吳語三門方言研究》替《吳語詞彙管窺——甌滬共通詞彙比較》裏頭個字替部分詞彙。
-
+# 部分常用字個吳音加來罷，疑問代詞加來罷。
+# 表示烹飪技巧個字許加來罷。
 ---
 name: zioephieng
-version:	"2022.7.31"
+version:	"2022.8.2"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -34,6 +35,39 @@ import_tables:
 # 附加字表
 
 〇	lieng
+炆	meng
+燴	ghuei
+熗	tshiang
+訤	gau
+也	ya
+何	ga
+個	kai
+甾	zai
+荰	du
+茬	zai
+葑	fung
+蒎	pha
+莰	khe
+苧	nieng
+萜	thiaeh
+芑	ki
+萉	bi
+苉	phik
+芴	veh
+茀	feh
+蒄	kheu
+苊	ak
+芘	pi
+䓛	khiuik
+苝	pek
+茚	ing
+𫫇	ok
+吲	ying
+哚	tou
+卟	puk
+啉	ling
+䓬	ciok
+倈	la
 卐	mae
 卍	mae
 光	kuang
@@ -193,7 +227,9 @@ import_tables:
 都	taeh
 拉	la
 㑚	na
-是	zeh
+外	nga
+上	long
+是	zek
 蝤	yeu
 魷	yeu
 打	to
@@ -29077,23 +29113,23 @@ import_tables:
 渠了
 渠人
 渠出去
-其上去
-其下去
-其落去
-其了
-其出去
+渠上去
+渠下去
+渠落去
+渠了
+渠出去
 渠搭
 渠搭渠
-渠拉屋落
+渠倈屋落
 渠自家
 渠認爲
 渠過去
-其搭
-其搭其
-其拉屋落
-其自家
-其認爲
-其過去
+渠搭
+渠搭渠
+渠倈屋落
+渠自家
+渠認爲
+渠過去
 仗在
 付在
 付的
@@ -29637,7 +29673,7 @@ import_tables:
 向火乞
 向在
 吞落去
-吞其落去
+吞渠落去
 吞渠落去
 吧托
 含的
@@ -30148,7 +30184,7 @@ import_tables:
 放牛娃
 放在
 教落去
-教其
+教渠
 教渠
 教我
 教你
@@ -30380,9 +30416,9 @@ import_tables:
 看也弗看
 看我
 看你
-看在其
 看在渠
-看其的
+看在渠
+看渠的
 看在你
 看在我
 看我的
@@ -74818,7 +74854,7 @@ import_tables:
 一道个
 一填
 一夢
-一搶
+一瑲
 一會
 一歇
 一歇弗停
@@ -80429,8 +80465,8 @@ import_tables:
 伊來付
 伊妹
 伊始
-渠拉
-渠拉个
+渠倈
+渠倈个
 伊東
 伊春
 渠是
@@ -84534,7 +84570,7 @@ import_tables:
 迎合
 迎著
 迎著
-近一搶
+近一瑲
 近人
 近山
 近乎
@@ -94290,7 +94326,7 @@ import_tables:
 逸群
 逸聞
 逸趣
-過一搶
+過一瑲
 過人
 過久
 過小
@@ -105910,7 +105946,7 @@ import_tables:
 讒害
 讓人家
 讓渠
-讓渠拉
+讓渠倈
 讓佢
 讓車
 讓其
@@ -106567,7 +106603,7 @@ import_tables:
 他弗
 渠來付
 渠個
-渠拉個
+渠倈個
 伊是
 伊紅
 伊面
@@ -110532,7 +110568,7 @@ import_tables:
 半夜
 半夜裏
 半夜裏向
-半搶裏
+半瑲裏
 半闌
 半籠子
 半褲
@@ -111344,8 +111380,8 @@ import_tables:
 自來水筆
 自家灘
 自家個
-自其
-自其拉
+是渠
+是渠倈
 自相信
 自備車
 自白話
@@ -112763,7 +112799,7 @@ import_tables:
 拗出挖進
 拗春臘底
 坤宅
-其拉
+渠倈
 其加
 其實骨子
 苦草
@@ -113912,8 +113948,8 @@ import_tables:
 是奴個
 是渠
 是渠個
-是渠拉
-是渠拉個
+是渠倈
+是渠倈個
 是㑚
 是㑚個
 是過
@@ -118410,7 +118446,7 @@ import_tables:
 嗅
 嗅面孔
 嗆
-嗆餅
+熗餅
 嗲
 嗲溜溜
 嗲裏裏
@@ -119443,7 +119479,7 @@ import_tables:
 實儂
 實渠
 實㑚
-實渠拉
+實渠倈
 實伲
 實拉
 實個能
@@ -122192,9 +122228,9 @@ import_tables:
 他們  thm
 我們  ngm
 她   thou
-怎麼  cm
-甚麼  zm
-為甚麼 yzm
+怎麼	cm
+甚麼	zm
+為甚麼	yzm
 鹹煞	ghaesaeh
 鹹殺	ghaesaeh
 鹹人	ghaening
@@ -122215,21 +122251,100 @@ import_tables:
 太高	thakau
 銅涇	dungkieng
 上麗	zhiangli
-嗰咾	koklau
+箇咾	kehlau
 如何	nahang
 光火	kuanghou
+汝個	nikeh
+在上	lailong
+汝倈	nila
+渠倈	geila
+我倈	ngoula
+佢倈	geila
+卻情	khiakzieng
+因之	ingtsy
+爲之	yutsy
+阿語	akngei
+雖則	siutsek
+然則	nietsek
+便算	biesoe
+寧之	niengtsy
+實則	zhiktsek
+實之	zhiktsy
+唕瑲	zautshiang
+何瑲	ghatshiang
+爲何物	yugam
+何辰光	ghazhingkuong
+如何	naga
+何里	ghali
+何里都	ghalitaeh
+加來罷	kolaiba
+快來也	khualaigha
+以正視聽	yiciengzythieng
+何裡	ghali
+何裡都	ghalitaeh
+換個	ghuoekeh
+有條	yeudiau	50%
+換圖	ghuoedu	50%
+快訊圖	khuasingdu
+改好了	kaihaul
+何物	gham
+何人	ghaning
+啥人	saning	50%
+駛來	salai
+加在	kozai
+加在	kolaeh
+加來	kolai
+加來罷	kolaiba
+脫著	thoehjiak
+爻罷	ghauba
+唕長	zaujiang
+唕深	zaushing
+深圳	shingtsing
+唕闊	zaukhuoeh
+唕厚	zaugheu
+唕薄	zaubok
+唕短	zautoe
+唕好	zauhau	30%
+造好罷	zauhauba	50%
+音系	ingghi
+小片	siauphiae
+同音	dunging
+陽入對轉	yangnikteicioe
+其他無	gtm
+一村	iktshoeng
+兩村	liangtshoeng
+二村	nitshoeng
+三村	saetshoeng
+四村	sytshoeng
+五村	ngutshoeng
+殷行	ingghong
+五角場	ngukokjiang
+靜安寺	ziengoezy
+上鋼	zhiangkong	30%
+上港	zhiangkong	50%
+報題	paudi	60%
+寶地	paudi	30%
+溝通	keuthung
+還在	ghuaelaeh
+還來	ghuaelai
+還在	ghuaezai
+天架	thiaeko
+外加	ngako
+充電線	chiungdiaesie
+充電寶	chiungdiaepau
+收到	st	90%
 
 #甌江片、台州片詞彙
 
 蛟蚻	kauzaeh
-瑲基	tshiangki
+瑲朞	tshiangki
 許瑲	heitshiang
 手䘼	shieuioe
 蝤蛑	yeumeu
-是我	zehngou
-是汝	zehni
-是渠	zehgei
-是佢	zehgei
+是我	zekngou
+是汝	zekni
+是渠	zekgei
+是佢	zekgei
 佢拉	geila
 佢儂	geinung
 渠儂	geinung
