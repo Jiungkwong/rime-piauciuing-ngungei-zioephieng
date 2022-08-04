@@ -25,6 +25,7 @@
 # 表示烹飪技巧個字許加來罷。
 # 新聞詞彙、國際政治詞彙加來罷。好用首字母縮寫輸入。
 # 標準吳語翻譯個國家名頭加來罷，統對牢渠都自家語言裏頭國家名頭個發音。
+# 字表頂下頭部分加來罷。
 ---
 name: zioephieng
 version:	"2022.8.4"
@@ -37,6 +38,53 @@ import_tables:
 # 附加字表
 
 〇	lieng
+畲	so
+畲	shio
+埤	phi
+蓖	bi
+稗	bo
+石	zhiak
+碩	zhiak
+窘	khiuing
+菌	khiuing
+繪	kuei
+會	uei
+擲	dzak
+甭	fung
+𠏕	hiau
+孬	fau
+嫑	fiau
+𠁞	fei
+𣍐	fei
+朆	feng
+鳳	bung
+馮	bung
+潽	bu
+隻	tsak
+吳	ng
+娛	ng
+伍	ng
+午	ng
+漁	ng
+母	m
+噱	hiok
+噱	yok
+檻	khae
+褒	peu
+庇	phi
+畸	gi
+場	dak
+塲	dang
+蕩	dang
+坦	dae
+㴬	dza
+弛	sa
+柵	sak
+鬚	su
+死	si
+颱	tshy
+颳	kuaeh
+多	ta
 銜	gae
 狹	gaeh
 合	geh
@@ -401,7 +449,6 @@ import_tables:
 啲	tiek
 銦	ing
 鎘	kak
-扒	bo
 掱	bo
 趴	phaeh
 啪	phak
@@ -1643,6 +1690,8 @@ import_tables:
 𠧵	chiek
 敕	chiek
 勅	chiek
+敕	tshak
+勅	tshak
 飭	chiek
 淔	chiek
 趩	chiek
@@ -3843,7 +3892,7 @@ import_tables:
 陀	dou
 驒	dou
 䍫	dou
-沱	dou
+沱	da
 跎	dou
 詑	dou
 池	dou
@@ -9053,6 +9102,7 @@ import_tables:
 𤮊	khong
 㼹	khong
 躿	khong
+躿	gong
 腔	khong
 𤟄	khong
 羫	khong
@@ -9835,6 +9885,7 @@ import_tables:
 鏡	kieng
 獍	kieng
 勁	kieng
+勁	gieng
 驚	kieng
 京	kieng
 荊	kieng
@@ -17587,7 +17638,7 @@ import_tables:
 禍	ghou
 𥚁	ghou
 夥	ghou
-夥	hou
+伙	hou
 𡖿	ghou
 輠	ghou
 𨘌	ghou
@@ -122324,7 +122375,7 @@ import_tables:
 充電線	chiungdiaesie
 充電寶	chiungdiaepau
 收到	st	90%
-谢谢	zz	90%
+謝謝	zz	90%
 麻烦	mv
 看看	kk
 箇咾	kl	50%
@@ -122341,6 +122392,9 @@ import_tables:
 忘記	mk
 忘記回了	mkgl
 標準吳語	pcnn
+査査	zz
+査査看	zzk
+
 
 #新聞詞彙
 
@@ -122835,6 +122889,19 @@ import_tables:
 放一起	fik
 綜述	tz
 綜合	tg
+選題單	sioeditae
+選題單	sdt
+我寫下	nsg
+弄啥	ls
+老師	ls
+三審	saeshing
+三審	ss
+明早發	mtf
+屏蔽	biengpi	80%
+屏蔽	bp
+掱手	boshieu
+水彈槍	shiudaetshiang
+怎麼	ciekmeh
 
 #標準吳語國名
 
@@ -122902,6 +122969,7 @@ import_tables:
 #甌江片、台州片詞彙
 
 蛟蚻	kauzaeh
+風颱	fungdai
 瑲朞	tshiangki
 許瑲	heitshiang
 手䘼	shieuioe
