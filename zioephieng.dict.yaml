@@ -19,7 +19,7 @@
 #
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
-# 版本號：22.8.4
+# 版本號：22.8.5.1
 # 附加字表加來罷，包括化學元素周期表、常用化學物質、《浙南甌語》、《吳語三門方言研究》替《吳語詞彙管窺——甌滬共通詞彙比較》裏頭個字替部分詞彙。
 # 部分常用字個吳音加來罷，疑問代詞加來罷。
 # 表示烹飪技巧個字許加來罷。
@@ -28,7 +28,7 @@
 # 字表頂下頭部分加來罷。
 ---
 name: zioephieng
-version:	"2022.8.4"
+version:	"2022.8.5"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -122311,6 +122311,74 @@ import_tables:
 寧之	niengtsy	90%
 實則	zhiktsek	90%
 實之	zhiktsy	90%
+單卻要	taekhiakiau
+好戲	hauhi
+之故	tsyku
+且顧	tshiaku
+弗得	fehtek
+弗然	fehnie
+便算	biesoe
+赫物	hakmeh
+赫	x
+好	x
+大家	dako
+啥地方	sadifong
+啥地方	sdf
+大家	dk
+報題了	pdl
+選題	sioedi
+選題	sd
+共和國	giungghoukuek
+共和國	ggk
+人民共和國	ningminggiungghoukuek
+人民共和國	nmggk
+社會主義	zhioghueiciungi
+社會主義	zgcn
+法律	faehliuik
+法律	fl
+概率	kailiuik
+概率	kl
+幾率	kiliuik
+幾率	kl
+資本主義	tsypengciungi
+資本主義	tpcn
+原教旨主義	ngioekautsyciungi
+原教旨主義	nktcn
+什葉派	zhikyehpha
+約翰遜	iakghoesoeng
+遜尼派	soengnipha
+若然	niaknie
+個說話	kehshioehghuo
+箇物	kehmeh
+箇物	km
+假使	ks
+爲啥	ys
+啥人	sn
+許物	heimeh
+許物	hm
+弗物	fehmeh
+弗物	fm
+或者	gc
+一頭	ikdeu
+寧之	niengtsy
+寧使	niengsy
+倒轉	taucioe
+反倒	faetau
+反轉	faecioe
+橫豎	ghuangzhiu
+到煞	tausaeh
+橫直	ghuangjiek
+原舊	ngioegieu
+元	nie
+外加	nk
+比方講	pifongkong
+比方講	pfk
+三弄四弄	saelungsylung
+譬如弗得	phinifehtek
+樂得	loktek
+弗論	fehliuing
+弗管	fehkuoe
+但便	daebie
 唕瑲	zautshiang	90%
 何瑲	ghatshiang	90%
 爲何物	yugam	90%
@@ -122394,7 +122462,25 @@ import_tables:
 標準吳語	pcnn
 査査	zz
 査査看	zzk
-
+帶回來	taghueilai
+帶回來	tgl
+回來	gl
+供認領	kiungnienglieng
+供認領	knl
+勢力範圍	shiliekvaeyu
+勢力範圍	slvy
+影響力	ienghiangliek
+影響	ienghiang
+影響	ih
+靜坐	ziengzou
+靜坐	zz
+申請	shingtshieng
+申請	st
+清真	tshiengcing
+清真	tc
+太慘了	ttl
+人呢	ningni
+人呢	nn
 
 #新聞詞彙
 
