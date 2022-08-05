@@ -1,15 +1,17 @@
 ﻿# Rime schema
 # vim: set sw=2 sts=2 et:
 # encoding: utf-8
-# 版本號：1.0
+# 版本號：22.8.5
 
 schema:
   schema_id: zioephieng
   name: 標準吳語
-  version: "2022.7.31"
+  version: "2022.8.5"
   author:
     - 吳韻 <tittii@outlook.com>
     - 重光 <viktorsalehwu@gmail.com>
+    - ThokCc <potato008@gmail.com>
+    - te ˂goskhokoonga@gmail.com˃
   description: |
     Thanks to the following works:
       * CC-CEDICT
@@ -62,7 +64,9 @@ speller:
     - abbrev/^(ts).+$/$1/  #啓用首字母匹配
     - abbrev/^(tsh).+$/$1/  #啓用首字母匹配
     - abbrev/^(ng).+$/$1/  #啓用首字母匹配
-
+    - "xlit/1234/qwxr/"
+    - "derive/^([A-Za-z]+)(\\d?)$/$1/"
+    - derive/[qwxr]/                 # 忽略聲調
     #- derive/^ghu/w/
     #- derive/^ghi/y/
     #- derive/ghu$/wu/
@@ -70,8 +74,8 @@ speller:
     #- derive/ghiu$/yu/
     - derive/iae$/ie/
     - derive/iae$/ie/
-    - derive/yae$/ye/
-    - derive/yae$/ye/
+    #- derive/yae$/ye/
+    #- derive/yae$/ye/
     #- derive/uang$/ung/
     #- derive/ueng$/ung/
     #- derive/wang$/ghung/
@@ -81,18 +85,18 @@ speller:
     #- derive/wak$/ghuk/
     #- derive/wek$/ghuk/
     #- derive/ieng$/ing/
-    - derive/iek$/ik/
+    #- derive/iek$/ik/
     #- derive/yeng$/ying/
-    - derive/yek$/yik/
+    #- derive/yek$/yik/
     #- derive/ng$/n/
     #- derive/k$/h/
 
-    - derive/kei$/kiu/
-    - derive/khei$/khiu/
-    - derive/gei$/giu/
+    #- derive/kei$/kiu/
+    #- derive/khei$/khiu/
+    #- derive/gei$/giu/
     #- derive/ngei$/ngiu/
-    - derive/^ei/iu/
-    - derive/ghei$/ghiu/
+    #- derive/^ei/iu/
+    #- derive/ghei$/ghiu/
     #- derive/^gh/g/
     #- derive/au$/ao/
     #- derive/ai$/ei/
@@ -110,14 +114,14 @@ speller:
     #- derive/^ne/noe/
     #- derive/^le/loe/
     #- derive/^tse/tsoe/
-    - derive/^tshe/tshoe/
+    #- derive/^tshe/tshoe/
     #- derive/^se/soe/
     #- derive/^ze/zoe/
-    - derive/^ke/koe/
-    - derive/^khe/khoe/
+    #- derive/^ke/koe/
+    #- derive/^khe/khoe/
     #- derive/^ge/goe/
-    - derive/^ghe/ghoe/
-    - derive/^he/hoe/
+    #- derive/^ghe/ghoe/
+    #- derive/^he/hoe/
     #- derive/^e/oe/
 
 translator:
