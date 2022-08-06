@@ -17,7 +17,7 @@
 
 ## 安裝方法伉使用幫助
 
-宕落地址在[箇都]（https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng）
+宕落地址在[箇都](https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng)
 
 眙[輸入灋使用說明書](https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng/blob/d29cf31a1c2ebeed38525d30945c367f1b3561ce/%E8%BC%B8%E5%85%A5%E7%81%8B%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E%E6%9B%B8.docx)請。
 
