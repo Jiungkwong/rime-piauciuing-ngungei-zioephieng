@@ -20,7 +20,7 @@
 #
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
-# 版本號：22.8.5.2.2
+# 版本號：22.8.6.2.2
 # 附加字表加來罷，包括化學元素周期表、常用化學物質、《浙南甌語》、《吳語三門方言研究》替《吳語詞彙管窺——甌滬共通詞彙比較》裏頭個字替部分詞彙。
 # 部分常用字個吳音加來罷，疑問代詞加來罷。
 # 表示烹飪技巧個字許加來罷。
@@ -32,7 +32,7 @@
 # 效攝四等分罷。
 ---
 name: zioephieng
-version:	"2022.8.5"
+version:	"2022.8.6"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1588,6 +1588,8 @@ import_tables:
 
 # 附加字表
 
+炸	tso3
+衆	ciung1
 啊	a1
 嗯	eng
 啦	la1
@@ -8244,7 +8246,7 @@ import_tables:
 窅	au1
 軪	au1
 眑	au1
-咬	au1
+咬	ngau1
 梎	au1
 𠣑	au1
 䫸	tshau1
@@ -18848,7 +18850,7 @@ import_tables:
 勱	ma3
 䜕	ma3
 佅	ma3
-話	ghua3
+話	ghuo3
 敗	ba3
 贁	ba3
 䢙	ba3
@@ -123802,6 +123804,10 @@ import_tables:
 活動	gd
 發動	faehdung
 發動	fd
+看看	khoe1khoe1	1000
+公眾號	kung1ciung1ghao1
+公眾號	kcg
+總理	tsung2li2	1000
 
 #標準吳語國名
 
