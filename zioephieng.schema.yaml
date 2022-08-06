@@ -102,6 +102,68 @@ engine:
     - simplifier
     - uniquifier
 
+punctuator:
+  import_preset: symbols # 句讀處理器，統一從外部導入
+
+key_binder:
+  import_preset: default # 快捷鍵，統一從外部導入
+
+recognizer:
+  import_preset: default # 特殊規則輸入碼，統一從外部導入
+   patterns: # 注意相互作用，以及"``"是與"`"衝突的鍵位。
+    punct: '^/([0-9]0?|[A-Za-z]+)$' # 按 / 輸入符號
+    reverse_lookup: "//[a-z]*'?$"
+    hspnz_lookup: "`/[hspnz]*'?$"
+  #patterns:
+    #reverse_lookup: "`[a-z]*'?$" 
+    #punct: '^/([0-9]0?|[A-Za-z]+)$' # 按 / 輸入符號。注意相互作用，以及"``"是與"`"衝突個鍵位。
+    #hspnz_lookup: "`/[hspnz]*'?$"
+
+translator:
+  dictionary: zioephieng
+  prism: zioephieng
+  spelling_hints: 8
+ 
+custom_phrase:
+  dictionary: ""
+  user_dict: zioephieng.words # 用戶詞典名
+  db_class: stabledb       # 詞典類型爲只讀格式
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "//"
+  suffix: "'"
+  tips: 〔漢語拼音反查〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+hspnz_lookup:
+  tag: hspnz_lookup
+  dictionary: stroke #望來好擔來反查個輸入方案是佛振欽定個……stroke、cangjie5替terra_pinyin試驗落來統是來賽個，甚至擔詞典驐脫一部分也來賽，卻情自定義名稱便無之用。嗷，有箇然介孛相個啊……
+  tips: 〔hspnz五筆畫反查〕
+  prefix: "`/"
+  suffix: "'"
+  enable_completion: true #板定要替刪去注釋聚隊使用，弗得處理能力弗夠個辰光會得導致崩潰。
+  enable_user_dict: false
+  enable_encoder: false #自動組詞
+  enable_sentence: false #自動造句
+  enable_charset_filter: false #是否開啓字符集過濾〔僅table_translator有效。啓用cjk_minifier後好用於script_translator〕.避免同時使用字符集過濾替extended_charset.
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+ 
+hspnz_reverse_lookup:
+  tags: [hspnz_lookup]
+  dictionary: zioephieng
+  overwrite_comment: true
+  comment_format:
+#刪去音韻學信息以免因注釋太長崩潰。（注意：要雙斜杆注釋！）
+    - "xform/\\{.{1,20}\\}//"
+
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: "'"
@@ -182,66 +244,3 @@ speller:
     #- derive/^ghe/ghoe/ #容錯 e/oe弗分 含、汗弗分
     #- derive/^he/hoe/ #容錯 e/oe弗分 喊、漢弗分
     #- derive/^e/oe/ #容錯 e/oe弗分 暗、安弗分
-
-translator:
-  dictionary: zioephieng
-  prism: zioephieng
-  spelling_hints: 8
- 
-custom_phrase:
-  dictionary: ""
-  user_dict: zioephieng.words # 用戶詞典名
-  db_class: stabledb       # 詞典類型爲只讀格式
-  enable_completion: false
-  enable_sentence: false
-  initial_quality: 1
-
-reverse_lookup:
-  dictionary: luna_pinyin
-  prefix: "//"
-  suffix: "'"
-  tips: 〔漢語拼音反查〕
-  preedit_format:
-    - xform/([nl])v/$1ü/
-    - xform/([nl])ue/$1üe/
-    - xform/([jqxy])v/$1u/
-    
-hspnz_lookup:
-  tag: hspnz_lookup
-  dictionary: stroke #望來好擔來反查個輸入方案是佛振欽定個……stroke、cangjie5替terra_pinyin試驗落來統是來賽個，甚至擔詞典驐脫一部分也來賽，卻情自定義名稱便無之用。嗷，有箇然介孛相個啊……
-  tips: 〔hspnz五筆畫反查〕
-  prefix: "`/"
-  suffix: "'"
-  enable_completion: true #板定要替刪去注釋聚隊使用，弗得處理能力弗夠個辰光會得導致崩潰。
-  enable_user_dict: false
-  enable_encoder: false #自動組詞
-  enable_sentence: false #自動造句
-  enable_charset_filter: false #是否開啓字符集過濾〔僅table_translator有效。啓用cjk_minifier後好用於script_translator〕.避免同時使用字符集過濾替extended_charset.
-  preedit_format:
-    - xlit/hspnz/一丨丿丶乙/
- 
-hspnz_reverse_lookup:
-  tags: [hspnz_lookup]
-  dictionary: piobin
-  overwrite_comment: true
-  comment_format:
-#刪去音韻學信息以免因注釋太長崩潰。（注意：要雙斜杆注釋！）
-    - "xform/\\{.{1,20}\\}//"
-
-punctuator:
-  import_preset: symbols # 句讀處理器，統一從外部導入
-
-key_binder:
-  import_preset: default # 快捷鍵，統一從外部導入
-
-recognizer:
-  import_preset: default # 特殊規則輸入碼，統一從外部導入
-   patterns: # 注意相互作用，以及"``"是與"`"衝突的鍵位。
-    punct: '^/([0-9]0?|[A-Za-z]+)$' # 按 / 輸入符號
-    reverse_lookup: "//[a-z]*'?$"
-    hspnz_lookup: "`/[hspnz]*'?$"
-  #patterns:
-    #reverse_lookup: "`[a-z]*'?$" 
-    #punct: '^/([0-9]0?|[A-Za-z]+)$' # 按 / 輸入符號。注意相互作用，以及"``"是與"`"衝突個鍵位。
-    #hspnz_lookup: "`/[hspnz]*'?$"
-
