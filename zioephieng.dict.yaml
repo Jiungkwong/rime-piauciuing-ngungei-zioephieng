@@ -1588,6 +1588,7 @@ import_tables:
 
 # 附加字表
 
+咩	mae1
 炸	tso3
 衆	ciung1
 啊	a1
@@ -103300,7 +103301,7 @@ import_tables:
 養鳥
 養植
 養媳婦
-餓肚
+餓肚	ngou3du2	900
 餓鬼
 餓殺
 餓著
@@ -123830,6 +123831,7 @@ import_tables:
 稿子	kao2tsy2	1000
 文章	meng1ciang1
 文章	mc
+我都	ngou2tu1	1000000
 
 #標準吳語國名
 
