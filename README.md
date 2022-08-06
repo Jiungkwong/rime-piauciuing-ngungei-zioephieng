@@ -23,7 +23,7 @@
 
 ## 字詞查詢
 
-眙[低地吳語全字表-Piaetshik](https://github.com/Jiungkwong/piauciuing-ngungei-zioe-zypiau/blob/main/%E4%BD%8E%E5%9C%B0%E5%90%B3%E8%AA%9E%E5%85%A8%E5%AD%97%E8%A1%A820220805-%E4%BF%AE%E8%A8%82%E7%89%88.xlsm)張表請，裏頭好査字加字个讀音伉聲調，還有眼字附有替渠都搭界个許詞組替例句。
+眙[低地吳語全字表-Piaetshik](https://github.com/Jiungkwong/piauciuing-ngungei-zioe-zypiau/blob/main/%E4%BD%8E%E5%9C%B0%E5%90%B3%E8%AA%9E%E5%85%A8%E5%AD%97%E8%A1%A820220805-%E4%BF%AE%E8%A8%82%E7%89%88.xlsm)張表請，裏頭好査字加字个讀音替聲調，還有眼字附有替渠都搭界个許詞組替例句。
 
 # 版本號：22.8.6.2.2
 
