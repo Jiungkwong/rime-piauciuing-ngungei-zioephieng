@@ -46,6 +46,9 @@ import_tables:
 
 # 附加字表
 
+刣	thai1
+酞	tha3
+凼	dong2
 哼	hang1
 狠	gheng2
 找	tsau2
@@ -192,7 +195,7 @@ import_tables:
 樑	liang1
 砣	dou1
 裥	kae2
-凼	dong1
+凼	tong2
 乒	phieng1
 乓	phang1
 犟	giang3
@@ -11726,7 +11729,7 @@ import_tables:
 晲	ngi2
 㪏	pi2
 𤽊	pi2
-蟹	ho2
+蟹	ha2
 䲒	gho2
 解	go2
 獬	gho2
@@ -121612,9 +121615,8 @@ import_tables:
 弗得	fehtek
 弗然	fehnie
 便算	biesoe
-赫物	hakmek
-赫	h
-好	h
+赫物	hak4mek4
+好的	ht
 在	l
 来了	ll
 大家	dako
@@ -121665,7 +121667,7 @@ import_tables:
 到煞	tausaeh
 橫直	ghuangjiek
 原舊	ngioegieu
-元	nie
+元	nie1
 外加	nk
 比方講	pifongkong
 比方講	pfk
@@ -122343,8 +122345,8 @@ import_tables:
 #標準吳語國名
 
 阿曼利卡	akmaelika
-孛瀨齊胡	behlazighu
-孛哈瀨脫	behhalathoeh
+孛瀨齊胡	beklazighu
+孛哈瀨脫	bekhalathoeh
 露西耶	lusiya
 墨西加	meksiko
 般露	paelu
@@ -122352,7 +122354,7 @@ import_tables:
 喑斯班艾	esypaenga
 伊朗	ilong
 各老無比耶	koklaumbiya
-孛利吞	behlitheng
+孛利吞	beklitheng
 派溪斯淌	phakhisythong
 蘇歐地葉	sueudiyeh
 衣帶利耶	italiya
@@ -122363,7 +122365,7 @@ import_tables:
 伊斯瀨晏勒	isylaaelek
 歐曼	eumae
 蘇利耶	suliya
-魯孛南	lubehne
+魯孛南	lubekne
 非萊斯丁	filaisytieng
 炎文	yemeng
 土垃溪炎	thulehkhiye
@@ -122387,13 +122389,20 @@ import_tables:
 土垃克曼尼斯淌	thulehkhekmaenisythong
 叨叱基斯淌	thauchikkisythong
 阿夫也尼斯淌	akfughanisythong
-阿瀨孛	aklabeh
+阿瀨孛	aklabek
 庫垃特	khulehdek
 庫垃地斯淌	khulehdisythong
 輸入灋	shiu1nik4faeh4
 
 #甌江片、台州片詞彙
 
+口濫水	kheu2lae2shiu2
+攔扎下	laeh4tsaeh4gho2
+攔胳肢	laeh4kok4tsy1
+鉸剪	kau1tsie2
+㵾水	tsheng3shiu2
+蟹骹	ha2khau1
+眼鏡骹	ngae2kieng3khau1
 蛟蚻	kauzaeh
 風颱	fungdai
 瑲朞	tshiangki
