@@ -56,7 +56,7 @@
 - 吳韻 <tittii@outlook.com>
 - 重光 <viktorsalehwu@gmail.com>
 - ThokCc <potato008@gmail.com>
-- te ˂goskhokoonga@gmail.com˃
+- te <goskhokoonga@gmail.com>
 
 - QQ羣：424399499
 - 微信公衆號：NgiotZiotSju
