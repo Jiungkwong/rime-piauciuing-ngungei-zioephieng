@@ -15,7 +15,7 @@
 
 標準吳語統聲母28个，統韻母65个，有效總音節數2135个。
 
-## 安裝方法伉使用幫助
+## 安裝方法替使用幫助
 
 宕落地址在[箇都](https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng)
 
