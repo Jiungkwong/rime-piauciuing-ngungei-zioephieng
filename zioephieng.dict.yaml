@@ -9897,6 +9897,7 @@ import_tables:
 絣	pang1
 𢆸	pang1
 拼	pang1
+拼	phieng1
 䑫	pang1
 橙	dzang1
 揨	dzang1
@@ -17346,7 +17347,7 @@ import_tables:
 僿	sy3
 胾	tsy3
 椔	tsy3
-事	tsy3
+#事	tsy3
 剚	tsy3
 倳	tsy3
 鶅	tsy3
@@ -31461,6 +31462,7 @@ import_tables:
 賣弗出去
 賣個
 賣隻
+質量	cik4liang1
 質量推板
 賴在
 賺弗了
@@ -40073,7 +40075,8 @@ import_tables:
 人世間
 人之初
 人也
-人事
+人事	ning1zy3
+積壓	tsiek4aeh4
 人事不省
 人事全非
 人事室
@@ -40438,7 +40441,8 @@ import_tables:
 人證物證
 人販子
 人貴有自知之明
-人質
+人質	ning1tsy3
+質押	tsy3aeh4
 人跡
 人跡杳然
 人跡罕至
@@ -89982,7 +89986,8 @@ import_tables:
 草樣
 草蝦
 草鞋底
-草積
+草積	tshau2tsy3	1
+草紙	tshau2tsy2	1000
 草頭
 草頭黃
 草簾子
@@ -92678,13 +92683,24 @@ import_tables:
 速達
 速歸
 速讀
-造化
+造化	zau2huo3
+造化	zao2huo3
 造反到
 造句
-造好
-造物
-造个
-造假
+造好	zau2hau2
+造好	zao2hau2
+造物	zau2mek4
+造物	zao2mek4
+造个	zau2keh4
+造个	zao2keh4
+造假	zau2ko2
+造假	zao2ko2
+造訪	tshau3fong3
+造訪	tshao3fong3
+造詣	tshao3ngi3
+造詣	tshau3ngi3
+登峰造極	teng1fung1tshao3giek4
+登峰造極	teng1fung1tshau3giek4
 造禍
 造愛
 造孽
@@ -123798,7 +123814,7 @@ import_tables:
 屏蔽	bp
 掱手	boshieu
 水彈槍	shiudaetshiang
-怎麼	ciekmek
+怎麼	ciek4mek4
 垃圾	leh4seh4
 軍事行動	kzgd
 活動	gd
@@ -123808,21 +123824,23 @@ import_tables:
 公眾號	kung1ciung1ghao1
 公眾號	kcg
 總理	tsung2li2	1000
+造紙	zau2tsy2	1000
+造紙	zao2tsy2	1000
+稿子	kau2tsy2	1000
+稿子	kao2tsy2	1000
+文章	meng1ciang1
+文章	mc
 
 #標準吳語國名
 
-利	li
 阿曼利卡	akmaelika
 孛瀨齊胡	behlazighu
-瀨	la
 孛哈瀨脫	behhalathoeh
-露	lu
 露西耶	lusiya
 墨西加	meksiko
 般露	paelu
 掣嵐	chile
 喑斯班艾	esypaenga
-朗	long
 伊朗	ilong
 各老無比耶	koklaumbiya
 孛利吞	behlitheng
@@ -123832,7 +123850,6 @@ import_tables:
 彭啦迪舒	bangladiekshy
 奪伊掣冷脫	doehichilangthoeh
 於瀨克	eilakhek
-垃	leh
 高島勒	kautauleh
 伊斯瀨晏勒	isylaaelek
 歐曼	eumae
@@ -123841,11 +123858,9 @@ import_tables:
 非萊斯丁	filaisytieng
 炎文	yemeng
 土垃溪炎	thulehkhiye
-蘭	lae
 弗朗斯	fehlongsy
 巴垃都也勒	polehtughalek
 喑啦斯	elas
-蓮	lie
 喑蓮	elie
 蘇亞米	suomi
 烏克瀨伊那	ukheklaina
@@ -123853,12 +123868,8 @@ import_tables:
 蘇淡	sudae
 巴勒斯介	poleksyka
 南特冷脫	nedeklangdoeh
-羅	lou
-唻	lai
 安斯脫唻世	oesythoehlaishi
 舒萬伊次	shyvaeitshy
-欒	loe
-嘍	leu
 斯垃畀斯介	sylehpehsyka
 掣喑舒介	chieshyka
 卡柴克斯淌	khazakheksythong
