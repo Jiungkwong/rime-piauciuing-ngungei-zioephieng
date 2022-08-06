@@ -17,13 +17,15 @@
 
 ## 安裝方法伉使用幫助
 
+宕落地址在[箇都]（https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng）
+
 眙[輸入灋使用說明書](https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng/blob/d29cf31a1c2ebeed38525d30945c367f1b3561ce/%E8%BC%B8%E5%85%A5%E7%81%8B%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E%E6%9B%B8.docx)請。
 
 ## 字詞查詢
 
-眙[低地吳語全字表-Piaetshik](https://github.com/Jiungkwong/piauciuing-ngungei-zioe-zypiau/blob/8dc1af01f6c592f11960f27cb76db7e3879e25ed/%E4%BD%8E%E5%9C%B0%E5%90%B3%E8%AA%9E%E5%85%A8%E5%AD%97%E8%A1%A820220702-%E4%BF%AE%E8%A8%82%E7%89%88.xlsm)張表請，裏頭好査字加字个讀音伉聲調，還有眼字附有替渠都搭界个許詞組替例句。
+眙[低地吳語全字表-Piaetshik](https://github.com/Jiungkwong/piauciuing-ngungei-zioe-zypiau/blob/main/%E4%BD%8E%E5%9C%B0%E5%90%B3%E8%AA%9E%E5%85%A8%E5%AD%97%E8%A1%A820220805-%E4%BF%AE%E8%A8%82%E7%89%88.xlsm)張表請，裏頭好査字加字个讀音伉聲調，還有眼字附有替渠都搭界个許詞組替例句。
 
-# 版本號：22.8.5.2.2
+# 版本號：22.8.6.2.2
 
 附加字表加來罷，包括化學元素周期表、常用化學物質、《浙南甌語》、《吳語三門方言研究》替《吳語詞彙管窺——甌滬共通詞彙比較》裏頭個字替部分詞彙。
 
@@ -51,7 +53,11 @@
 
 ## 聯繫
 
-- 吳韻<tittii@outlook.com>
+- 吳韻 <tittii@outlook.com>
+- 重光 <viktorsalehwu@gmail.com>
+- ThokCc <potato008@gmail.com>
+- te ˂goskhokoonga@gmail.com˃
 
 - QQ羣：424399499
 - 微信公衆號：NgiotZiotSju
+- Telegram頻道：https://t.me/ngioehzioehshyghuei
