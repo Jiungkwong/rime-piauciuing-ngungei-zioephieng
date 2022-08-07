@@ -21,7 +21,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.6.2.2
+# 版本號：22.8.7.2.3
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -37,7 +37,7 @@
 # 效攝四等分罷。默認不區分，學習甌江片用。弗影響輸入標吳。
 ---
 name: zioephieng
-version:	"2022.8.6"
+version:	"2022.8.7"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -46,6 +46,8 @@ import_tables:
 
 # 附加字表
 
+卡	zeh4
+缸	kong1
 刣	thai1
 酞	tha3
 凼	dong2
@@ -56,14 +58,13 @@ import_tables:
 石	zhiak4
 碩	zhiak4
 然	neng1
-共	khong3
 反	bae2
 儘	tsing2
 咩	mae1
 炸	tso3
 衆	ciung1
 啊	a1
-嗯	eng
+嗯	eng1
 啦	la1
 嗎	ma1
 嘛	ma1
@@ -72,22 +73,23 @@ import_tables:
 啥	sa1
 啥	shio1
 咗	tsou1
-是	z
-昰	d
-箇	keh
-箇	geh
-個	keh
-个	k
-个	keh
-箇	g
-何物	gam
-許頭	heideu
-許場	heitak
-垃圾	laza
+是	z1
+昰	d1
+箇	keh4
+箇	geh4
+個	keh4
+个	k1
+个	keh4
+箇	g1
+物	m1
+何物	ga1 m1
+許頭	hei deu
+許場	hei tak
+垃圾	la za
 爸	pa1
 媽	ma1
-的	t
-了	l
+的	t1
+了	l1
 這	cio3
 們	meng1
 吶	no3
@@ -104,6 +106,7 @@ import_tables:
 箍	khu3
 炆	meng1
 池	dzy1
+池	ji1
 燴	ghuei3
 熗	tshiang3
 訤	gau1
@@ -373,7 +376,7 @@ import_tables:
 羰	thong1
 烴	thieng1
 炔	khioeh4
-烷	ghuoe
+烷	ghuoe1
 鉝	lik4
 鈇	fu1
 鉨	ni2
@@ -22245,7 +22248,7 @@ import_tables:
 㲞	soek4
 𪖶	soek4
 𪅄	soek4
-屑	soek4
+#屑	soek4
 猝	tshoek4
 卒	tshoek4
 𣨛	tshoek4
@@ -26502,7 +26505,7 @@ import_tables:
 吧	va1
 啥	sa3
 啥	shio3
-咗	tsou
+咗	tsou1
 昰	dik4
 箇	ko3
 系	ghei3
@@ -38913,8 +38916,8 @@ import_tables:
 人證物證
 人販子
 人貴有自知之明
-人質	ning1tsy3
-質押	tsy3aeh4
+人質	ning1 tsy3
+質押	tsy3 aeh4
 人跡
 人跡杳然
 人跡罕至
@@ -59380,7 +59383,7 @@ import_tables:
 營生
 營生之道
 營銷人員
-營長	yungciang
+營長	yung ciang
 營養學
 營養學分
 營養學家
@@ -70062,7 +70065,7 @@ import_tables:
 部分組成
 部會首長
 部部長
-部長	buciang
+部長	bu ciang
 部長會
 部長會議
 部長級
@@ -79444,7 +79447,7 @@ import_tables:
 用著了
 用著了
 用船
-用場	yungjiang
+用場	yung jiang
 用場个
 用最
 用爲
@@ -79877,12 +79880,12 @@ import_tables:
 先生
 先見
 先走了
-先走特
+先走著
 先於
 先修
 先起頭
 先喫夜飯去了
-先喫夜飯去特
+先喫夜飯去著
 先期
 先開場
 先嘗
@@ -79895,7 +79898,7 @@ import_tables:
 光子
 光山
 光巴
-光火
+光火	kuang1 hou2
 光生
 光光
 光合
@@ -80655,7 +80658,7 @@ import_tables:
 好食
 好个
 好料作
-好特
+好著
 好站
 好這
 好在
@@ -81071,7 +81074,7 @@ import_tables:
 有四
 有它
 有生
-有用場	yeuyungjiang
+有用場	yeu yung jiang
 有份
 有伐
 有光
@@ -82282,7 +82285,7 @@ import_tables:
 冷飯頭
 冷嗝
 冷煞
-冷煞特
+冷煞脫
 冷對
 冷嘲
 冷瞥
@@ -82570,7 +82573,7 @@ import_tables:
 呆站
 呆得
 呆著
-呆脫特
+呆脫著
 呆視
 呆撥落托
 呈示
@@ -89254,8 +89257,8 @@ import_tables:
 凍殺鬼
 凍鹵水
 凍煞
-凍煞特
-凍煞脫特
+凍煞脫
+凍煞脫著
 凍瘃
 剖白
 剖析
@@ -92365,8 +92368,8 @@ import_tables:
 得對
 得慢
 得緊
-從小	ziungsiau
-從不	ziungfeh
+從小	ziung siau
+從不	ziung fek
 從中
 從今
 從公
@@ -92393,7 +92396,7 @@ import_tables:
 從後
 從政
 從軍
-從容	tshiungyung
+從容	tshiung yung
 從師
 從旁
 從速
@@ -100567,7 +100570,7 @@ import_tables:
 嘸千嘸萬
 嘸大嘸小
 嘸不
-嘸不特
+嘸不得
 嘸不幾日
 嘸介事
 嘸天野地
@@ -102761,7 +102764,7 @@ import_tables:
 嚇住
 嚇唬
 嚇啥
-嚇煞特
+嚇煞脫
 嚇蒙
 嚇濃
 嚇嚇人
@@ -104152,7 +104155,7 @@ import_tables:
 懷柔
 懷胎
 懷海
-懷特
+懷脫
 懷著
 懷著
 懷揣
@@ -105420,7 +105423,7 @@ import_tables:
 幾時
 朋東
 看弗出
-嘸沒特
+嘸沒得
 算進去
 看弗進
 魚肚腸
@@ -119275,8 +119278,8 @@ import_tables:
 嘸手撳
 嘸捏手
 嘸奈何
-嘸卵用	mloeyung
-嘸用場	myungjiang
+嘸卵用	m loe yung
+嘸用場	m yung jiang
 嘸用胚
 嘸用
 嘸用黑心人
@@ -121525,934 +121528,938 @@ import_tables:
 鸞拍
 齾
 齾七齾八
-貤來	yilai
-貤做	yitsou
-貤去	yikhei
-貤喫	yikhiek
-貤呷	yihaeh
-貤買	yima
-貤賣	yima
-上先	zhiangsiae
-頭卯	deumau
-已經	yikieng
-已二審	yinishing
-已吹風	yichiufung
-已提交	yidikau
-已配圖	yipheidu
-請配圖	tshiengpheidu
-待吹風	daichiufung
-校對修改    kauteisieukai
-已發稿	yifaehkau
-已修改	yisieukai
+貤來	yi lai
+貤做	yi tsou
+貤去	yi khei
+貤喫	yi khiek
+貤呷	yi haeh
+貤買	yi ma
+貤賣	yi ma
+上先	zhiang siae
+頭卯	deu mau
+已經	yi kieng
+已二審	yi ni shing
+已吹風	yi chiu fung
+已提交	yi di kau
+已配圖	yi phei du
+請配圖	tshieng phei du
+待吹風	dai chiu fung
+校對修改    kau tei sieu kai
+已發稿	yi faeh kau
+已修改	yi sieu kai
 休要
 望是
 望未
 煞甲
 月絕書會
-癟三	piehsae
-喫涴	khiekou	90%
-射涴	zhioou	90%
-傻逼	sp
-傻屄	sp
+癟三	pieh sae
+喫涴	khiek ou	90%
+射涴	zhio ou	90%
+傻逼	s p
+傻屄	s p
 製錶符
 語法化
 虛詞化
 寫隻屁
 寫隻卵
-腦癱	nt
-換快訊圖	gksd
-笑飛	siaufi
-你們	nm
-他們	tm
-我們	nm
-她	thou
-怎麼	cm
-甚麼	zm
-為甚麼	yzm
-鹹煞	ghaesaeh
-鹹殺	ghaesaeh
-鹹人	ghaening
-撳按鈕	khingoenieu
-鍵盤	gieboe
-鼠標	tshypiau
-鼠標㼭	tshypiaudiae
-顯示器	hiaezykhi
-手機	shieuki
-著膩	ciakni
-婺州	mucieu
-金衢	kinggiu
-宣州	sioecieu
-徽嚴	hiungie
-臨紹	lingzhiau
-蘇滬嘉	sughuko
-毗陵	bilieng
-太高	thakau
-銅涇	dungkieng
-上麗	zhiangli
-箇咾	kehlau
-如何	nahang
-光火	kuanghou
-汝個	nikeh
-在上	lailong	60%
-汝倈	nila	70%
-渠倈	geila	70%
-我倈	ngoula	70%
-佢倈	geila
-卻情	khiakzieng	50%
-因之	ingtsy	50%
-爲之	yutsy	50%
-阿語	akngei	90%
-雖則	siutsek	90%
-然則	nietsek	90%
-便算	biesoe	90%
-寧之	niengtsy	90%
-實則	zhiktsek	90%
-實之	zhiktsy	90%
-單卻要	taekhiakiau
-好戲	hauhi
-之故	tsyku
-且顧	tshiaku
-弗得	fehtek
-弗然	fehnie
-便算	biesoe
-赫物	hak4mek4
-好的	ht
-在	l
-来了	ll
-大家	dako
-啥地方	sadifong
-啥地方	sdf
-大家	dk
-報題了	pdl
-選題	sioedi
-選題	sd
-共和國	giungghoukuek
-共和國	ggk
-人民共和國	ningminggiungghoukuek
-人民共和國	nmggk
-社會主義	zhioghueiciungi
-社會主義	zgcn
-法律	faehliuik
-法律	fl
-概率	kailiuik
-概率	kl
-幾率	kiliuik
-幾率	kl
-資本主義	tsypengciungi
-資本主義	tpcn
-原教旨主義	ngioekautsyciungi
-原教旨主義	nktcn
-什葉派	zhikyehpha
-約翰遜	iakghoesoeng
-遜尼派	soengnipha
-若然	niaknie
-個說話	kehshioehghuo
-箇物	kehmek
-箇物	km
-假使	ks
-爲啥	ys
-啥人	sn
-許物	heimek
-許物	hm
-弗物	fehmek
-弗物	fm
-或者	gc
-一頭	ikdeu
-寧之	niengtsy
-寧使	niengsy
-倒轉	taucioe
-反倒	faetau
-反轉	faecioe
-橫豎	ghuangzhiu
-到煞	tausaeh
-橫直	ghuangjiek
-原舊	ngioegieu
+腦癱	n t
+換快訊圖	g k s d
+笑飛	siau fi
+你們	n m
+他們	t m
+我們	n m
+她	thou1
+怎麼	c m
+甚麼	z m
+為甚麼	y z m
+鹹煞	ghae saeh
+鹹殺	ghae saeh
+鹹人	ghae ning
+撳按鈕	khing oe nieu
+鍵盤	gie boe
+鼠標	tshy piau
+鼠標㼭	tshy piau diae
+顯示器	hiae zy khi
+手機	shieu ki
+著膩	ciak ni
+婺州	mu cieu
+金衢	king giu
+宣州	sioe cieu
+徽嚴	hiu ngie
+臨紹	ling zhiau
+蘇滬嘉	su ghu ko
+毗陵	bi lieng
+太高	tha kau
+銅涇	dung kieng
+上麗	zhiang li
+箇咾	keh lau
+如何	na hang
+光火	kuang hou
+汝個	ni keh
+在上	lai long	60%
+上向	long hiang	99%
+汝倈	ni la	70%
+渠倈	gei la	70%
+我倈	ngou la	70%
+佢倈	gei la
+卻情	khiak zieng	50%
+因之	ing tsy	50%
+爲之	yu tsy	50%
+阿語	ak ngei	90%
+雖則	siu tsek	90%
+然則	nie tsek	90%
+便算	bie soe	90%
+寧之	nieng tsy	90%
+實則	zhik tsek	90%
+實之	zhik tsy	90%
+單卻要	tae khiak iau
+好戲	hau hi
+之故	tsy ku
+且顧	tshia ku
+弗得	feh tek
+弗然	feh nie
+便算	bie soe
+赫物	hak4 mek4
+好的	h t
+在	l1
+来了	l l
+大家	da ko
+啥地方	sa di fong
+啥地方	s d f
+大家	d k
+報題了	p d l
+選題	sioe di
+選題	s d
+共和國	giung ghou kuek
+共和國	g g k
+人民共和國	ning ming giung ghou kuek
+人民共和國	n m g g k
+社會主義	zhiog huei ciu ngi
+社會主義	z g c n
+法律	faeh liuik
+法律	f l
+概率	kai liuik
+概率	k l
+幾率	ki liuik
+幾率	k l
+資本主義	tsy peng ciu ngi
+資本主義	t p c n
+原教旨主義	ngioe kau tsy ciu ngi
+原教旨主義	n k t c n
+什葉派	zhik yeh pha
+約翰遜	iak ghoe soeng
+遜尼派	soeng ni pha
+若然	niak nie
+個說話	keh shioeh ghuo
+箇物	keh mek
+箇物	k m
+假使	k s
+爲啥	y s
+啥人	s n
+許物	hei mek
+許物	h m
+弗物	feh mek
+弗物	f m
+或者	g c
+一頭	ik deu
+寧之	nieng tsy
+寧使	nieng sy
+倒轉	tau cioe
+反倒	fae tau
+反轉	fae cioe
+橫豎	ghuang zhiu
+到煞	tau saeh
+橫直	ghuang jiek
+原舊	ngioe gieu
 元	nie1
-外加	nk
-比方講	pifongkong
-比方講	pfk
-三弄四弄	saelungsylung
-譬如弗得	phinifehtek
-樂得	loktek
-弗論	fehliuing
-弗管	fehkuoe
-但便	daebie
-唕瑲	zautshiang	90%
-何瑲	ghatshiang	90%
-爲何物	yugam	90%
-何辰光	ghazhingkuong	90%
-如何	naga	90%
-何里	ghali	
-何里都	ghalitaeh
-加來罷	kolaiba
-快來也	khualaigha
-以正視聽	yiciengzythieng
-何裡	ghali	90%
-何裡都	ghalitaeh	50%
-換個	ghuoekeh	80%
-有條	yeudiau	50%
-換圖	ghuoedu	50%
-快訊圖	khuasingdu
-改好了	kaihauliau
-調隻	diauciek	90%
-何物	gham
-何人	ghaning	90%
-啥人	saning	50%
-駛來	salai
-加在	kozai
-加在	kolaeh
-加來	kolai
-加來罷	kolaiba
-脫著	thoehjiak
-爻罷	ghauba
-唕長	zaujiang
-唕深	zaushing
-深圳	shingtsing
-唕闊	zaukhuoeh
-唕厚	zaugheu
-唕薄	zaubok
-唕短	zautoe
-唕好	zauhau	30%
-造好罷	zauhauba	50%
-音系	ingghi
-小片	siauphiae
-同音	dunging
-陽入對轉	yangnikteicioe
-其他無	gtm
-一村	iktshoeng
-兩村	liangtshoeng
-二村	nitshoeng
-三村	saetshoeng
-四村	sytshoeng
-五村	ngutshoeng
-殷行	ingghong
-五角場	ngukokjiang
-靜安寺	ziengoezy
-上鋼	zhiangkong	30%
-上港	zhiangkong	50%
-報題	paudi	60%
-寶地	paudi	30%
-溝通	keuthung
-還在	ghuaelaeh
-還來	ghuaelai
-還在	ghuaezai
-天架	thiaeko
-外加	ngako	50%
-充電線	chiungdiaesie
-充電寶	chiungdiaepau
-收到	st	90%
-謝謝	zz	90%
-麻烦	mv
-看看	kk
-箇咾	kl	50%
-提交	dk
-已提交	ydk
-可消息	kss
-消息	ss	70%
-優先	is	50%
-意思	is	40%
-再看看	tkk
-只好	th
-只有	ty
-實習生	zzs
-忘記	mk
-忘記回了	mkgl
-標準吳語	pcnn
-査査	zz
-査査看	zzk
-帶回來	taghueilai
-帶回來	tgl
-回來	gl
-供認領	kiungnienglieng
-供認領	knl
-勢力範圍	shiliekvaeyu
-勢力範圍	slvy
-影響力	ienghiangliek
-影響	ienghiang
-影響	ih
-靜坐	ziengzou
-靜坐	zz
-申請	shingtshieng
-申請	st
-清真	tshiengcing
-清真	tc
-太慘了	ttl
-人呢	ningni
-人呢	nn
-如何	ng
-如然	nn
-然介	neng1ka3
-如然	na1neng1
-箇然	keh4neng1
-昰然	dik4neng1
-許然	hei2neng1
+外加	n k
+比方講	pi fong kong
+比方講	p f k
+三弄四弄	sae lung sy lung
+譬如弗得	phi ni fek tek
+樂得	lok tek
+弗論	fek liuing
+弗管	fek kuoe
+但便	dae bie
+唕瑲	zau tshiang	90%
+何瑲	gha tshiang	90%
+爲何物	yu ga m	90%
+何辰光	gha zhing kuong	90%
+如何	na ga	90%
+何里	gha li	90%
+何里都	gha li taeh
+加來罷	ko lai ba
+快來也	khua lai gha
+以正視聽	yi cieng zy thieng
+何裡	gha li	90%
+何裡都	gha li taeh	50%
+換個	ghuoe keh	80%
+有條	yeu diau	80%
+換圖	ghuoe du	50%
+快訊圖	khua sing du
+改好了	kai hau liau
+調隻	diau ciek	90%
+何物	gha m
+何人	gha ning	90%
+啥人	sa ning	50%
+駛來	sa lai
+加在	ko zai
+加在	ko lai
+加來	ko lai
+加來罷	ko lai ba
+脫著	thoeh jiak
+爻罷	ghau ba
+唕長	zau jiang
+唕深	zau shing
+深圳	shing tsing
+唕闊	zau khuoeh
+唕厚	zau gheu
+唕薄	zau bok
+唕短	zau toe
+唕好	zau hau	30%
+造好罷	zau hau ba	50%
+音系	ing ghi
+小片	siau phiae
+同音	dung ing
+陽入對轉	yang nik tei cioe
+其他無	g t m
+一村	ik tshoeng
+兩村	liang tshoeng
+二村	ni tshoeng
+三村	sae tshoeng
+四村	sy tshoeng
+五村	ngu tshoeng
+殷行	ing ghong
+五角場	ngu kok jiang
+靜安寺	zieng oe zy
+上鋼	zhiang kong	30%
+上港	zhiang kong	50%
+報題	pau di	60%
+寶地	pau di	30%
+溝通	keu thung
+還在	ghuae lai
+還來	ghuae lai
+還在	ghuae zai
+天架	thiae ko
+外加	nga ko	50%
+充電線	chiung diae sie
+充電寶	chiung diae pau
+收到	s t	90%
+謝謝	z z	90%
+麻烦	m v
+看看	k k
+箇咾	k l	50%
+提交	d k
+已提交	y d k
+可消息	k s s
+消息	s s	70%
+優先	i s	50%
+意思	i s	40%
+再看看	t k k
+只好	t h
+只有	t y
+實習生	z z s
+忘記	m k
+忘記回了	m k g l
+標準吳語	p c n n
+査査	z z
+査査看	z z k
+帶回來	ta ghuei lai
+帶回來	t g l
+回來	g l
+供認領	kiung nieng lieng
+供認領	k n l
+勢力範圍	shi liek vae yu
+勢力範圍	s l v y
+影響力	ieng hiang liek
+影響	ieng hiang
+影響	i h
+靜坐	zieng zou
+靜坐	z z
+申請	shing tshieng
+申請	s t
+清真	tshieng cing
+清真	t c
+太慘了	t t l
+人呢	ning ni
+人呢	n n
+如何	n g
+如然	n n
+然介	neng1 ka3
+如然	na1 neng1
+箇然	keh4 neng1
+昰然	dik4 neng1
+許然	hei2 neng1
 
 #新聞詞彙
 
-國際	kt
-部門	bm
-記者	kc
-編輯	pt
-提問	dm
-開會	kg
-假使	ks
-若	n
-因此	it
-因爲	iy
-所以	sy
-雖然	sn
-但是	dz
-盡管	zingkuoe	80%
-盡管	zk
-無論	ml
-地區	dk
-水壩	sp
-半島	poetau	80%
-搬到	poetau	50%
-搬到	pt	50%
-半島	pt	70%
-新聞網	smm
-我弄個	nlk
-廣播公司	kpks
-塔斯社	tsz
-美國有線電視新聞網	mkysdzsmm
-福克斯新聞	fkssm
-推特	td
-臉書	ls
-微信	ms
-發佈消息	fpss
-發佈	fp	60%
-發表	fp	40%
-發表聲明稱	fpsmc
-聲明	sm
-指出	tc
-表示	pz
-分析	fs
-衛報	yp
-硬盤	nb
-侉侉	kk
-衝突	cd
-俄烏衝突	nucd
-危機	nk
-澎湃新聞	bpsm
-澎湃新聞記者	bpsmkc
-南博一	npi
-公民	km
-綁架	pk
-挾持	gz
-造成	zz	30%
-死亡	sm	50%
-受傷	zs	70%
-地震	dc
-海嘯	hs
-槍擊案	tko
-身亡	sm	40%
-遊行示威	ygzi
-抗議示威	knzi
-示威	zyiu	80%
-抗議者	knc
-感染	kn
-新冠疫情	skyz
-環球時報	ggzp
-新華社	sgz
-共同社	gdz
-韓聯社	glz
-朝中社	jcz
-核試驗	gsn
-軍事演習	kzyz
-演習	yz
-內政	nc
-中國	ck
-中國內政	cknc
-爭議島嶼	tntz
-爭議領土	tnlt
-發射	fz
-遭炮擊	tpk
-遭襲	tz
-日本放送協會	npfsgg
-政府	cf
-紐約時報	nizp
-華盛頓郵報	gztyp
-英國廣播公司	ikkpks
-路透社	ltz
-華爾街日報	gnknp
-北京時間	pkzk
-時間	zk
-時間	zykae	70%
-濃縮鈾	nsy
-當地時間	tdzk
-報道	pd
-襲擊	zikkiek	90%
-恐怖襲擊	kpzk
-爆炸	pt
-無人機	muningki	90%
-無人機	mnk
-戰鬥機	cieteuki	90%
-轟炸機	huangtsoki	90%
-轟炸機	htk
-戰爭	cietsang
-戰爭	ct	40%
-罪行	zg
-疫情	yz
-防疫	by
-自衛隊	zyd
-陸軍	lk
-海軍	hk	50%
-空軍	kk	70%
-香港	hk	80%
-經濟	kt
-市場	zj
-火箭	ht
-坦克	tk
-火炮	hp
-火箭炮	htp
-海瑪斯	hms
-潛艇	ziedieng 100%
-潛艇	zd
-皇帝	ghuongti
-皇帝	gt	20%
-國王	kuekyong
-國王	ky
-蘇丹	st
-哈里發	hlf
-埃米爾	amn
-女王	ny
-國家元首	kkns
-總統	tt
-大統領	dathunglieng	80%
-副總統	ftt	30%
-總理	tl
-副總理	ftl
-首相	shieusiang
-首相	ss
-首席部長	szbc
-部長	bc
-當局	tg
-政黨	ct	30%
-執政黨	ctt
-反對黨	ftt	90%
-多數席位	tszy
-準備	cb	90%
-投票	deuphiau
-投票	dp
-棄權	kg
-反對	faetei
-反對	ft
-贊成	tz
-通過	thungkou
-通過	tk
-一致同意	itdi
-克里姆林宮	klmlk
-軍事基地	kzkd
-海軍基地	hkkd
-空軍基地	kkkd
-跑道	baudau
-跑道	bd
-塔利班	tlp
-伊斯蘭國	islk
-組織	tsuciek	100%
-組織	tc
-極端	giektoe
-極端	gt	90%
-極端組織	gttc
-恐怖組織	kptc
-自殺式爆炸襲擊	zssptzk
-失去	sk	50%
-外交部	nkb	80%
-外交部長	nkbc
-外交大臣	nkdz
-外相	ns
-國防部	kbb	80%
-國防部長	kbbc
-國防大臣	kbdz
-防衛大臣	bydz
-防相	bs
-財政部	zcb	70%
-財政部長	zcbc	80%
-財政大臣	zcdz	80%
-白宮	bk	60%
-比較	pk	50%
-包括	pk	50%
-北京	pk	60%
-核平	gb	60%
-華盛頓	gzt	90%
-市長	zc	50%
-財政收入	zaiciengshieunik
-財政支出	zaiciengtsychiuik
-財政收入	zcsn
-財政支出	zctc
-選舉	sk	70%
-大選	ds
-競選	gs
-候選人	gsn
-突厥語	doekkioehngei
-北約	pekiak
-歐盟	em
-東盟	tm
-非盟	fm
-阿盟	am
-阿拉伯國家聯盟	alpkklm
-聯盟	liemang
-聯盟	lm
-盟友	my
-吳越	ny
-日本	np
-韓國	gk
-朝鮮	js
-支那	tn
-印度支那	idtn
-密支那	mtn
-越南	yn
-老撾	lt
-滿洲	mc
-蒙古	mk
-柬埔寨	kpz
-南海	nh
-東海	th
-海峽	hg
-沖繩	jiungzhieng
-沖繩	jz
-琉球	lg
-俄羅斯	nls
-印度	id
-泰國	tk
-緬甸	md
-馬來西亞	mlso
-新加坡	skp
-文萊	ml
-菲律賓	flp
-印尼	ingni	90%
-因而	ingni	40%
-而且	nitshia	90%
-然而	nieni	90%
-可是	kz
-印度尼西亞	idnso
-東帝汶	ttm
-巴布亞新幾內亞	pposkno
-澳大利亞	adlo
-新西蘭	ssl
-所羅門羣島	slmgt
-羣島	gt	50%
-沒啥	ms	70%
-孟加拉國	mklk
-斯里蘭卡	sllk
-巴基斯坦	pkst
-尼泊爾	nbn
-不丹	ft
-阿富汗	afg
-伊朗	il
-塔吉克斯坦	tkkst
-吉爾吉斯斯坦	knksst
-哈薩克斯坦	hskst
-烏茲別克斯坦	uzbkst
-土庫曼斯坦	tkmst
-阿塞拜疆	aspk
-亞美尼亞	omno
-格魯吉亞	klko
-土耳其	tng
-伊拉克	ilk
-敘利亞	zlo
-黎巴嫩	lpn
-巴勒斯坦	plst
-哈馬斯	hms	20%
-法塔赫	fth
-以色列	ysl
-約旦	it
-沙特	sd
-巴林	pl
-科威特	kid
-卡塔爾	ktn
-阿聯酋	alz
-迪拜	dp
-阿布紮比	aptb
-阿曼	am
-也門	ym
-內置	nt
-內志	nt
-漢志	ht
-埃及	ag
-西奈半島	snpt
-尼羅河	nlg
-利比亞	lpo
-突尼斯	dns
-阿爾及利亞	anglo
-摩洛哥	mlk
-摩納哥	mnk
-毛里塔尼亞	mltno
-南蘇丹	nst
-埃塞俄比亞	asnpo
-索馬里	sml
-吉布提	kpd
-科摩羅	kmm
-坦桑尼亞	tsno
-肯尼亞	kno
-烏干達	ukd
-剛果	kk
-尼日利亞	nnlo
-尼日爾	nnn
-馬里	ml
-安哥拉	okl
-津巴布韋	tppy
-馬達加斯加	mdksk
-南非	nf
-阿拉伯	alp
-希臘	hl
-伊斯坦布爾	istpn
-君士坦丁堡	kzttp
-羅馬尼亞	lmno
-保加利亞	pklo
-塞爾維亞	snyo
-克羅地亞	kldo
-科索沃	ksu
-阿爾巴尼亞	anbno
-波斯尼亞	psno
-波黑	ph
-塞族	sz
-塞浦路斯	spls
-馬耳他	mnt
-意大利	idl
-斯洛文尼亞	slmno
-南斯拉夫	nslf
-蘇聯	sl
-黑山	hs
-匈牙利	hnl
-烏克蘭	ukl
-白俄羅斯	bnls
-芬蘭	fl
-瑞典	zhiutiae	90%
-瑞典	zt
-挪威	ni
-冰島	pt
-格陵蘭	kll
-丹麥	tm
-愛沙尼亞	asno
-拉脫維亞	ltyo
-立陶宛	ldi
-普魯士	plz
-德國	tk
-盧森堡	lsp
-老色胚	lsp	50%
-波蘭	pl
-捷克	zk
-斯洛伐克	slvk
-荷蘭	gl
-比利時	plz
-瑞士	zz
-奧地利	adl
-教皇	kg
-梵蒂岡	vtk
-法國	fk
-英國	ik
-英格蘭	ikl
-蘇格蘭	skl
-威爾士	inz
-愛爾蘭	anl
-加拿大	knd
-美國	mk
-紐約	ni
-佐治亞州	tdoc
-馬里蘭州	mllc
-路易斯安那州	lysonc
-佛羅里達州	vlldc
-內華達州	ngdc
-得克薩斯州	tkssc
-佛州	vc
-得州	tc
-加州	kc
-加利福尼亞州	klfnoc
-俄克拉荷馬州	nklgmc
-密歇根州	mhkc
-俄勒岡州	nlkc
-華盛頓州	gztc
-夏威夷州	giyc
-阿拉斯加州	alskc
-肯塔基州	ktkc
-關島	kuaetau	70%
-關島	kt
-薩摩亞	smo
-古巴	kp
-墨西哥	msk
-巴拿馬	pnm
-巴西	ps
-阿根廷	akd
-智利	tl
-委內瑞拉	inzl
-哥倫比亞	klbo
-祕魯	pilu
-烏拉圭	ulk
-巴拉圭	plk
-薩爾瓦多	snnt
-西班牙	spn
-直布羅陀	jpld
-英屬	iz
-美屬	mz
-法屬	fz
-西屬	sz
-殖民地	zmd
-聯合國	lgk
-發言	fn
-演講	yk
-大會	dg
-表決	pk
-皇家海軍	gkhk
-皇家空軍	gkkk
-海軍陸戰隊	hklcd
-葡萄牙	bdn
-穆斯林	msl
-伊斯蘭教	islk
-宗教	tk
-基督教	ktk
-東正教	tck
-天主教	tck
-教堂	kd
-清真寺	tcz
-寺廟	zm
-廟宇	my
-印度教	idk
-錫克教	skk
-佛教	vk
-神職人員	zcny
-宗教領袖	tklz
-國會	kg	70%
-國會大廈	kgdg
-教會	kg	40%
-議會	ng
-衆議院	cny	40%
-衆議員	cny	70%
-參議院	sny	40%
-參議員	sny	70%
-參衆兩院	scly
-冗長議事	njnz
-議事	nz
-上院	zy
-下院	gy
-美元	mn
-人民幣	nmb
-英鎊	ip
-歐元	en
-盧布	lp
-日元	nn
-韓元	gn
-盧比	lp
-里拉	ll
-迪拉姆	dlm
-迪爾汗	dng
-克朗	kl
-落班	lokpae
-落班	lp
-上班	zhiangpae
-上班	zp
-幾點	kitiae
-一塌糊塗	itgd
-北極	pekgiek
-南極	negiek
-新聞	sm
-太平洋島國	tbytk
-發展中國家	fcckk
-發達國家	fdkk
-南南合作	nngt
-外交關系	nkkg
-拜登	pt
-特朗普	dlp
-馬克龍	mkl
-普京	pk
-澤連斯基	dlsk
-朔爾茨	snz
-約翰遜	igs
-莫迪	md
-佐科	tk
-岸田文雄	ndmy
-尹錫悅	ysy
-特魯多	dlt
-穆罕默德	mhmt
-內塔尼亞胡	ntnog
-埃爾多安	anto
-特區	dk
-行政長官	gcck
-特別行政區	dbgck
-城市	zz	20%
-已發稿	yfk
-搞啥	gs
-啥計劃	skg
-換圖	gd
-原創	nt
-請配圖	tpd
-放一起	fik
-綜述	tz
-綜合	tg
-選題單	sioeditae
-選題單	sdt
-我寫下	nsg
-弄啥	ls
-老師	ls
-三審	saeshing
-三審	ss
-明早發	mtf
-屏蔽	biengpi	80%
-屏蔽	bp
-掱手	bo1shieu2
-水彈槍	shiudaetshiang
-怎麼	ciek4mek4
-垃圾	leh4seh4
-軍事行動	kzgd
-活動	gd
-發動	faehdung
-發動	fd
-看看	khoe1khoe1	1000
-公眾號	kung1ciung1ghao1
-公眾號	kcg
-總理	tsung2li2	1000
-造紙	zau2tsy2	1000
-造紙	zao2tsy2	1000
-稿子	kau2tsy2	1000
-稿子	kao2tsy2	1000
-文章	meng1ciang1
-文章	mc
-我都	ngou2tu1	1000000
-標吳	piau2ngu1
-標吳	pn
-語法	ngei2faeh4
-語法	nf
-詞彙	zy1yu3
-音系	ig
-翻譯	fae1yek4
-編譯	piae1yek4
-翻譯	fy
-編譯	py
-朋友	beng1yeu2
-朋友	by
-朋友家	beng1yeu2ko1
-宕落	dong3lok4
-押上	aeh4zhiang2
-安裝	oe1tsong3
-自動	zy3dung2
-自動	zd
-他動	thou1dung2
-他動	td
-要弗要	iau1fek4iau3
-要弗要	iao1fek4iao3
-要弗要	ifi
-要不要	iau1fek4iau3
-要不要	iao1fek4iao3
-要不要	ifi
-盡盡	zing2zing2
-盡盡	zz
-盡管	zing2kuoe2
-盡管	zk
-盡用	tsing2yung3
-盡打	tsing2tang2
+國際	k t
+部門	b m
+記者	k c
+編輯	p t
+提問	d m
+開會	k g
+假使	k s
+若	n1
+因此	i t
+因爲	i y
+所以	s y
+雖然	s n
+但是	d z
+盡管	zing kuoe	80%
+盡管	z k
+無論	m l
+地區	d k
+水壩	s p
+半島	poe tau	80%
+搬到	poe tau	50%
+搬到	p t	50%
+半島	p t	70%
+新聞網	s m m
+我弄個	n l k
+廣播公司	k p k s
+塔斯社	t s z
+美國有線電視新聞網	m k y s d z s m m
+福克斯新聞	f k s s m
+推特	t d
+臉書	l s
+微信	m s
+發佈消息	f p s s
+發佈	f p	60%
+發表	f p	40%
+發表聲明稱	f p s m c
+聲明	s m
+指出	t c
+表示	p z
+分析	f s
+衛報	y p
+硬盤	n b
+侉侉	k k
+衝突	c d
+俄烏衝突	n u c d
+危機	n k
+澎湃新聞	b p s m
+澎湃新聞記者	b p s m k c
+南博一	n p i
+公民	k m
+綁架	p k
+挾持	g z
+造成	z z	30%
+死亡	s m	50%
+受傷	z s	70%
+地震	d c
+海嘯	h s
+槍擊案	t k o
+身亡	s m	40%
+遊行示威	y g z i
+抗議示威	k n z i
+示威	zy iu	80%
+抗議者	k n c
+感染	k n
+新冠疫情	s k y z
+環球時報	g g z p
+新華社	s g z
+共同社	g d z
+韓聯社	g l z
+朝中社	j c z
+核試驗	g s n
+軍事演習	k z y z
+演習	y z
+內政	n c
+中國	c k
+中國內政	c k n c
+爭議島嶼	t n t z
+爭議領土	t n l t
+發射	f z
+遭炮擊	t p k
+遭襲	t z
+日本放送協會	n p f s y g
+政府	c f
+紐約時報	n i z p
+華盛頓郵報	g z t y p
+英國廣播公司	i k k p k s
+路透社	l t z
+華爾街日報	g n k n p
+北京時間	p k z k
+時間	z k
+時間	zy kae	70%
+濃縮鈾	n s y
+當地時間	t d z k
+報道	p d
+襲擊	zik kiek	90%
+恐怖襲擊	k p z k
+爆炸	p t
+無人機	mu ning ki	90%
+無人機	m n k
+戰鬥機	cie teu ki	90%
+轟炸機	huang tso ki	90%
+轟炸機	h t k
+戰爭	cie tsang
+戰爭	c t	40%
+罪行	z g
+疫情	y z
+防疫	b y
+自衛隊	z y d
+陸軍	l k
+海軍	h k	50%
+空軍	k k	70%
+香港	h k	80%
+經濟	k t
+市場	z j
+火箭	h t
+坦克	t k
+火炮	h p
+火箭炮	h t p
+海瑪斯	h m s
+潛艇	zie dieng 100%
+潛艇	z d
+皇帝	ghuong ti
+皇帝	g t	20%
+國王	kuek yong
+國王	k y
+蘇丹	s t
+哈里發	h l f
+埃米爾	a m n
+女王	n y
+國家元首	k k n s
+總統	t t
+大統領	da thung lieng	80%
+副總統	f t t	30%
+總理	t l
+副總理	f t l
+首相	shieu siang
+首相	s s
+首席部長	s z b c
+部長	b c
+當局	t g
+政黨	c t	30%
+執政黨	c t t
+反對黨	f t t	90%
+多數席位	t s z y
+準備	c b	90%
+投票	deu phiau
+投票	d p
+棄權	k g
+反對	fae tei
+反對	f t
+贊成	t z
+通過	thung kou
+通過	t k
+對的	t t
+一致同意	i t d i
+克里姆林宮	k l m l k
+軍事基地	k z k d
+海軍基地	h k k d
+空軍基地	k k k d
+跑道	bau dau
+跑道	b d
+塔利班	t l p
+伊斯蘭國	i s l k
+組織	tsu ciek	100%
+組織	t c
+極端	giek toe
+極端	g t	90%
+極端組織	g t t c
+恐怖組織	k p t c
+自殺式爆炸襲擊	z s s p t z k
+失去	s k	50%
+外交部	n k b	80%
+外交部長	n k b c
+外交大臣	n k d z
+外相	n s
+國防部	k b b	80%
+國防部長	k b b c
+國防大臣	k b d z
+防衛大臣	b y d z
+防相	b s
+財政部	z c b	70%
+財政部長	z c b c	80%
+財政大臣	z c d z	80%
+白宮	b k	60%
+比較	p k	50%
+包括	p k	50%
+北京	p k	60%
+核平	g b	60%
+華盛頓	g z t	90%
+市長	z c	50%
+財政收入	zai cieng shie unik
+財政支出	zai cieng tsy chiuik
+財政收入	z c s n
+財政支出	z c t c
+選舉	s k	70%
+大選	d s
+競選	g s
+候選人	g s n
+突厥語	doek kioeh ngei
+北約	pek iak
+歐盟	e m
+東盟	t m
+非盟	f m
+阿盟	a m
+阿拉伯國家聯盟	a l p k k l m
+聯盟	lie mang
+聯盟	l m
+盟友	m y
+吳越	n y
+日本	n p
+韓國	g k
+朝鮮	j s
+支那	t n
+印度支那	i d t n
+密支那	m t n
+越南	y n
+老撾	l t
+滿洲	m c
+蒙古	m k
+柬埔寨	k p z
+南海	n h
+東海	t h
+海峽	h g
+沖繩	jiungz hieng
+沖繩	j z
+琉球	l g
+俄羅斯	n l s
+印度	i d
+泰國	t k
+緬甸	m d
+馬來西亞	m l s o
+新加坡	s k p
+文萊	m l
+菲律賓	f l p
+印尼	ing ni	90%
+因而	ing ni	40%
+而且	ni tshia	90%
+然而	nie ni	90%
+可是	k z
+印度尼西亞	i d n s o
+東帝汶	t t m
+巴布亞新幾內亞	p p o s k n o
+澳大利亞	a d l o
+新西蘭	s s l
+所羅門羣島	s l m g t
+羣島	g t	50%
+沒啥	m s	70%
+孟加拉國	m k l k
+斯里蘭卡	s l l k
+巴基斯坦	p k s t
+尼泊爾	n b n
+不丹	f t
+阿富汗	a f g
+伊朗	i l
+塔吉克斯坦	t k k s t
+吉爾吉斯斯坦	k n k s s t
+哈薩克斯坦	h s k s t
+烏茲別克斯坦	u z b k s t
+土庫曼斯坦	t k m s t
+阿塞拜疆	a s p k
+亞美尼亞	o m n o
+格魯吉亞	k l k o
+土耳其	t n g
+伊拉克	i l k
+敘利亞	z l o
+黎巴嫩	l p n
+巴勒斯坦	p l s t
+哈馬斯	h m s	20%
+法塔赫	f t h
+以色列	y s l
+約旦	i t
+沙特	s d
+巴林	p l
+科威特	k i d
+卡塔爾	k t n
+阿聯酋	a l z
+迪拜	d p
+阿布紮比	a p t b
+阿曼	a m
+也門	y m
+內置	n t
+內志	n t
+漢志	h t
+埃及	a g
+西奈半島	s n p t
+尼羅河	n l g
+利比亞	l p o
+突尼斯	d n s
+阿爾及利亞	a n g l o
+摩洛哥	m l k
+摩納哥	m n k
+毛里塔尼亞	m l t n o
+南蘇丹	n s t
+埃塞俄比亞	a s n p o
+索馬里	s m l
+吉布提	k p d
+科摩羅	k m m
+坦桑尼亞	t s n o
+肯尼亞	k n o
+烏干達	u k d
+剛果	k k
+尼日利亞	n n l o
+尼日爾	n n n
+馬里	m l
+安哥拉	o k l
+津巴布韋	t p p y
+馬達加斯加	m d k s k
+南非	n f
+阿拉伯	a l p
+希臘	h l
+伊斯坦布爾	i s t p n
+君士坦丁堡	k z t t p
+羅馬尼亞	l m n o
+保加利亞	p k l o
+塞爾維亞	s n y o
+克羅地亞	k l d o
+科索沃	k s u
+阿爾巴尼亞	a n b n o
+波斯尼亞	p s n o
+波黑	p h
+塞族	s z
+塞浦路斯	s p l s
+馬耳他	m n t
+意大利	i d l
+斯洛文尼亞	s l m n o
+南斯拉夫	n s l f
+蘇聯	s l
+黑山	h s
+匈牙利	h n l
+烏克蘭	u k l
+白俄羅斯	b n l s
+芬蘭	f l
+瑞典	zhiu tiae	90%
+瑞典	z t
+挪威	n i
+冰島	p t
+格陵蘭	k l l
+丹麥	t m
+愛沙尼亞	a s n o
+拉脫維亞	l t y o
+立陶宛	l d i
+普魯士	p l z
+德國	t k
+盧森堡	l s p
+老色胚	l s p	50%
+波蘭	p l
+捷克	z k
+斯洛伐克	s l v k
+荷蘭	g l
+比利時	p l z
+瑞士	z z
+奧地利	a d l
+教皇	k g
+梵蒂岡	v t k
+法國	f k
+英國	i k
+英格蘭	i k l
+蘇格蘭	s k l
+威爾士	i n z
+愛爾蘭	a n l
+加拿大	k n d
+美國	m k
+紐約	n i
+佐治亞州	t d o c
+馬里蘭州	m l l c
+路易斯安那州	l y s o n c
+佛羅里達州	v l l d c
+內華達州	n g d c
+得克薩斯州	t k s s c
+佛州	v c
+得州	t c
+加州	k c
+加利福尼亞州	k l f n o c
+俄克拉荷馬州	n k l g m c
+密歇根州	m h k c
+俄勒岡州	n l k c
+華盛頓州	g z t c
+夏威夷州	g i y c
+阿拉斯加州	a l s k c
+肯塔基州	k t k c
+關島	kuae tau	70%
+關島	k t
+薩摩亞	s m o
+古巴	k p
+墨西哥	m s k
+巴拿馬	p n m
+巴拉圭	p l k
+烏拉圭	u l k
+巴西	p s
+阿根廷	a k d
+智利	t l
+委內瑞拉	i n z l
+哥倫比亞	k l b o
+祕魯	pi lu
+烏拉圭	u l k
+巴拉圭	p l k
+薩爾瓦多	s n n t
+西班牙	s p n
+直布羅陀	j p l d
+英屬	i z
+美屬	m z
+法屬	f z
+西屬	s z
+殖民地	z m d
+聯合國	l g k
+發言	f n
+演講	y k
+大會	d g
+表決	p k
+皇家海軍	g k h k
+皇家空軍	g k k k
+海軍陸戰隊	h k l c d
+葡萄牙	b d n
+穆斯林	m s l
+伊斯蘭教	i s l k
+宗教	t k
+基督教	k t k
+東正教	t c k
+天主教	t c k
+教堂	k d
+清真寺	t c z
+寺廟	z m
+廟宇	m y
+印度教	i d k
+錫克教	s k k
+佛教	v k
+神職人員	z c n y
+宗教領袖	t k l z
+國會	k g	70%
+國會大廈	k g d g
+教會	k g	40%
+議會	n g
+衆議院	c n y	40%
+衆議員	c n y	70%
+參議院	s n y	40%
+參議員	s n y	70%
+參衆兩院	s c l y
+冗長議事	n j n z
+議事	n z
+上院	z y
+下院	g y
+美元	m n
+人民幣	n m b
+英鎊	i p
+歐元	e n
+盧布	l p
+日元	n n
+韓元	g n
+盧比	l p
+里拉	l l
+迪拉姆	d l m
+迪爾汗	d n g
+克朗	k l
+落班	lok pae
+落班	l p
+上班	zhiang pae
+上班	z p
+幾點	ki tiae
+一塌糊塗	i t g d
+北極	pek giek
+南極	ne giek
+新聞	s m
+太平洋島國	t b y t k
+發展中國家	f c c k k
+發達國家	f d k k
+南南合作	n n g t
+外交關系	n k k g
+拜登	p t
+特朗普	d l p
+馬克龍	m k l
+普京	p k
+澤連斯基	d l s k
+朔爾茨	s n z
+約翰遜	i g s
+莫迪	m d
+佐科	t k
+岸田文雄	n d m y
+尹錫悅	y s y
+特魯多	d l t
+穆罕默德	m h m t
+內塔尼亞胡	n t n o g
+埃爾多安	a n t o
+特區	d k
+行政長官	g c c k
+特別行政區	d b g c k
+城市	z z	20%
+已發稿	y f k
+搞啥	g s
+啥計劃	s k g
+換圖	g d
+原創	n t
+請配圖	t p d
+放一起	f i k
+綜述	t z
+綜合	t g
+選題單	sioe di tae
+選題單	s d t
+我寫下	n s g
+弄啥	l s
+老師	l s
+三審	sae shing
+三審	s s
+明早發	m t f
+屏蔽	bieng pi	80%
+屏蔽	b p
+掱手	bo1 shieu2
+水彈槍	shiu dae tshiang
+怎麼	ciek4 mek4
+垃圾	leh4 seh4
+軍事行動	k z g d
+活動	g d
+發動	faeh4 dung2
+發動	f d
+看看	khoe1 khoe1	1000
+公眾號	kung1 ciung1 ghao1
+公眾號	k c g
+總理	tsung2 li2	1000
+造紙	zau2 tsy2	1000
+造紙	zao2 tsy2	1000
+稿子	kau2 tsy2	1000
+稿子	kao2 tsy2	1000
+文章	meng1 ciang1
+文章	m c
+我都	ngou2 tu1	1000000
+標吳	piau2 ngu1
+標吳	p n
+語法	ngei2 faeh4
+語法	n f
+詞彙	zy1 yu3
+音系	i g
+翻譯	fae1 yek4
+編譯	piae1 yek4
+翻譯	f y
+編譯	p y
+朋友	beng1 yeu2
+朋友	b y
+朋友家	beng1 yeu2 ko1
+宕落	dong3 lok4
+押上	aeh4 zhiang2
+安裝	oe1 tsong3
+自動	zy3 dung2
+自動	z d
+他動	thou1 dung2
+他動	t d
+要弗要	iau1 fek4 iau3
+要弗要	iao1 fek4 iao3
+要弗要	i f i
+要不要	iau1 fek4 iau3
+要不要	iao1 fek4 iao3
+要不要	i f i
+盡盡	zing2 zing2
+盡盡	z z
+盡管	zing2 kuoe2
+盡管	z k
+盡用	tsing2 yung3
+盡打	tsing2 tang2
 
 #標準吳語國名
 
-阿曼利卡	akmaelika
-孛瀨齊胡	beklazighu
-孛哈瀨脫	bekhalathoeh
-露西耶	lusiya
-墨西加	meksiko
-般露	paelu
-掣嵐	chile
-喑斯班艾	esypaenga
-伊朗	ilong
-各老無比耶	koklaumbiya
-孛利吞	beklitheng
-派溪斯淌	phakhisythong
-蘇歐地葉	sueudiyeh
-衣帶利耶	italiya
-彭啦迪舒	bangladiekshy
-奪伊掣冷脫	doehichilangthoeh
-於瀨克	eilakhek
-高島勒	kautauleh
-伊斯瀨晏勒	isylaaelek
-歐曼	eumae
-蘇利耶	suliya
-魯孛南	lubekne
-非萊斯丁	filaisytieng
-炎文	yemeng
-土垃溪炎	thulehkhiye
-弗朗斯	fehlongsy
-巴垃都也勒	polehtughalek
-喑啦斯	elas
-喑蓮	elie
-蘇亞米	suomi
-烏克瀨伊那	ukheklaina
-介那大	kanada
-蘇淡	sudae
-巴勒斯介	poleksyka
-南特冷脫	nedeklangdoeh
-安斯脫唻世	oesythoehlaishi
-舒萬伊次	shyvaeitshy
-斯垃畀斯介	sylehpehsyka
-掣喑舒介	chieshyka
-卡柴克斯淌	khazakheksythong
-基垃其士斯淌	kilehgizysythong
-安士別基斯淌	oezybiehkisythong
-土垃克曼尼斯淌	thulehkhekmaenisythong
-叨叱基斯淌	thauchikkisythong
-阿夫也尼斯淌	akfughanisythong
-阿瀨孛	aklabek
-庫垃特	khulehdek
-庫垃地斯淌	khulehdisythong
-輸入灋	shiu1nik4faeh4
+阿曼利卡	ak mae li ka
+孛瀨齊胡	bek la zi ghu
+孛哈瀨脫	bek ha la thoeh
+露西耶	lu si ya
+墨西加	mek si ko
+般露	pae lu
+掣嵐	chi le
+喑斯班艾	e sy pae nga
+伊朗	i long
+各老無比耶	kok lau m bi ya
+孛利吞	bek li theng
+派溪斯淌	pha khi sy thong
+蘇歐地葉	su eu di yeh
+衣帶利耶	i ta li ya
+彭啦迪舒	bang la diek shy
+奪伊掣冷脫	doeh i chi lang thoeh
+於瀨克	ei la khek
+高島勒	kau tau leh
+伊斯瀨晏勒	i sy la ae lek
+歐曼	eu mae
+蘇利耶	su li ya
+魯孛南	lu bek ne
+非萊斯丁	fi lai sy tieng
+炎文	ye meng
+土垃溪炎	thu leh khi ye
+弗朗斯	feh long sy
+巴垃都也勒	po leh tu gha lek
+喑啦斯	e la sy
+喑蓮	e lie
+蘇亞米	su o mi
+烏克瀨伊那	u khek la i na
+介那大	ka na da
+蘇淡	su dae
+巴勒斯介	po lek sy ka
+南特冷脫	ne dek lang thoeh
+安斯脫唻世	oe sy thoeh lai shi
+舒萬伊次	shy vae i tshy
+斯垃畀斯介	sy leh peh sy ka
+掣喑舒介	chie shy ka
+卡柴克斯淌	kha za khek sy thong
+基垃其士斯淌	ki leh gi zy sy thong
+安士別基斯淌	oe zy bieh ki sy thong
+土垃克曼尼斯淌	thu leh khek mae ni sy thong
+叨叱基斯淌	thau chik ki sy thong
+阿夫也尼斯淌	ak fu gha ni sy thong
+阿瀨孛	ak la bek
+庫垃特	khu leh dek
+庫垃地斯淌	khu leh di sy thong
+輸入灋	shiu1 nik4 faeh4
 
 #甌江片、台州片詞彙
 
-口濫水	kheu2lae2shiu2
-攔扎下	laeh4tsaeh4gho2
-攔胳肢	laeh4kok4tsy1
-鉸剪	kau1tsie2
-㵾水	tsheng3shiu2
-蟹骹	ha2khau1
-眼鏡骹	ngae2kieng3khau1
-蛟蚻	kauzaeh
-風颱	fungdai
-瑲朞	tshiangki
-許瑲	heitshiang
-手䘼	shieuioe
-蝤蛑	yeumeu
-是我	zekngou
-是汝	zekni
-是渠	zekgei
-是佢	zekgei
-佢倈	geila
-佢儂	geinung
-渠儂	geinung
-佢都	geitaeh
-渠都	geitaeh
-汝都	geitaeh
-我都	ngoutaeh
-汝儂	ninung
-我儂	ngounung
-佢個	geikeh
-佢倈個	geilakeh
-磉礎	songtshu
-埲塵	bungjing
-打降	tanggong
-丁倒	tiengtau
-如能	naneng
-如然	nanie
-積力	tsiekliek
-稅器店	shiukhitiae
-叫扁	kiaupiae
-康䘆	khonghie
-早界	tsauka
-晏界	aeka
-日晝	nikcieu
-天光	thiaekuong
-牛牯	ngieuku
-雞娘	kiniang
-牛娘	ngieuniang
-牛兒	ngieuni
-老伯ㄦ瓜	laupakngkuo
-豬牯	tsyku
-豬娘	tsyniang
-囡囡豬	noenoetsy
-老鼠皮翼	lautshybiyek
-飛絲拉網ㄦ	fisylehmongng
-飛螢光光	fighiungkuongkuong
-蟑蜢	ciangmang
-眠床	miaezhiong
-雞卵	kiloe
-飯焦	vaetsiau
+口濫水	kheu2 lae2 shiu2
+攔扎下	laeh4 tsaeh4 gho2
+攔胳肢	laeh4 kok4 tsy1
+鉸剪	kau1 tsie2
+㵾水	tsheng3 shiu2
+蟹骹	ha2 khau1
+眼鏡骹	ngae2 kieng3 khau1
+蛟蚻	kau zaeh
+風颱	fung dai
+瑲朞	tshiang ki
+許瑲	hei tshiang
+手䘼	shieu ioe
+蝤蛑	yeu meu
+是我	zek ngou
+是汝	zek ni
+是渠	zek gei
+是佢	zek gei
+佢倈	gei la
+佢儂	gei nung
+渠儂	gei nung
+佢都	gei taeh
+渠都	gei taeh
+汝都	gei taeh
+我都	ngou taeh
+汝儂	ni nung
+我儂	ngou nung
+佢個	gei keh
+佢倈個	gei la keh
+磉礎	song tshu
+埲塵	bung jing
+打降	tang gong
+丁倒	tieng tau
+如能	na1 neng1
+如然	na1 neng1
+積力	tsiek liek
+稅器店	shiu khi tiae
+叫扁	kiau piae
+康䘆	khong hie
+早界	tsau ka
+晏界	ae ka
+日晝	nik cieu
+天光	thiae kuong
+牛牯	ngieu ku
+雞娘	ki niang
+牛娘	ngieu niang
+牛兒	ngieu ni
+老伯ㄦ瓜	lau pak ng kuo
+豬牯	tsy ku
+豬娘	tsy niang
+囡囡豬	noe noe tsy
+老鼠皮翼	lau tshy bi yek
+飛絲拉網ㄦ	fi sy leh mong ng
+飛螢光光	fi ghiung kuong kuong
+蟑蜢	ciang mang
+眠床	miae zhiong
+雞卵	ki loe
+飯焦	vae tsiau
 
 # 甌江片區分字，標準吳語弗分
 
