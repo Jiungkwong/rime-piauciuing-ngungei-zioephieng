@@ -46,9 +46,22 @@ import_tables:
 
 # 附加字表
 
+嗍	siok4
+嗦	sok4
+欬	khoeh4
+咳	khoeh4
+傘	soe2
+埂	kuang1
+喖	ghu1
+很	geng2
+勥	giang3
+閂	shioe1
+梳	sy1
+核	ghueh4
+埤	phi3
 卡	zeh4
 缸	kong1
-刣	thai1
+煺	thei1
 酞	tha3
 凼	dong2
 哼	hang1
@@ -26497,7 +26510,7 @@ import_tables:
 璇	zioe1
 臟	zong3
 啊	a1
-嗯	nk5
+嗯	ng5
 啦	la1
 嗎	mo3
 嘛	ma1
@@ -36550,7 +36563,7 @@ import_tables:
 七行詩
 七覺支
 七魄
-万俟
+万俟	mek4 gi1
 丈二和尚
 丈二和尚摸不著頭腦
 丈二金剛
@@ -83313,7 +83326,7 @@ import_tables:
 沒不通風
 沒心想
 沒扔
-沒用場	mehyungjiang
+沒用場	mekyungjiang
 沒安
 沒老
 沒辰光
@@ -121616,8 +121629,8 @@ import_tables:
 好戲	hau hi
 之故	tsy ku
 且顧	tshia ku
-弗得	feh tek
-弗然	feh nie
+弗得	fek tek
+弗然	fek nie
 便算	bie soe
 赫物	hak4 mek4
 好的	h t
@@ -121658,7 +121671,7 @@ import_tables:
 啥人	s n
 許物	hei mek
 許物	h m
-弗物	feh mek
+弗物	fek mek
 弗物	f m
 或者	g c
 一頭	ik deu
@@ -122376,7 +122389,7 @@ import_tables:
 非萊斯丁	fi lai sy tieng
 炎文	ye meng
 土垃溪炎	thu leh khi ye
-弗朗斯	feh long sy
+弗朗斯	fek long sy
 巴垃都也勒	po leh tu gha lek
 喑啦斯	e la sy
 喑蓮	e lie
@@ -122403,7 +122416,8 @@ import_tables:
 
 #甌江片、台州片詞彙
 
-口濫水	kheu2 lae2 shiu2
+蹔蝍	zae3 tsik4
+口灠水	kheu2 lae2 shiu2
 攔扎下	laeh4 tsaeh4 gho2
 攔胳肢	laeh4 kok4 tsy1
 鉸剪	kau1 tsie2
