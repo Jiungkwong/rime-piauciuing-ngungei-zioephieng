@@ -2,13 +2,11 @@
 標準吳語輸入灋 · Rime input schemas for Standard Nguyoetian
 ## 標準吳語拼音輸入灋
 
-## 標準吳語拼音輸入灋
+鑽石恒久遠，吳語永流傳。
 
-# 鑽石恒久遠，吳語永流傳。
+Tsö<sup>3</sup>zak<sup>4</sup> gheng<sup>1</sup> kieu<sup>2</sup> yö<sup>2</sup>, 
 
-# Tsö<sup>3</sup>zak<sup>4</sup> gheng<sup>1</sup> kieu<sup>2</sup> yö<sup>2</sup>, 
-
-# Ng<sup>1</sup>-ngëi<sup>2</sup> yoeng<sup>2</sup> lieu<sup>1</sup>jiö<sup>1</sup>.
+Ng<sup>1</sup>-ngëi<sup>2</sup> yoeng<sup>2</sup> lieu<sup>1</sup>jiö<sup>1</sup>.
 
 配方：℞ **Jiungkwong/rime-piauciuing-ngungei-zioephieng**
 
