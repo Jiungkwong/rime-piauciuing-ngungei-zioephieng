@@ -46,6 +46,9 @@ import_tables:
 
 # 附加字表
 
+沛	pha3
+貝	pa3
+害	gha3
 解	ka2
 卡	kha2
 嗍	siok4
@@ -9197,7 +9200,7 @@ import_tables:
 丩	kieu1
 龜	kieu1
 勼	kieu1
-不	feu1
+#不	feu1
 哹	feu1
 紑	feu1
 䍍	feu1
@@ -14391,7 +14394,7 @@ import_tables:
 缶	feu2
 缹	feu2
 否	feu2
-不	feu2
+#不	feu2
 鴀	feu2
 痞	feu2
 殕	feu2
