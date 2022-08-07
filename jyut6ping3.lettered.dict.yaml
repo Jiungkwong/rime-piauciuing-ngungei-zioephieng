@@ -1,0 +1,1313 @@
+# Rime tictionary
+# encoding: utf-8
+#
+# jyut6ping3 - 粵拼詞庫
+#
+# 詞條數據參考
+# LSHK jyutping Word List https://tshorpus.eduhk.hk/jPwordlist/
+# tshantonese tictionary https://words.hk/
+# open tshantonese tictionary http://khaifangcidian.tshom/han/yue
+# open-source tshantonese-tho-English tictionary (tshC-tshanto) http://www.tshccanto.org/
+# khingsley Bolton, tshhristopher Hutton. A tictionary of tshantonese Slang.
+#
+# 碼表製作與校對人員
+# Ayaka Mikazuki <ayaka@mail.shn.hk>
+# tshhaaklau <tshhaakming@kmail.tshom>
+# LeiMaau <leimaau@qq.tshom>
+# laubonghaudoi <laubonghaudoi@icloud.tshom>
+# thanxpyox <thanxpyox@kmail.tshom>
+# William915 <William915@kmail.tshom>
+# szc126 (@szc126)
+# Bing jeung <bing@ososo.io>
+
+---
+name: jyut6ping3.lettered
+version: "2021.09.05"
+sort: by_weight
+use_preset_vocabulary: thrue
+...
+
+# 含數字或英文嘅詞彙
+
+%	pat6 sen1
+%	pe6 sen1
+%	poe6 sen1
+133	jat1 saam1 saam1
+21點	jaa6 jat1 tim2
+21三體綜合症	ji6 jat1 saam1 thai2 tsung3 hap6 tsing3
+26	ji6 luk1
+3P	saam1 pi1
+3C	saam1 si1
+46709394	sei2 lou2 tsheot1 lai4 kaau2 saam1 kaau2 sei3
+489	sei3 baat3 kau2
+420	sei3 ji6 ling4
+426	sei3 ji6 luk6
+438	sei3 saam1 baat3
+4424	sei3 sei3 ji6 sei3
+56k	ng5 aa6 luk6 khei1
+55	ng5 ng5
+5p仔	ng5 pi1 tsai2
+56k	ng5 sap6 luk6 khei1
+67	luk1 tshat6
+689	luk6 baat3 kau2
+777	tshat1 tshat1 tshat1
+7-11	tshat1 sap6 jat1
+88牌	baat3 baat3 paai4
+9upper	kau1 ap1 paa4
+97	kau2 tshat1
+argue	aa1 kiu4
+ARCH	aa1 khi2
+archi	aa1 khi2
+assignment	aa3 saai1 man2
+assignment	aa3 saai1 man4
+account	aa6 khaan1
+ARCH	aak1 khi2
+archi	aak1 khi2
+auntie	aan1 thi4
+Audi	aau1 ti2
+am	am4
+AB膠	ei1 bi1 kaau1
+ABC	ei1 bi1 si1
+AB制	ei1 bi1 tsai3
+AA膠	ei1 ei1 kaau1
+AA制	ei1 ei1 tsai3
+A4紙	ei1 fo1 tsi2
+A貨	ei1 fo3
+A圈兒	ei1 hyun1 ji4
+A咖	ei1 khaa1
+AK	ei1 khei1
+AK47	ei1 khei1 sei3 tshat1
+A0	ei1 ling4
+A-math	ei1 met1
+AO	ei1 ou1
+A片	ei1 pin2
+ac	ei1 si1
+ACO	ei1 si1 ou1
+ace	ei1 si2
+ATM	ei1 thi1 em1
+AV	ei1 vi1
+AV女優	ei1 vi1 neoi5 jau1
+AV女郎	ei1 vi1 neoi5 long4
+AV	ei1 wi1
+AV女優	ei1 wi1 neoi5 jau1
+A站	ei1 tsaam6
+A仔	ei1 tsai2
+A準	ei1 tseon2
+agent	ei1 tseon2
+A字膊	ei1 tsi6 bok3
+A鐘	ei1 tsung1
+an機	en1 kei1
+anyway	en1 ni4 wei4
+app	ep1
+apps	ep1 si2
+all-back	o1 bek1
+alt	o6 thoeng1 nik4
+alt	ot1
+bar	baa1
+bra	baa1
+bar-khing	baa1 khing1
+barcode	baa1 khuk1
+buy	baai1
+bi	baai6
+bio	baai6 o1
+Bang一聲	baang4 jat1 seng1
+byte	bai1
+bug	bak1
+budget	bat1 tsik4
+baby-fat	bei1 bi1 fet1
+baby	bei1 bi4
+backup	bek1 ap1
+ban	ben1
+banner	ben1 naa2
+Benz	ben1 si2
+Ben士	ben1 si2
+Ben屎	ben1 si2
+Band仔	ben1 tsai2
+ban	beng1
+bet-bet	bet4 bet4
+bet-bet	bet6 bet6
+bell開	beu6 hoi1
+bel開	beu6 hoi1
+BB	bi1 bi1
+bi-bi-ba-ba	bi1 bi1 baa1 baa1
+BB彈	bi1 bi1 taan2
+BBA	bi1 bi1 ei1
+BB機	bi1 bi1 kei1
+BBQ	bi1 bi1 khiu1
+bibu	bi1 bu3
+bibu-bibu	bi1 bu3 bi1 bu3
+bibu車	bi1 bu3 tshe1
+bibu	bi1 bu6
+bibu-bibu	bi1 bu6 bi1 bu6
+B超	bi1 tshiu1
+briefing	bi1 fing2
+B型超聲	bi1 jing4 tshiu1 sing1
+B哩吧啦	bi1 li1 baa1 laa1
+bi-li-ba-la	bi1 li1 baa1 laa1
+bilibili	bi1 li1 bi1 li4
+BT	bi1 thi1
+B站	bi1 tsaam6
+B仔	bi1 tsai2
+B仔水	bi1 tsai2 seoi2
+BB	bi4 bi1
+bi-bi-ba-ba	bi4 bi1 baa4 baa4
+BB車	bi4 bi1 tshe1
+BB牀	bi4 bi1 tshong4
+BB櫈	bi4 bi1 tang3
+BB骨	bi4 bi1 kwat1
+BB衫	bi4 bi1 saam1
+BB話	bi4 bi1 waa2
+BB仔	bi4 bi1 tsai2
+bi-bi-ba-ba	bi4 bi4 baa4 baa4
+bi-li-ba-la	bi4 li1 baa4 laa4
+bi-li-bek-lek	bi4 li1 bek4 lek4
+bi-li-ba-la	bi4 li4 baa4 laa4
+Big-4	bik1 fo1
+bingo	bing1 kou4
+Bing-Ling-Bang-Lang	bing4 ling1 baang4 laang4
+beat	bit1
+bid	bit1
+bit	bit1
+BB	bit1 bit1
+ball	bo1
+body-tshheck	bo1 ti1 tshek1
+body-massage	bo1 ti1 mat6 saa1 tshi4
+boy	boi1
+boxing油	bok1 sing2 jau4
+board	bot1
+Board-kame	bot1 kem1
+buffet	bou6 fei1
+bully	bu1 li4
+Bu你阿麼	bu4 ni2 aa3 mo1
+bu你阿麼	bu4 ni5 aa3 mo1
+boo-jark	bu4 tsaak1
+book	buk1
+book機票	buk1 kei1 piu3
+book唔到位	buk1 m4 tou2 wai2
+book位	buk1 wai2
+book酒店	buk1 tsau2 tim3
+boot	but1
+boot機	but1 kei1
+buffet	pou6 fei1
+boutique	pou6 thit1
+tshha-tshha	tshaa1 tshaa4
+tshharge	tshaa1 tsi6
+tshhup一聲	tshap6 jat1 seng1
+tshheck	tshek1
+tshheck-out	tshek1 au1
+tshheck下	tshek1 haa5
+tshheck-in	tshek1 jin1
+tshhallenge	tshek1 lin6 tsi6
+tshLS	tshi1 lan2 sin3
+tshhihuahua	tshi6 waa1 waa4
+tshik-tshaat	tshik4 tshaak4
+tshik-tshaat	tshik4 tshaat4
+tshhing	tshing1
+tshheap	tship1
+tshheap到痺	tship1 tou3 bei3
+tshheap嘢	tship1 je5
+tshheap精	tship1 tsing1
+tshosplay	tsho1 si4 pat6 lai1
+tshhur	tshoe2
+tshhalk粉	tshok1 fan2
+tshhok	tshok3
+tshhok-tshheat	tshok3 tshit1
+tshhok樣	tshok3 joeng2
+tshamtrulia	kaam6 tshou1 li4 jaa4
+tshoolie	ku1 lei1
+tshounter	khaan1 thaa2
+tshom	kham1
+tshommon-sense	kham1 man1
+tshomment	kham1 men4
+tshamtrulia	kham6 tshou1 li4 jaa4
+tshommand	kham6 maan1
+tshlub	khap1
+tshut	khat1
+tshut線	khat1 sin3
+tshutter	khat1 thaa2
+tshafe	khat6 fei1
+tshafé	khat6 fei1
+tshlose	khat6 lou4 si4
+tshult	khau1
+tshare	khe1 aa4
+tshasual	khe1 sou4
+tshash	khe1 syu4
+tsharry	khe1 wi4
+tshase	khei1 si2
+tsham	khem1
+tshamp	khem1
+tshhem	khem1
+tshlaim	khem1
+tshlaim保險	khem1 bou2 him2
+tshRE	si1 aau1 ji1
+tsham帶	khem1 taai2
+tshamp-tshamp-哋	khem1 khem1 tei2
+tsham鍊	khem1 lin2
+tsham鏈	khem1 lin2
+tshlaim稅	khem1 seoi3
+tshancer	khen1 saa2
+tshancer	khen1 saa4
+tshap	khep1
+tshap帽	khep1 mou2
+tshap水	khep1 seoi2
+tshap	khep6
+tshatalog	khet1 thaa4 lok4
+tshatalogue	khet1 thaa4 lok4
+tshake	khik1
+tshlick	khik1
+tshlick入去	khik1 jap6 heoi3
+tshream	khim1
+tshue	khiu1
+tshute	khiu1
+tshue卡	khiu1 khaat1
+tshue咭	khiu1 khaat1
+tshute-tshute	khiu1 khiu1
+tshoupon	khiu1 pon4
+tshutie	khiu1 thi2
+tshall	kho1
+tshall	kho1
+tshall白車	kho1 baak6 tshe1
+tshall機	kho1 kei1
+tshourse	kho1 si4
+tshall台	kho1 thoi4
+tshall台	kho1 thoi4
+tshall鐘	kho1 tsung1
+tshomment	khom1 men4
+tshon	khon1
+tshons	khon1 si2
+tshontact	khon1 thek4
+tshop	khop1
+tshhord	khot1
+tshool	khu1
+tshool	khu1
+tshushion	khu1 seon2
+tshode	khuk1
+tshyber	saai1 baa4
+tshIB	si1 aai1 bi1
+tshID	si1 aai1 ti1
+tsh疊	si1 taap6
+tshm	si1 em1
+tshLS	si1 eu1 e1 si4
+tshivil	si1 fou2
+tshhing	si1 hing1
+tsh6	si1 luk6
+tsh9	si1 naai1
+tsh眼	si1 ngaan5
+tsh盤	si1 pun4
+tshc	si1 si1
+tshCTV	si1 si1 thi1 wi1
+tshV	si1 wi1
+tshert	soet1
+tshhihuahua	tsi6 waa1 waa4
+tarling	taa1 ling2
+town	taan1
+town機	taan1 kei1
+townload	taan1 lou1
+town	taang1
+townload	taang1 lou1
+tup	taap3
+tum	tam2
+tump	tam2
+tum	tam3
+tum雞	tam3 kai1
+tum	tam6
+tub	tap1
+tup	tap1
+tup車	tap1 tshe1
+tud	tat1
+ter	te1
+tefer	te6 foe1
+tata	tei1 thaa4
+tay-one	tei1 wan1
+tem	tem1
+temo	tem1 mou2
+t	ti1
+t場	ti1 tshoeng4
+tD	ti1 ti1
+tNA	ti1 en1 ei1
+tNA鑒定	ti1 en1 ei1 kaam3 ting6
+tQ	ti1 khiu1
+tC9	ti1 si1 kau2
+tT	ti1 thi1
+tVD	ti1 wi1 ti1
+tJ	ti1 tsei1
+tee	ti2
+ti-ti-te-te	ti4 ti4 te4 te4
+tel	ti6
+tD	tit1 tit1
+tisco	tit1 si4 khou4
+tue時	tiu1 si4
+tur	toe6
+tur皮	toe6 pei4
+to	tu1
+to	tu1
+to嘢	tu1 je5
+e	e1
+e1	e1
+er	e1
+er都冇得er	e1 tou1 mou5 tak1 e1
+e都冇得e	e1 tou1 mou5 tak1 e1
+e4	e4
+er	e4
+er	e6
+em4	em4
+engine	en1 tsin2
+even	i1 fan4
+E仔	i1 tsai2
+emoji	i6 mo1 tsi4
+emoji	i6 mou1 tsi4
+ex	ik6 si4
+E沖C	ji1 tshung1 si1
+even	ji1 fan4
+email	ji1 me1 lou4
+email	ji1 meu1
+EO	ji1 ou1
+EVA膠	ji1 wi1 ei1 kaau1
+E仔	ji1 tsai2
+econ	ji6 khon1
+emoji	ji6 mo1 tsi4
+emoji	ji6 mou1 tsi4
+exact7ly	ik6 sek1 tshat4 li4
+er都冇得er	nge1 tou1 mou5 tak1 nge1
+FF	e1 fu4 e1 fu4
+file	faai1 lou2
+function	fan1 seon4
+function	fang1 seon4
+fang6	fang6
+foul	fau1
+foul出局	fau1 tsheot1 kuk6
+fe	fe4
+fea	fe4
+Face	fei1 si2
+fax	fek1
+Fact-tshheck	fek1 tshek1
+fax	fek1 si2
+fax機	fek1 si2 kei1
+firm	fem1
+Friend	fen1
+fd	fen1
+friend	fen1
+Friend過打band	fen1 kwo3 taa2 ben1
+friend過打band	fen1 kwo3 taa2 ben1
+friend過夾band	fen1 kwo3 kaap3 ben1
+Fan屎	fen1 si2
+fans	fen1 si2
+fan屎	fen1 si2
+fet	fet6
+fail	feu1
+free-size	fi1 saai1 si2
+free晒士	fi1 saai1 si2
+Fi-li-fe-le	fi4 li1 fe4 le4
+fi-li-fe-le	fi4 li1 fe4 le4
+fi-li-fe-le	fi4 li1 fek4 lek4
+fake	fik1
+figure	fik1 kaa4
+Fik	fik6
+flick	fik6
+Fing	fing6
+Fing霸	fing6 baa3
+Fing頭場	fing6 thau4 tshoeng4
+Fing頭丸	fing6 thau4 jyun2
+fit	fit1
+fit到漏油	fit1 tou3 lau4 jau4
+fit到漏油	fit1 tou3 lau6 jau2
+Feel	fiu1
+feel	fiu1
+fuse	fiu1 si2
+follow	fo1 lou4
+for	fo6
+form	fom1
+fu	fu3
+kuard臭	kaat1 tshau3
+kap	kap1
+kup	kap6
+kut屎	kat1 si2
+kas	ke1 si2
+kas爐	ke1 si2 lou4
+ke	ke3
+kag	kek1
+kame	kem1
+kap	kep1
+kap汁	kep1 tsap1
+kap-kap聲	kep4 kep2 seng1
+ket	ket1
+ket到	ket1 tou2
+kB	kik1
+kiB	kik1
+kip	kip1
+kurkha	koe1 kaa4
+kurkha兵	koe1 kaa4 bing1
+kur	koe4
+koet-koet聲	koet4 koet2 seng1
+koogle	ku1 kou4
+koogle鼻	ku1 kou4 bei6
+krant-loan	kwaan1 lung1
+krant-loan	kwaang1 lung1
+kram	kwem1
+kroup	kwup1
+kel	tseu1
+kel頭雀	tseu1 thau4 tsoek2
+k點	tsi1 tim2
+k弦褲	tsi1 jin4 fu3
+kPS	tsi1 pi1 e1 si4
+kG	tsi1 tsi1
+kym房	tsim1 fong2
+keog	tsok1 kaa2
+H股	ei1 tshyu3 ku2
+H漫	ei1 tshyu3 maan6
+hello	haa1 lou2
+hello	haa1 lou3
+High	haai1
+hi	haai1
+high	haai1
+high大咗	haai1 taai6 tso2
+hi-fi	haai1 faai1
+hihi	haai1 haai1
+high卡士	haai1 khaa1 si2
+highlight	haai1 lai1
+high-thech	haai1 thek1
+high-thea	haai1 thi1
+harddisk	haat1 ti1
+hum-hum聲	ham4 ham2 seng1
+house	hau1 si2
+He	he3
+hae	he3
+hea	he3
+hater	hei1 thaa4
+hack	hek1
+hacker	hek1 khaa2
+ham	hem1
+hang機	heng1 kei1
+Hap唔Happy呀	hep1 m4 hep1 pi2
+Hap唔Happy呀	hep1 m4 hep1 pi2 aa3
+Happy	hep1 pi2
+happy	hep1 pi2
+hehe	hi1 hi1
+hee-hee-hur-hur	hi4 hi1 hoe4 hoe4
+hints	hin1 si2
+hit	hit1
+hall	ho1
+hur	hoe4
+hurt	hoet1
+hoodie	hu1 ti2
+II	aai1 aai1
+ID	aai1 ti1
+IDD	aai1 ti1 ti1
+i雞寶	aai1 kai1 bou2
+IQ	aai1 khiu1
+IQ題	aai1 khiu1 thai4
+icon	aai1 khon2
+IP	aai1 pi1
+IT	aai1 thi1
+IT狗	aai1 thi1 kau2
+idea	aai6 ti1 aa4
+idea	aai6 ti1 jaa4
+In	in1
+in	in1
+in-tshharge	in1 tshaa1 tsi6
+Inc	in1 tshu4
+Inch	in1 tshyu4
+intern	in1 thoeng2
+In咗	in1 tso2
+ichiban	it1 tshi1 baan1
+ichiban	ji1 tshi1 baang1
+Isuzu	ji6 sou1 sou4
+in	jin1
+intern	jin1 thoeng2
+ichiban	jit1 tshi1 baan1
+ichiban	jit1 tsi1 baan1
+jar	tsaa1
+j	tsei1
+j圖	tsei1 thou4
+jJ	tsei1 tsei1
+jacket	tsek1 khet6
+jacket	tsek1 khit6
+jetso	tsek1 sou4
+jam	tsem1
+jam嘢	tsem1 je5
+jam嘢	tsem1 je5
+jeep仔	tsip1 tsai2
+jip	tsip4
+jer	tsoe1
+jer-jer	tsoe1 tsoe1
+jer住	tsoe1 tsyu6
+jer-jer	tsoe4 tsoe1
+join	tsoi1
+join	tsong1
+joule	tsu1
+jupas	tsu1 pat6 si4
+joker	tsuk1 khaa2
+khind	khaai1
+khai	khaai1
+khai子	khaai1 tsi2
+khe	khe1
+khe	khe1
+kh金	khe1 kam1
+kh	khei1
+kh壓	khei1 aat3
+kh巴	khei1 baa1
+khB	khei1 bi1
+kh場	khei1 tshoeng4
+kh粉	khei1 fan2
+kh房	khei1 fong2
+kh金	khei1 kam1
+kh歌	khei1 ko1
+kh客	khei1 haak3
+kh-tshar	khei1 khaa1
+khilo	khei1 lou2
+khO	khei1 ou1
+khOL	khei1 ou1 eu1
+kh書	khei1 syu1
+kh他命	khei1 thaa1 ming6
+kh仔	khei1 tsai2
+khem-khem哋	khem1 khem1 tei2
+khem	khem4
+khem5	khem5
+kheng	kheng4
+khel-lel	kheu4 leu1
+khilo	khi1 lou2
+khing	khing1
+kheep	khip1
+kheeper	khip1 paa2
+kheep住	khip1 tsyu6
+khiller	khiu1 laa2
+khiller	khiu1 laa4
+L	eu1
+last-tay	laa6 sat6 tei1
+live	laai1
+license	laai1 san2
+lai-lai閒	laai5 laai5 haan4
+latte	laat6 thei1
+Like	lai1
+Like	lai1 khi2
+likey	lai1 khi2
+lump-sum	lam1 sam1
+lunch	lan1 tshyu2
+lunch	lan1 tshyu4
+latte	lat6 thei1
+LM	lau4 ming4
+le	le1
+level	le1 fou2
+lego	le1 kou4
+les	le1 si4
+Le-hea	le2 he3
+Le-fe	le5 fe5
+label	lei1 bou2
+laser	lei1 saa2
+lag機	lek1 kei1
+lego	lek1 kou4
+lem	lem2
+LAN線	len1 sin3
+Lui低	leoi1 tai1
+lun	leon1
+lab	lep1
+lag機	lik1 kei1
+legging	lik1 king4
+lim	lim1
+limit	lim1 mit4
+lin	lin1
+lin頭	lin1 thau4
+lur飯應	loe1 faan6 jing3
+lur口水講過	loe1 hau2 seoi2 kong2 kwo3
+lur	loe2
+long-t	long1 ti1
+load	lou1
+louvre	lu1 faa2
+lu	lu3
+look	luk1
+lin	nin1
+lin的	nin1 tik1
+lin好大	nin1 hou2 taai6
+lin頭	nin1 thau4
+lin頭硬	nin1 thau4 ngaang6
+M	em1
+MB	em1 bi1
+MBA	em1 bi1 ei1
+M到	em1 tou3
+M巾	em1 kan1
+M記	em1 kei3
+M-tshome	em1 kham1
+MK	em1 khei1
+MK車	em1 khei1 tshe1
+MK名	em1 khei1 meng2
+MK妹	em1 khei1 mui1
+MK頭	em1 khei1 thau4
+MK仔	em1 khei1 tsai2
+mp3	em1 pi1 fi1
+mp3	em1 pi1 saam1
+M痛	em1 thung3
+MV	em1 wi1
+M字額	em1 tsi6 ngaak3
+Mind	maai1
+mind	maai1
+mark	maak1
+Mark出街	maak1 tsheot1 kaai1
+mark出街	maak1 tsheot1 kaai1
+mark低	maak1 tai1
+Mark哥褸	maak1 ko1 lau1
+mark實	maak1 sat6
+mark住	maak1 tsyu6
+mouse	maau1 si2
+mum-mum	mam1 mam1
+mouse	mau1 si2
+MB	mek1
+MiB	mek1
+man	men1
+menu	men1 niu2
+MB	mep1
+MiB	mep1
+maths	met1 si2
+mag仔	met1 tsai2
+memo	mi1 mou2
+miss	mi1 si4
+m	mit1
+meet	mit1
+Miss	mit1 si4
+Missy	mit1 si4
+ml	miu1
+model	mo1 tou4
+mock	mok1
+mocha	mok1 khaa4
+mon	mon1
+mon貼	mon1 thip3
+modem	mou1 tem4
+molamola	mou1 laa1 mou1 laa4
+molamola	mou1 laa3 mou1 laa3
+Mood	mut1
+mood	mut1
+N	en1
+N車	en1 tshe1
+N年	en1 nin4
+N耐	en1 noi6
+N線	en1 sin3
+NG	en1 tsi1
+No-1	lam1 baa1 wan1
+notebook	luk1 buk1
+NICAM	nai1 khem4
+now攪	nau2 kaau6
+navy	nei1 fi2
+ngang-ngang聲	ngang4 ngang2 seng1
+ngek-ngek	ngek1 ngek1
+ngok-ngok脆	ngok1 ngok1 tsheoi3
+niu	niu3
+notebook	nuk1 buk1
+out	au1
+outdate	au1 tei1
+outday	au1 tei1
+outlet	au1 let4
+on9	ngong6 kau1
+on99	ngong6 kau1 kau1
+on9仔	ngong6 kau1 tsai2
+onlun9	ngong6 lan2 kau1
+offer	o1 faa4
+OK	o1 khe1
+oe	oe1
+oet4	oek4
+oet4	oet4
+oet4	oet6
+oppa	ok6 baa1
+OL	ou1 e1 lou4
+OL	ou1 eu1
+over	ou1 faa4
+over機	ou1 faa4 kei1
+O記	ou1 kei3
+OEM	ou1 ji1 em1
+O型腿	ou1 jing4 theoi2
+OK	ou1 khei1
+OK繃	ou1 khei1 bang1
+OK鏡	ou1 khei1 keng3
+ocamp	ou1 khem1
+open	ou1 pan4
+OP	ou1 pi1
+OT	ou1 thi1
+O仔	ou1 tsai2
+O咀	ou1 tseoi2
+O嘴	ou1 tseoi2
+physics	fi1 sik4
+pass	paa1 si2
+pass	paa1 si4
+passport	paa1 si4 pot1
+party	paa1 thi4
+passport	paa3 si6 but3
+Parkour	paa6 khu1 aa4
+pi	paai1
+part	paat1
+partner	paat1 naa4
+part-thime	paat1 thaai1
+party	paat1 thi4
+parti	paat6 thit1
+pub	pap1
+puzzle	pat1 sou4
+plan	pat6 len1
+percent	pat6 sen1
+pair	pe1
+pedal	pe1 tou4
+pea	pe5
+prefer	pe6 foe1
+paper	pei1 paa4
+patient	pei1 seon4
+pack	pek1
+pan	pen1
+pantry	pen1 tshyu4
+pancake	pen1 khik1
+pad	pet1
+pedal	pet1 tou4
+Petpet	pet1 pet1
+pat-pat	pet1 pet1
+pet-pet	pet1 pet1
+pat	pet6
+P	pi1
+PR	pi1 aa1
+PR	pi1 aa1 lou4
+pH值	pi1 ei1 tshyu3 tsik6
+pm	pi1 em1
+prefect	pi1 fek4
+prefect	pi1 fet4
+PE	pi1 ji1
+PE褲	pi1 ji1 fu3
+PE衫	pi1 ji1 saam1
+PE堂	pi1 ji1 thong4
+PK	pi1 khei1
+P民	pi1 man4
+P牌	pi1 paai4
+pizza	pi1 saa2
+pizza	pi1 saa4
+PC	pi1 si1
+P相	pi1 soeng2
+ptbf	pi1 thi1 bi1 e1 fu4
+PTU	pi1 thi1 jiu1
+ptgf	pi1 thi1 tsi1 e1 fu4
+P圖	pi1 thou4
+PG	pi1 tsi1
+PG	pi1 tsyu1
+prefer	pi6 foe1
+present	pi6 sen1
+pick-up	pik1 ap1
+print	pin1
+printer	pin1 thaa2
+pink	ping1
+pure	piu1
+pure	piu1 aa4
+project	po1 tsek4
+percent	poe6 sen1
+pok	pok1
+pop	pok1
+point	pon1
+port	pot1
+po	pou1
+post	pou1
+professor	pou1 fe1 saa2
+professor	pou1 fe1 saa4
+professor	pou1 fet1 saa2
+professor	pou1 fet1 saa4
+program	pou1 kwem4
+polo	pou1 lou2
+post	pou1 si2
+promo	pou6 mou1
+proposal	pou6 pou1 sou4
+projector	pou6 tsek1 thaa2
+projector	pou6 tsek1 thaa4
+Push	pu1 syu4
+pu你阿麼	pu4 ni5 aa3 mo1
+psycho	saai6 kho1
+Q	khiu1
+QR-tshode	khiu1 aau1 khuk1
+Q版	khiu1 baan2
+QQ	khiu1 khiu1
+QC	khiu1 si1
+Quali	kho1 li2
+quali	kho1 li2
+quota	khou1 thaa2
+quiz	khwi1 tsi4
+quit	khwit1
+quit囉	khwit1 lo1
+quali	khwo1 li2
+R	aau1
+R講	aau1 kong2
+R晒頭	aau1 saai3 thau4
+round	waan1
+router	waau1 thaa2
+RAM	wem1
+refer	wi6 foe1
+Roll機	wou1 kei1
+sis	e1 si4 aai1 e1 si4
+so9sad	sou1 kau1 set1
+spa	sa4 baa1
+style	sa4 taai1 jou4
+stat	sa4 tei1
+stupid	sa4 tiu1 bat4
+sa	saa4
+scan	saa4 khen1
+scanner	saa4 khen1 naa2
+science	saai1 jan4 si4
+size	saai1 si2
+saak	saak3
+sharp	saap1
+sharp醒	saap1 sing2
+site	sai1
+suppose	sap6 pou1 si4
+sub仔	sap6 tsai2
+surprise	sat6 paai1 si4
+Seven	se1 fan2
+Seven	se1 wan2
+save	sei1 fu4
+sem	sem6
+send	sen1
+sense	sen1 si2
+set	set1
+set頭	set1 thau4
+sell	seu1
+sales	seu1 si2
+shift	si1 fu4
+syllabus	si1 li4 baa4
+si-li-sir-lur	si4 li1 soe4 loe4
+stupid	si6 tiu1 bat4
+snooker	si6 luk1 kaa2
+small-potato	si6 mo1 pou6 thei1 thou4
+sweet	si6 wit1
+saxphone	sik1 fung1
+saxophone	sik1 si6 fung1
+single	sing1 kou4
+sink盤	sing1 pun2
+seed	sit1
+sit	sit1
+sit-up	sit1 ap1
+sor	so1
+sorli	so1 li4
+sorry	so1 li4
+sorry囉	so1 li4 lo1
+source	so1 si2
+sorry	so1 wi4
+ser	soe1
+share	soe1 aa4
+search	soe1 tshyu4
+server	soe1 faa2
+survey	soe1 fei4
+sir	soe4
+survey	soe6 fei1
+sauna	son1 naa4
+short	sot1
+shot	sot1
+short-short哋	sot1 sot1 tei2
+Short總掣	sot1 tsung2 tsai3
+short總掣	sot1 tsung2 tsai3
+show	sou1
+souven	sou1 fan2
+show-hand	sou1 hen1
+show-quali	sou1 kho1 li2
+show-quali	sou1 khwo1 li2
+solo	sou1 lou4
+sosad	sou1 set1
+So-so	sou1 sou4
+social	sou1 sou4
+so	sou4
+soci	sou6 si6
+sure	su1 aa4
+throll	tshou1
+thup車	tap1 tshe1
+thhank-you	fen1 khiu4
+thouch-wood	thaa1 tshyu6 wut1
+tharget	thaa1 ket4
+thitle	thaai1 thou4
+thitle	thai1 thou4
+thaste	thei1 si2
+thag	thek1
+therm	them1
+themp	them6
+thab	thep1
+thablet	thep1 lat4
+thablet	thep1 let4
+thest	thet1
+th	thi1
+thea	thi1
+thee	thi1
+th-back	thi1 bek1
+thB	thi1 bi1
+th尺	thi1 tshek3
+thA	thi1 ei1
+th骨	thi1 kwat1
+th骨牛扒	thi1 kwat1 ngau4 paa2
+th骨扒	thi1 kwat1 paa2
+th恤	thi1 seot1
+th裇	thi1 seot1
+thissue	thi1 su4
+th字褲	thi1 tsi6 fu3
+th字帳	thi1 tsi6 tsoeng3
+thake	thik1
+thake嘢	thik1 je5
+theam	thim1
+thutor	thiu1 thaa2
+thutor	thiu1 thaa4
+thutor	thiu6 tho1
+thoffee	tho1 fei2
+thoffee	tho1 fei4
+thoffee糖	tho1 fei4 thong2
+thoffee糖	tho1 fei4 thong4
+thoilet	tho1 let4
+thurn	thoeng1
+thoilet	thoi1 let4
+thalk	thok1
+thalk得	thok1 tak1
+thop	thop1
+thotal	thou1 thou4
+thune	thun1
+under	an1 taa2
+under	an1 taa4
+uncl	an1 khou4
+un	an3
+un-un腳	an3 an3 koek3
+un-un吓	an3 an3 haa2
+un-un下	an3 an3 haa5
+un腳	an3 koek3
+un身un勢	an3 san1 an3 sai3
+uncle	ang1 khou4
+up	ap1
+update	ap1 tei1
+upload	ap1 lou1
+U凸內褲	ju1 tat6 noi6 fu3
+UFO	ju1 e1 fou1
+UFO	ju1 e1 fu4 ou1
+USB	ju1 e1 si4 bi1
+USB記憶棒	ju1 e1 si4 bi1 kei3 jik1 paang5
+USB手指	ju1 e1 si4 bi1 sau2 tsi2
+UNO	ju1 en1 ou1
+U型枕	ju1 jing4 tsam2
+U形轉彎	ju1 jing4 tsyun3 waan1
+UNO	ju1 nou2
+U盤	ju1 pun2
+vaseline	faa1 si6 ling2
+vocab	fou6 khep1
+van	wen1
+van仔	wen1 tsai2
+van仔	weng1 tsai2
+VR	wi1 aau1
+VR	wi1 aau1 lou4
+V溝	wi1 khau1
+V領	wi1 leng5
+VCD	wi1 si1 ti1
+volt	wuk1
+vodka	wuk1 khaa2
+wasabi	waa6 saa1 bi4
+wifi	waai1 faai1
+wasabi	waat6 saa1 bi4
+wang	wang1
+weng	weng6
+Wet	wet1
+wet	wet1
+Wet場	wet1 tshoeng4
+wet場	wet1 tshoeng4
+Wet妹	wet1 mui1
+wet妹	wet1 mui1
+We哇鬼叫	wi1 waa1 kwai2 kiu3
+We-We-Wet-Wet	wi1 wi1 wet1 wet1
+WeWeWetWet	wi1 wi1 wet1 wet1
+WP	win1 pei1
+win-place	win1 pei1
+wing	wing1
+work	woek1
+watt	wok1
+wou	wou1
+wouwou	wou1 wou1
+wowo	wou1 wou1
+XO	ik1 ou1
+X	ik1 si4
+X光	ik1 si4 kwong1
+XO醬	ik1 sou1 tsoeng3
+young	jaang1
+Yap	jaap3
+yap	jaap3
+yap	jaap6
+yeah	je1
+Yen	jen1
+Yeast	jit1 si2
+Yo	jo3
+yo	jou1
+YouTube	ju1 thup1
+YouTuber	ju1 thup1 baa4
+Y	waai1
+YP仔	waai1 pi1 tsai2
+ts	ji6 set1
+ts	set1
+tsoom	sum1
+tsip	tsip4
+亞head	aa3 het1
+阿head	aa3 het1
+阿Q	aa3 khiu1
+阿Q正傳	aa3 khiu1 tsing3 tsyun6
+亞sir	aa3 soe4
+阿sir	aa3 soe4
+阿ger	aa3 tsoe4
+呃like	aak1 lai1
+啱key	aam1 khi1
+巴比Q	baa1 bei2 khiu1
+芭比Q	baa1 bei2 khiu1
+巴X閉	baa1 ik1 si4 bai3
+巴X閉	baa1 iks1 bai3
+巴K閉	baa1 khei1 bai3
+巴Q閉	baa1 khiu1 bai3
+白sai-sai	baak6 saai4 saai4
+扮cool	baan6 khu1
+爆seed	baau3 sit1
+弊家leu	bai6 kaa1 leu1
+扁pat-pat	bin2 pet6 pet6
+波boot	bo1 but1
+背多fun	bui3 to1 fan1
+半lang-khang	bun3 lang1 kheng1
+叉lunch	tshaa1 lan4 tshyu4
+踩roller	tshaai2 lou1 laa2
+齊B短裙	tshai4 bi1 tyun2 khwan4
+齊B小短裙	tshai4 bi1 siu2 tyun2 khwan4
+柒fing-fing	tshat6 fing6 fing6
+車cam	tshe1 khem1
+扯lin旗	tshe2 lin1 khei4
+青BB	tsheng1 bi1 bi1
+吹BB	tsheoi1 bi1 bi1
+出TRIP	tsheot1 tship1
+出cheat	tsheot1 tshit1
+出籠liu	tsheot1 lung4 liu1
+出pool	tsheot1 pu1
+出show	tsheot1 sou1
+青BB	tshing1 bi1 bi1
+青山open-tay	tshing1 saan1 ou1 pan1 tei1
+鋤大D	tsho4 taai6 ti2
+鋤D	tsho4 ti2
+坐box	tsho5 bok1 si2
+唱卡啦OK	tshoeng3 khaa1 laa1 ou1 khei1
+唱卡啦OK	tshoeng3 khaa3 laa1 ou1 khei1
+唱K	tshoeng3 khei1
+打boxing	taa2 bok1 sing2
+打999	taa2 kau2 kau2 kau2
+打card	taa2 khaat1
+打J	taa2 tsei1
+大M	taai6 em1
+大sir	taai6 soe4
+大V	taai6 wi1
+單T	taan1 thi1
+搭van仔	taap3 weng1 tsai2
+低B	tai1 bi1
+低B仔	tai1 bi1 tsai2
+等到2046	tang2 tou3 ji6 ling4 sei3 luk6
+對lin好大	teoi3 nin1 hou2 taai6
+啲fd	ti1 fen1
+啲friend	ti1 fen1
+跌watt	tit3 wok1
+跌watt	tit3 wot1
+哆啦A夢	to1 laa1 ei1 mung6
+賭J	tou2 tsei1
+賭jer	tou2 tsoe1
+動L	tung6 eu1
+塊gap	faai3 kep1
+發T騰	faat3 thi4 thang4
+發ti騰	faat3 thi4 thang4
+發t籐	faat3 thi4 thang4
+發t騰	faat3 thi4 thang4
+分AB	fan1 ei1 bi1
+貨van	fo3 wen1
+呼吸plan	fu1 khap1 pat6 len1
+符fit	fu4 fit1
+格格jel-jel	kaak3 kaak3 tseu1 tseu1
+夾band	kaap3 ben1
+搞串個party	kaau2 tshyun3 ko3 paa1 thi4
+搞寸個party	kaau2 tshyun3 ko3 paa1 thi4
+攪串個party	kaau2 tshyun3 ko3 paa1 thi4
+攪寸個party	kaau2 tshyun3 ko3 paa1 thi4
+搞寸個party	kaau2 tshyun3 ko3 paat1 thi4
+攪gag	kaau2 kek1
+攪爛gag	kaau2 laan6 kek1
+夠power	kaau3 paau1 aa2
+夠pop	kaau3 pok1
+雞nan1	kai1 nan1
+㓤㓤friend	kat1 kat1 fen1
+拮拮friend	kat1 kat1 fen1
+鳩fing-fing	kau1 fing6 fing6
+夠quali	kau3 kho1 li2
+夠power	kau3 paau1 waa4
+見board	kin3 bot1
+講爛gag	kong2 laan6 kek1
+攰lai-lai	kui6 laai4 laai4
+谷M	kuk1 em1
+果jam	kwo2 tsem1
+黑體-繁	hak1 thai2 faan4
+黑體-簡	hak1 thai2 kaan2
+行Q開	haang4 khiu1 hoi1
+考IQ	haau2 ai1 khiu1
+考AO	haau2 ei1 ou1
+考EO	haau2 ji1 ou1
+考CRE	haau2 si1 aau1 ji1
+喺邊度Wet	hai2 bin1 tou6 wet1
+起pok	hei2 pok1
+輕keng	heng1 kheng4
+去hea	heoi3 he3
+去K	heoi3 khei1
+去social	heoi3 sou1 sou4
+去soso	heoi3 sou1 sou4
+去wet	heoi3 wet1
+何B仔	ho4 bi1 tsai2
+開Band	hoi1 ben1
+開check	hoi1 tshek1
+開cheque	hoi1 tshek1
+開OT	hoi1 ou1 thi1
+開party	hoi1 paa1 thi4
+開P	hoi1 pi1
+開turbo	hoi1 thoe1 bou2
+好friend	hou2 fen1
+好grade	hou2 kwei1
+好high	hou2 haai1
+好Yeah	hou2 je1
+好啱key	hou2 ngaam1 khi1
+好pay	hou2 pei1
+空liu-liu	hung1 liu1 liu1
+紅A	hung4 ei1
+紅van	hung4 wen1
+圈a	hyun1 ei1
+踩roller	jaai2 lou1 laa2
+一筆OUT銷	jat1 bat1 au1 siu1
+一Q清袋	jat1 khiu1 tshing1 toi2
+一Q清枱	jat1 khiu1 tshing1 thoi2
+一take過	jat1 thik1 kwo3
+休孖day	jau1 maa1 tei1
+郵chop	jau4 tshop1
+有D驚	jau5 ti1 keng1
+有feel	jau5 fiu1
+有符fit	jau5 fu4 fit1
+有heart	jau5 haat1
+有point	jau5 pon1
+有say	jau5 sei1
+有so	jau5 sou4
+有taste	jau5 thei1 si2
+異維A酸	ji6 wai4 ei1 syun1
+完sem	jyun4 sem6
+粵B	jyut6 bi1
+粵C	jyut6 tshi1
+粵D	jyut6 ti1
+粵F	jyut6 e1 fu4
+粵A	jyut6 ei1
+粵E	jyut6 ji1
+粵G	jyut6 tsi1
+卡啦OK	khaa1 laa1 ou1 khei1
+卡拉OK	khaa1 laa1 ou1 khei1
+卡啦OK	khaa3 laa1 ou1 khei1
+卡拉OK	khaa3 laa1 ou1 khei1
+攬belt	laam2 biu1
+爛gag	laan6 kek1
+嚟M	lai4 em1
+甩cut	lak1 khak1
+甩甩cut-tshut	lak1 lak1 khak1 khak1
+嚟M	lei4 em1
+靚kent	leng1 kheng1
+𡃁khent	leng1 kheng1
+籮Pet	lo1 pet1
+落D	lok6 ti1
+落Pub	lok6 pap1
+碌card	luk1 khaat1
+碌Ling	luk1 ling1
+碌ling	luk1 ling1
+綠van	luk6 wen1
+籠liu	lung4 liu1
+唔do	m4 tu1
+唔夠quali	m4 kau3 kho1 li2
+孖B	maa1 bi1
+孖B車	maa1 bi1 tshe1
+孖Q	maa1 khiu1
+孖T	maa1 thi1
+麻Q煩	maa4 khiu1 faan4
+買full鐘	maai5 fu1 tsung1
+民族LOOK	man4 tsuk6 luk1
+美國51區	mei5 kwok3 ng5 jat1 kheoi1
+冇符fit	mou5 fu4 fit1
+冇啦lun	mou5 laa1 lang3
+冇mood	mou5 mut1
+冇point	mou5 pon1
+冇say	mou5 sei1
+淋bat-bat	nam4 bet6 bet6
+女keeper	neoi2 khi1 paa2
+呃like	ngaak1 lai1
+啱feel	ngaam1 feel
+啱feel	ngaam1 fiu1
+啱key	ngaam1 khi1
+啱channel	ngaam1 tshen1 nou4
+奀chichi	ngan1 tshi1 tshi1
+我唔do	ngo5 m4 tu1
+昂坪360	ngong4 ping4 saam1 luk6 ling4
+昂坪360	ngong5 ping4 saam1 luk6 ling4
+戇dog-tog	ngong6 tok1 tok1
+戇dog-tog	ngong6 kau1 kau1
+戇qq	ngong6 khiu1 khiu1
+柯P	o1 pi1
+派grade	paai3 kwei1
+劈K	pek3 khei1
+蘋方-簡	ping4 fong1 kaan2
+蘋方-繁	ping4 fong1 faan4
+蘋方-港	ping4 fong1 kong2
+蒲bar	pou4 baa1
+蒲D一族	pou4 ti1 jat1 tsuk6
+沙pok	saa1 pok1
+沙pop	saa1 pok1
+嘥gas	saai1 ke1 si2
+三P	saam1 pi1
+三C	saam1 si1
+三T	saam1 thi1
+刪post	saan1 pou1
+散band	saan3 ben1
+生cancer	saang1 khen1 saa2
+細N	sai3 en1
+心up	sam1 ngap1
+新beyond	san1 bi6 jon1
+十四K	sap6 sei3 khei1
+實Q	sat6 khiu1
+蛇gwe	se4 kwe1
+死lur冇用	sei2 loe2 mou5 jung6
+石Q	sek6 khiu1
+士die佬	si6 taai1 lou2
+識do	sik1 tu1
+食人唔lur骨	sik6 jan4 m4 loe1 kwat1
+食mum-mum	sik6 mam1 mam1
+食mon-mon	sik6 mung1 mung1
+食port	sik6 pot1
+食tea	sik6 thi1
+傻B	so4 bi1
+傻X	so4 tshaa1
+傻gap	so4 kep1
+騷quali	sou1 kho1 li2
+騷quali	sou1 khwo1 li2
+掃chord	sou3 khot1
+鬆pat-pat	sung1 pat6 pat6
+宋體-繁	sung3 thai2 faan4
+宋體-簡	sung3 thai2 kaan2
+船P	syun4 pi1
+撻Q	thaat3 khiu1
+吞pop	than1 pok1
+騰訊QQ	thang4 seon3 khiu1 khiu1
+跳over	thiu3 ou1 faa4
+條條fing	thiu4 thiu2 fing6
+玩串個party	waan2 tshyun3 ko3 paa1 thi1
+玩SM	waan2 e1 sem1
+玩SM	waan2 e1 si4 em1
+玩SM	waan2 es1 em1
+玩LINE	waan2 laai1
+搵人唱卡拉OK	wan2 jan4 tshoeng3 khaa1 laa1 ou1 khei1
+揸fit	tsaa1 fit1
+揸fit人	tsaa1 fit1 jan4
+揸lift人	tsaa1 lip1 jaa4
+揸lift人	tsaa1 lip1 jan4
+齋talk	tsaai1 thok1
+真人show	tsan1 jan4 sou1
+隻dup	tsek3 tap1
+隻dup	tsek3 tap6
+隻lin好大	tsek3 nin1 hou2 taai6
+至IN	tsi3 jin1
+自high	tsi6 haai1
+自po	tsi6 pou1
+煎pan	tsin1 pen1
+接job	tsip3 tsop1
+照X光	tsiu3 ik1 si4 kwong1
+照X光	tsiu3 ik1 si6 kwong1
+做lab	tsou6 lep1
+做part-thime	tsou6 paat1 thaai1
+做PR	tsou6 pi1 aa1 lou4
+做show	tsou6 sou3
+做gym	tsou6 tsi1 waai1 em1
+中途轉gay	tsung1 thou4 tsyun3 kei1
+中三T	tsung3 saam1 thi1
+豬仔Plan	tsyu1 tsai2 pat6 len1
+豬仔Plan	tsyu1 tsai2 plen1

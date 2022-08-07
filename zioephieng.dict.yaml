@@ -46,6 +46,8 @@ import_tables:
 
 # 附加字表
 
+解	ka2
+卡	kha2
 嗍	siok4
 嗦	sok4
 欬	khoeh4
@@ -121957,6 +121959,14 @@ import_tables:
 反對	f t
 贊成	t z
 通過	thung kou
+占領	cie1 lieng2
+控制	khung3 ci3
+占領	c l
+控制	k c
+南線	n s
+北線	p s
+東線	t s
+西線	s s
 通過	t k
 對的	t t
 一致同意	i t d i
@@ -122219,6 +122229,7 @@ import_tables:
 海軍陸戰隊	h k l c d
 葡萄牙	b d n
 穆斯林	m s l
+穆斯林	muk4 sy1 ling1
 伊斯蘭教	i s l k
 宗教	t k
 基督教	k t k
