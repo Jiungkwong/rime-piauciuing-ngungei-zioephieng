@@ -21,7 +21,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.7.2.3
+# 版本號：22.8.8.2.3
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -46,6 +46,9 @@ import_tables:
 
 # 附加字表
 
+哈	ha1
+嘿	hek4
+娼	chiang3
 沛	pha3
 貝	pa3
 害	gha3
@@ -534,7 +537,7 @@ import_tables:
 銨	oe1
 氨	oe1
 垮	khuo2
-侉	khuo2
+侉	khuo2	999
 腈	zieng1
 烯	hi1
 醚	mi1
@@ -558,7 +561,7 @@ import_tables:
 支	ki1
 枝	ki1
 褪	thoeng3
-也	gha2
+也	gha2	1000
 𣍐	feng1
 
 # 全字表（當然有聲調）
@@ -62524,6 +62527,7 @@ import_tables:
 笨鳥先飛
 第一世界
 第一人
+第一段
 第一人稱
 第一任
 第一個
@@ -62551,6 +62555,10 @@ import_tables:
 第三集
 第九個
 第二
+第二段
+第三段
+第二部分
+第三部分
 第二世界
 第二人
 第二人稱
@@ -106354,7 +106362,7 @@ import_tables:
 何裏一隻
 何裏個
 何裏墶
-何裏搭
+何裏都
 何裏面
 嚦嚦
 嚷嘴
@@ -106373,8 +106381,8 @@ import_tables:
 # 國粹
 # 園圃
 土著
-一圤惡
-一圤污
+一沰涴
+一泡涴
 在牀
 圪塔
 地下頭
