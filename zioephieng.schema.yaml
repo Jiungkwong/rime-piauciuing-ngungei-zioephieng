@@ -1,7 +1,7 @@
 ﻿# Rime schema
 # vim: set sw=2 sts=2 et:
 # encoding: utf-8
-# 版本號：22.8.6.2.2
+# 版本號：22.8.10.4.3
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -19,7 +19,7 @@
 schema:
   schema_id: zioephieng
   name: 標準吳語
-  version: "2022.8.6"
+  version: "2022.8.10"
   author:
     - 吳韻 <tittii@outlook.com>
     - 重光 <viktorsalehwu@gmail.com>
@@ -142,17 +142,22 @@ speller:
     - abbrev/^(ts).+$/$1/  #啓用首字母匹配
     - abbrev/^(tsh).+$/$1/  #啓用首字母匹配
     - abbrev/^(ng).+$/$1/  #啓用首字母匹配
-    - "xlit/1234/qwxr/"  #q=1，平聲；w=2，上聲；x=3，去聲；r=4，入聲
-    - "derive/^([A-Za-z]+)(\\d?)$/$1/"
-    - derive/[qwxr]/                 # 忽略聲調
-    #- derive/^ghu/w/ #dict.yaml裏頭嘸/w/，嘸得好啓用箇條。
-    #- derive/ghu$/wu/ #dict.yaml裏頭嘸/w/，嘸得好啓用箇條。
-    #- derive/wak$/ghuk/ #dict.yaml裏頭嘸/w/，嘸得好啓用箇條。
-    #- derive/wek$/ghuk/ #dict.yaml裏頭嘸/w/，嘸得好啓用箇條。
-    #- derive/wang$/ghung/ #dict.yaml裏頭嘸/w/，嘸得好啓用箇條。
-    #- derive/weng$/ghung/ #dict.yaml裏頭嘸/w/，嘸得好啓用箇條。
     
-    #- derive/^ghi/y/ #容錯 字開頭個ghi/y弗分
+    - "derive/1/q/"
+    - "derive/2/x/"
+    - "derive/3/r/" #q=1，平聲；x=2，上聲；r=3，去聲; w=4
+    - "derive/^([A-Za-z]+)(\\d?)$/$1/"
+    - "derive/^([A-Za-z]*[kh])4$/$1w/"
+    - derive/[qxrw]/                 # 忽略聲調
+    
+    #- derive/^ghu/w/ #dict.yaml #字開頭個ghu/w弗分 無之啓用！
+    #- derive/ghu$/wu/ #dict.yaml #ghu/wu弗分 無之啓用！
+    #- derive/wak$/ghuk/ #dict.yaml #容錯 劃、鵠弗分
+    #- derive/wek$/ghuk/ #dict.yaml #容錯 或、鵠弗分
+    #- derive/wang$/ghung/ #dict.yaml #容錯 宏、紅弗分
+    #- derive/weng$/ghung/ #dict.yaml #容錯 混、紅弗分
+    
+    #- derive/^ghi/y/ #字開頭個ghi/y弗分
     #- derive/ghi$/yi/ #容錯 ghi/yi弗分
     #- derive/ghiu$/yu/ #容錯 ghiu/yu弗分
     
