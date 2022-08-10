@@ -22,7 +22,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.9.3.3
+# 版本號：22.8.10.3.3
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -40,7 +40,7 @@
 # CTRL+G 125447 毛四千條台州片、太湖片詞彙加來罷
 ---
 name: zioephieng
-version:	"2022.8.9"
+version:	"2022.8.10"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -15085,7 +15085,7 @@ import_tables:
 埯	ie2
 𣃳	ie2
 豏	ghae2
-減	ghae2
+#減	ghae2
 㺝	ghae2
 喊	ghae2
 㺌	ghae2
@@ -15132,7 +15132,7 @@ import_tables:
 壏	ghae2
 𥽏	ghae2
 㔋	ghae2
-濫	ghae2
+#濫	ghae2
 𨏊	ghae2
 轞	ghae2
 㺝	ghae2
@@ -22536,7 +22536,7 @@ import_tables:
 活	ghuoeh4
 𣽅	ghuoeh4
 䄆	ghuoeh4
-越	ghuoeh4
+#越	ghuoeh4
 鬠	ghuoeh4
 佸	ghuoeh4
 秳	ghuoeh4
@@ -26680,7 +26680,6 @@ import_tables:
 
 # 地名
 
-刊文	khoe1 meng1	1000
 寧波市
 寧波
 寧波府
@@ -117811,15 +117810,8 @@ import_tables:
 圓團
 圓孛溜休
 圓作
-虞
-𥇔
 睡矓矓
-睖
-賅
 賄賂
-閛
-𠞭 
-嗄
 蜀萁花
 蜏子
 暈子
@@ -117841,9 +117833,7 @@ import_tables:
 矮腳伏雞勤生蛋
 稗草子
 稗子
-稝
 稝訕頭
-節
 節肯
 節蛉子
 節頭骨
@@ -117857,12 +117847,10 @@ import_tables:
 筷箸籠
 筷竹籠
 筷簏
-筷
 筷兒
 筷子
 筷頭長一點
 筲箕
-傴
 傴沙背
 傴水背
 傴背
@@ -117874,16 +117862,13 @@ import_tables:
 舅舅
 舅姆
 僂佝
-催
 催骰子
 催工弗催飯
-傷
 傷風頭
 傷分
 傷司
 傷陰鷙
 傷鈔票
-像
 像世
 像弗同
 像不同
@@ -117895,9 +117880,7 @@ import_tables:
 像牀枕
 像心像意
 傭鈿
-躲
 躲迓避
-裊
 裊頭頸
 衙門
 微微小
@@ -117914,12 +117897,8 @@ import_tables:
 鉛鉛
 鉛鉛頭
 鉛望
-鉗
-鈿 
 鉤刀
 鉎鐵補鑊子
-鈵
-會
 會客間
 會鈔
 會算
@@ -117941,7 +117920,6 @@ import_tables:
 亂投西北風
 愛打扮
 愛喫無傷
-腰
 腰菱
 腰闥門
 腰門
@@ -117952,8 +117930,6 @@ import_tables:
 腸癰
 腥氣
 腥氣烔烔
-腡
-腳
 腳帶
 腳帶魚
 腳設架
@@ -118014,17 +117990,14 @@ import_tables:
 腦獅狗
 腱子肉
 肄業
-颬
 獅子
 獅子狗
-解
 解子
 解放鞋
 解紐子
 解厭氣
 解小溲
 解大溲
-煞
 煞年夜
 煞孵雞
 煞勁
@@ -118047,12 +118020,10 @@ import_tables:
 煞風雨
 煞煞清
 煞辣司齊
-𩑦
 魛魚
 魛鱭
 該厲
 該應
-話
 話動
 話頭
 話媒人
@@ -118088,7 +118059,7 @@ import_tables:
 痱子
 痱子粉
 新年新勢
-新人惡（崇明）
+新人惡
 新小囡
 新婦
 新相公
@@ -122098,7 +122069,7 @@ import_tables:
 烏克蘭	u k l
 白俄羅斯	b n l s
 芬蘭	f l
-瑞典	zhiu tiae	90%
+瑞典	zhiu3 tiae2	90%
 瑞典	z t
 挪威	n i
 冰島	p t
@@ -122317,12 +122288,26 @@ import_tables:
 要不要	iau1 fek4 iau3
 要不要	iao1 fek4 iao3
 要不要	i f i
-盡盡	zing2 zing2
-盡盡	z z
+尋尋	zing2 zing2
+尋尋	z z
 盡管	zing2 kuoe2
 盡管	z k
 盡用	tsing2 yung3
 盡打	tsing2 tang2
+不用謝	f y z
+弗用謝	f y z
+信源	s n
+報題	p d
+報道稱	p d c
+美媒	m m
+英媒	i m
+俄媒	n m
+共和黨	g g t
+民主黨	m c t
+中期選舉	c g s k
+媒體	m t
+刊文	khoe1 meng1	1000
+活動	ghuoeh4 dung2
 
 #標準吳語國名
 
