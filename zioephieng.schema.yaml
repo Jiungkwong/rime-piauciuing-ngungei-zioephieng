@@ -147,7 +147,8 @@ speller:
     - "derive/2/x/"
     - "derive/3/r/" 
     - "derive/^([A-Za-z]+)(\\d?)$/$1/"
-    - "derive/^([A-Za-z]*[kh])4$/$1rr/" #q=1，平聲；x=2，上聲；r=3，去聲; rr=4，入聲
+    - "derive/^([A-Za-z]*[kh])4$/$1rr/" #q=1，平聲；x=2，上聲；r=3，去聲; rr=4，入聲；xx=5，小稱調（罕用）
+    - "derive/5/xx/" 
     - derive/[qxr]/                 # 忽略聲調
     
     #- derive/^ghu/w/ #dict.yaml #字開頭個ghu/w弗分 無之啓用！
