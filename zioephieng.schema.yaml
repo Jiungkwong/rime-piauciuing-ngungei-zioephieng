@@ -145,10 +145,10 @@ speller:
     
     - "derive/1/q/"
     - "derive/2/x/"
-    - "derive/3/r/" #q=1，平聲；x=2，上聲；r=3，去聲; w=4
+    - "derive/3/r/" 
     - "derive/^([A-Za-z]+)(\\d?)$/$1/"
-    - "derive/^([A-Za-z]*[kh])4$/$1w/"
-    - derive/[qxrw]/                 # 忽略聲調
+    - "derive/^([A-Za-z]*[kh])4$/$1rr/" #q=1，平聲；x=2，上聲；r=3，去聲; rr=4，入聲
+    - derive/[qxr]/                 # 忽略聲調
     
     #- derive/^ghu/w/ #dict.yaml #字開頭個ghu/w弗分 無之啓用！
     #- derive/ghu$/wu/ #dict.yaml #ghu/wu弗分 無之啓用！
