@@ -122153,7 +122153,7 @@ import_tables:
 神職人員	z c n y
 宗教領袖	t k l z
 國會	k w	70%
-國會大廈	k w d w
+國會大廈	k w d g
 教會	k w	40%
 議會	n w
 衆議院	c n y	40%
@@ -122164,7 +122164,7 @@ import_tables:
 冗長議事	n j n z
 議事	n z
 上院	z y
-下院	w y
+下院	g y
 美元	m n
 人民幣	n m b
 英鎊	i p
@@ -122218,10 +122218,10 @@ import_tables:
 請配圖	t p d
 放一起	f i k
 綜述	t z
-綜合	t w
+綜合	t g
 選題單	sioe di tae
 選題單	s d t
-我寫下	n s w
+我寫下	n s g
 弄啥	l s
 老師	l s
 三審	sae shing
