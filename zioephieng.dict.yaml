@@ -49,6 +49,7 @@ import_tables:
 
 # 附加字表
 
+啥	s1
 鋎	ghuoe1
 喳	tsa1
 鋬	phae3
@@ -61,7 +62,7 @@ import_tables:
 鳧	bu1
 茈	zi1
 黍	tshy2
-蠅	sieng1
+#蠅	sieng1
 蟻	nga2
 餜	kuei2
 𥭢	phieng1
@@ -2553,7 +2554,7 @@ import_tables:
 鞿	ki1
 饑	ki1
 禨	ki1
-幾	ki1
+幾	ki1	1000
 䟇	ki1
 鐖	ki1
 僟	ki1
@@ -17361,7 +17362,7 @@ import_tables:
 咶	hua3
 鎩	sa3
 𧜁	sa3
-殺	sa3
+#殺	sa3
 閷	sa3
 烗	kha3
 𤈪	kha3
@@ -19686,7 +19687,7 @@ import_tables:
 鋥	dzang3
 𥊼	dzang3
 䂻	dzang3
-生	sieng3
+#生	sieng3
 鼪	sieng3
 貹	sieng3
 迎	ngieng3
@@ -50360,6 +50361,7 @@ import_tables:
 幾乎所有
 幾乎是
 幾乎沒有
+幾個
 幾人
 幾人份
 幾代人
@@ -81219,7 +81221,7 @@ import_tables:
 有頃
 有備份
 有喫
-有場化
+有場許
 有愧
 有搭頭
 有最
@@ -92028,14 +92030,14 @@ import_tables:
 啥物事
 啥派
 啥个地方
-啥个場化
+啥个場許
 啥个所在
 啥个戶場
 啥个路道
 啥隊
 啥所在
 啥戶場
-啥場化
+啥場許
 啥意思
 啥歌
 啥網址
@@ -94488,7 +94490,7 @@ import_tables:
 報驗
 場子
 場內
-場化
+場許
 場戶
 場主
 場刊
@@ -94626,7 +94628,7 @@ import_tables:
 嵌寶鴨
 幾十
 幾下
-幾化
+幾許
 幾月
 幾比幾
 幾乎好做到
@@ -106346,7 +106348,7 @@ import_tables:
 啓開
 啓齒
 啥個地方
-啥個場化
+啥個場許
 啥個路道
 啪唧
 啪嗒
@@ -111473,11 +111475,11 @@ import_tables:
 別搭地方
 別搭戶蕩
 別塊戶蕩
-別搭場化
+別搭場許
 別樣
 別針
 别弗转
-別場化
+別場許
 別黃牛
 別別跳
 別頭頸
@@ -111763,7 +111765,7 @@ import_tables:
 汽車碼頭
 汽車夫
 沒
-沒幾化
+沒幾許
 沒卵用
 沒著沒落
 沒秧梢
@@ -119212,7 +119214,7 @@ import_tables:
 嘸沒嘞
 嘸樣式
 嘸圖保正
-嘸啥幾化
+嘸啥幾許
 嘸沒啥
 嘸心思
 嘸手撳
