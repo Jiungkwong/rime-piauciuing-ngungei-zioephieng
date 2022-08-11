@@ -15344,7 +15344,7 @@ import_tables:
 㦼	siong3
 寘	tsy3
 忮	tsy3
-伎	tsy3
+#伎	tsy3
 觶	tsy3
 伿	tsy3
 䚳	tsy3
@@ -15730,7 +15730,7 @@ import_tables:
 洎	ki3
 懻	ki3
 臮	gi3
-暨	gi3
+#暨	gi3
 鱀	gi3
 洎	gi3
 垍	gi3
@@ -15831,7 +15831,7 @@ import_tables:
 眎	zy3
 貤	zy3
 自	zy3
-嫉	zy3
+#嫉	zy3
 墜	jiu3
 懟	jiu3
 鎚	jiu3
@@ -23020,7 +23020,7 @@ import_tables:
 䕙	ziaeh4
 𩟙	ziaeh4
 齧	ngiaeh4
-霓	ngiaeh4
+#霓	ngiaeh4
 蜺	ngiaeh4
 嵲	ngiaeh4
 槷	ngiaeh4
@@ -24391,7 +24391,7 @@ import_tables:
 惁	siek4
 𧊸	siek4
 㱤	siek4
-激	kiek4
+#激	kiek4
 擊	kiek4
 墼	kiek4
 轚	kiek4
@@ -56629,7 +56629,7 @@ import_tables:
 樂天
 樂天派
 樂天知命
-樂妓
+樂	ngok4 gi2
 樂子
 樂學者
 樂安
@@ -82775,8 +82775,8 @@ import_tables:
 夾擠
 夾檔
 妊娠
-妓女
-妓者
+妓女	gi2 ni2
+妓者	gi2 cio2
 妖人
 妖女
 妖妄
@@ -126828,7 +126828,6 @@ import_tables:
 廚師師傅
 師傅
 告化子
-妓女
 流氓
 盲子
 聾彭
@@ -129927,3 +129926,4 @@ import_tables:
 放死骹
 五虛六腫
 獻忠
+足恭	tsiu3 kiung1
