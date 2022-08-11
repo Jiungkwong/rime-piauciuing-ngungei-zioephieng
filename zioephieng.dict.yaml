@@ -22,7 +22,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.10.4.3
+# 版本號：22.8.11
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -38,9 +38,10 @@
 # 氕、氘、氚箇三个字加來罷。
 # CTRL+G 122443 CTRL+G 124844 毛千條台州片、甌江片、金衢片、上麗片、太湖片詞彙加來罷
 # CTRL+G 125447 毛四千條台州片、太湖片詞彙加來罷
+# CTRL+51 27萬條詞彙加來罷
 ---
 name: zioephieng
-version:	"2022.8.10"
+version:	"2022.8.11"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
