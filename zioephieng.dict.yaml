@@ -50,6 +50,8 @@ import_tables:
 
 # 附加字表
 
+撿	kie2
+妗	ging1
 蚎	yoeh4
 蝦	hoe5
 罕	hoe2
@@ -102,7 +104,7 @@ import_tables:
 勥	giang3
 閂	shioe1
 梳	sy1
-核	weh4
+核	wek4
 埤	phi3
 卡	zeh4
 缸	kong1
@@ -314,9 +316,8 @@ import_tables:
 䂻	dzang3
 長	dzang3
 㪪	saeh4
-楔	saeh4
 㪪	zaeh4
-楔	zaeh4
+楔	ziaeh4
 讖	tshae2
 䰡	chik4
 䋇	tshiek4
@@ -1605,7 +1606,7 @@ import_tables:
 㖷	zy1
 匙	zy1
 䈕	zy1
-堤	zy1
+#堤	zy1
 禔	zy1
 𦳚	zy1
 忯	zy1
@@ -1898,7 +1899,7 @@ import_tables:
 胰	yi1
 鮧	yi1
 羠	yi1
-羨	yi1
+#羨	yi1
 鏔	yi1
 𢓡	yi1
 鴺	yi1
@@ -3344,7 +3345,7 @@ import_tables:
 虖	hu1
 𧦝	hu1
 歑	hu1
-戲	hu1
+#戲	hu1
 謼	hu1
 膴	hu1
 幠	hu1
@@ -4701,7 +4702,7 @@ import_tables:
 㾕	seng1
 𦿒	zeng1
 㲀	zeng1
-帘	zeng1
+#帘	zeng1
 文	meng1
 聞	meng1
 𦖞	meng1
@@ -5935,7 +5936,7 @@ import_tables:
 䘰	shie1
 脠	chie1
 梴	chie1
-鏈	chie1
+#鏈	chie1
 㢟	chie1
 鋋	zhie1
 單	zhie1
@@ -7038,7 +7039,7 @@ import_tables:
 挲	sou1
 傞	sou1
 𩊮	sou1
-獻	sou1
+#獻	sou1
 䓾	sou1
 𠈱	sou1
 桫	sou1
@@ -7318,7 +7319,7 @@ import_tables:
 鎁	ya1
 椰	ya1
 擨	ya1
-斜	ya1
+#斜	ya1
 䓉	ya1
 𦰳	ya1
 䔑	ya1
@@ -7552,7 +7553,7 @@ import_tables:
 若	nio1
 婼	nio1
 些	sia1
-爹	cio1
+#爹	cio1
 𣢉	nguo1
 𩨾	nguo1
 𣘟	kho1
@@ -9751,7 +9752,7 @@ import_tables:
 㩒	ging1
 捦	ging1
 擒	ging1
-黔	ging1
+#黔	ging1
 禽	ging1
 芩	ging1
 𨙽	ging1
@@ -10079,7 +10080,7 @@ import_tables:
 彡	sie1
 𢘁	sie1
 籤	tshie1
-臉	tshie1
+#臉	tshie1
 䑎	tshie1
 鹼	tshie1
 槧	tshie1
@@ -12911,7 +12912,7 @@ import_tables:
 剪	tsie2
 揃	tsie2
 戩	tsie2
-錢	tsie2
+#錢	tsie2
 媊	tsie2
 俴	tsie2
 帴	tsie2
@@ -14926,7 +14927,7 @@ import_tables:
 䭕	tsae2
 槧	zae2
 鏨	zae2
-嵌	zae2
+#嵌	zae2
 㟛	zae2
 喊	he2
 嚂	he2
@@ -18509,7 +18510,7 @@ import_tables:
 練	liae3
 浰	liae3
 鍊	liae3
-揀	liae3
+#揀	liae3
 楝	liae3
 㼑	liae3
 鰊	liae3
@@ -18750,7 +18751,7 @@ import_tables:
 轉	cioe3
 衍	ye3
 莚	ye3
-羨	ye3
+#羨	ye3
 狿	ye3
 延	ye3
 涎	ye3
@@ -19177,7 +19178,7 @@ import_tables:
 大	dou3
 奈	nou3
 那	nou3
-些	sou3
+#些	sou3
 呵	hou3
 㰤	hou3
 拖	thou3
@@ -22149,11 +22150,10 @@ import_tables:
 訐	kieh4
 𧼨	kieh4
 羯	kieh4
-揭	kieh4
+#揭	kieh4
 𢶆	kieh4
 鍻	kieh4
 𢷒	gieh4
-揭	gieh4
 竭	gieh4
 碣	gieh4
 楬	gieh4
@@ -22705,7 +22705,7 @@ import_tables:
 圿	kaeh4
 稭	kaeh4
 鴶	kaeh4
-楔	kaeh4
+#楔	kaeh4
 秸	kaeh4
 骱	kaeh4
 鞂	kaeh4
@@ -23212,7 +23212,7 @@ import_tables:
 滅	mieh4
 搣	mieh4
 朅	khieh4
-揭	khieh4
+#揭	khieh4
 藒	khieh4
 愒	khieh4
 𡐤	khieh4
@@ -23845,7 +23845,7 @@ import_tables:
 馲	tsak4
 𩑒	tsak4
 𪐏	tsak4
-嫡	tsak4
+#嫡	tsak4
 𥧮	tsak4
 杔	tsak4
 白	bak4
@@ -24198,7 +24198,7 @@ import_tables:
 積	tsiek4
 脊	tsiek4
 蹐	tsiek4
-借	tsiek4
+#借	tsiek4
 迹	tsiek4
 跡	tsiek4
 𨒪	tsiek4
@@ -26567,7 +26567,7 @@ import_tables:
 咗	tsou1
 昰	dik4
 箇	ko3
-系	ghei3
+#系	ghei3
 爸	pa5
 媽	ma1
 這	tsek4
@@ -106468,14 +106468,14 @@ import_tables:
 大弗
 # 大嘩
 大嚷
-# 大夫
-# 大宛
+大夫
+大宛
 大排骨
 大菸
-# 大王
-# 大紅
+大王
+大紅
 # 大絞
-# 大辟
+大辟
 天啓
 太弗
 太溼
@@ -106491,13 +106491,10 @@ import_tables:
 好白相
 如弗
 # 妗子
-妗格格
 妨害
 妳底
 妳講
-# 委蛇
-姥姥
-姥爺
+委蛇	iu1 yi1
 姦夫
 娜個
 娼門
@@ -111876,12 +111873,10 @@ import_tables:
 妖形怪狀
 妖里妖氣
 妖聲怪氣
-妗
-妗夾夾
-妗介介
+妗夾夾	hiae1 kaeh4 kaeh4
 姊妹兩個
-姊妹淘
-姊妹淘裏
+姊妹道
+姊妹道裏
 忍肉
 甬道
 巡官
@@ -125328,8 +125323,8 @@ import_tables:
 囡婿
 孃舅
 阿舅
-孃妗
-阿妗
+孃妗	niang1 ging1
+阿妗	ak4 ging1
 姑孃
 姑夫
 姑丈
@@ -126352,7 +126347,7 @@ import_tables:
 阿姆
 姑丈
 阿舅
-阿妗
+阿妗	ak4 ging1
 姨丈
 阿丈
 兄弟
@@ -129930,3 +129925,5 @@ import_tables:
 骹蝦
 大骹蚎
 放死骹
+五虛六腫
+獻忠
