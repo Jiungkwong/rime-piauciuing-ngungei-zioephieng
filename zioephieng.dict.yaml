@@ -39,6 +39,7 @@
 # CTRL+G 122443 CTRL+G 124844 毛千條台州片、甌江片、金衢片、上麗片、太湖片詞彙加來罷
 # CTRL+G 125447 毛四千條台州片、太湖片詞彙加來罷
 # CTRL+51 27萬條增補詞庫詞彙加來罷
+# 破音字許刪去爻罷。
 ---
 name: zioephieng
 version:	"2022.8.12"
@@ -50,6 +51,7 @@ import_tables:
 
 # 附加字表
 
+饈	sieu1
 揢	kho3
 掮	gie1
 𣩢	liau1
@@ -1174,7 +1176,7 @@ import_tables:
 从	ziung1
 𩀰	ziung1
 蹱	chiung1
-傭	chiung1
+#傭	chiung1
 𦟛	chiung1
 𨙔	chiung1
 䝑	chiung1
@@ -2615,7 +2617,7 @@ import_tables:
 齬	ngei1
 鋙	ngei1
 䁩	ngei1
-衙	ngei1
+#衙	ngei1
 初	tshu1
 𠿝	tshu1
 書	shy1
@@ -3856,7 +3858,7 @@ import_tables:
 鮭	gho1
 膎	gho1
 鞵	gho1
-鞋	gho1
+#鞋	gho1
 㨙	gho1
 䙎	gho1
 榽	gho1
@@ -7514,7 +7516,7 @@ import_tables:
 邪	zia1
 䔑	zia1
 闍	zhio1
-余	zhio1
+#余	zhio1
 鉈	zhio1
 鍦	zhio1
 𥍸	zhio1
@@ -7577,7 +7579,7 @@ import_tables:
 样	yang1
 眻	yang1
 佯	yang1
-詳	yang1
+#詳	yang1
 徉	yang1
 洋	yang1
 烊	yang1
@@ -7803,7 +7805,7 @@ import_tables:
 牆	ziang1
 廧	ziang1
 墻	ziang1
-佯	ziang1
+#佯	ziang1
 嬙	ziang1
 檣	ziang1
 薔	ziang1
@@ -11210,7 +11212,7 @@ import_tables:
 圉	ngei2
 敔	ngei2
 圄	ngei2
-衙	ngei2
+#衙	ngei2
 齬	ngei2
 鋙	ngei2
 䥏	ngei2
@@ -16225,12 +16227,12 @@ import_tables:
 𡒊	yi3
 噓	hei3
 女	ni3
-絮	ni3
+#絮	ni3
 楚	tshu3
 儊	tshu3
 處	chy3
 䖏	chy3
-絮	tshy3
+#絮	tshy3
 悇	tshy3
 㾻	tshy3
 𡱣	zi3
@@ -19413,7 +19415,7 @@ import_tables:
 跁	bo3
 𥝧	bo3
 䏧	no3
-絮	no3
+#絮	no3
 笡	tshia3
 䞣	tshia3
 嗄	so3
@@ -19986,7 +19988,7 @@ import_tables:
 鍑	feu3
 䔰	feu3
 畜	chieu3
-俞	chieu3
+#俞	chieu3
 溜	lieu3
 廖	lieu3
 霤	lieu3
@@ -22397,7 +22399,7 @@ import_tables:
 閼	oeh4
 胺	oeh4
 餲	oeh4
-靄	oeh4
+#靄	oeh4
 咹	oeh4
 𠥜	oeh4
 𢉥	oeh4
@@ -23932,7 +23934,7 @@ import_tables:
 喀	khak4
 礊	khak4
 揢	khak4
-啞	ak4
+#啞	ak4
 𩚬	ak4
 虩	hiek4
 坼	tshak4
@@ -24161,7 +24163,7 @@ import_tables:
 貖	ak4
 蚅	ak4
 𩚬	ak4
-啞	ak4
+#啞	ak4
 𧠞	ak4
 栜	sak4
 𣽤	sak4
@@ -25856,7 +25858,7 @@ import_tables:
 甲	kaeh4
 胛	kaeh4
 梜	kaeh4
-押	kaeh4
+#押	kaeh4
 𥑐	kaeh4
 鉀	kaeh4
 玾	kaeh4
@@ -47033,7 +47035,7 @@ import_tables:
 大武鄉
 大歷史
 大殺風景
-大殿
+大殿	da3 diae3
 大比拼
 大氣候
 大氣兒
@@ -57327,7 +57329,7 @@ import_tables:
 殼兒
 殼牌
 殼牌公司
-殿後
+殿後	tiae3 gheu2
 毀了
 毀家紓難
 毀損率
@@ -59456,7 +59458,7 @@ import_tables:
 營生
 營生之道
 營銷人員
-營長	yung ciang
+營長	yoeng1 ciang2
 營養學
 營養學分
 營養學家
@@ -82238,7 +82240,7 @@ import_tables:
 佛塔
 佛然
 佛像
-佛殿
+佛殿	vek4 diae3
 佛經
 佛號
 佛說
@@ -97947,8 +97949,8 @@ import_tables:
 歌碟
 歌聲
 歌譜
-殿下
-殿內
+殿下	diae3 gho2
+殿內	diae3 nei3
 毀於
 毀林
 毀約
@@ -128863,3 +128865,13 @@ import_tables:
 揵客
 揵木梢
 揵水晶木梢
+宮殿	kiung1 diae3	60%
+供電	kiung1 diae3	30%
+高德地圖	kau1 tek4 di3 du1
+滴滴打車
+美團
+打車
+餓了麼
+大眾點評
+攜程
+小紅書
