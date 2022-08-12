@@ -39,7 +39,7 @@
 # CTRL+G 122443 CTRL+G 124844 毛千條台州片、甌江片、金衢片、上麗片、太湖片詞彙加來罷
 # CTRL+G 125447 毛四千條台州片、太湖片詞彙加來罷
 # CTRL+51 27萬條增補詞庫詞彙加來罷
-# 破音字許刪去爻罷。
+# 破音字許刪去罷。
 ---
 name: zioephieng
 version:	"2022.8.12"
@@ -51,6 +51,7 @@ import_tables:
 
 # 附加字表
 
+值	jiek4
 饈	sieu1
 揢	kho3
 掮	gie1
@@ -179,7 +180,6 @@ import_tables:
 趵	pau3
 箍	khu3
 炆	meng1
-池	dzy1
 池	ji1
 燴	wei3
 熗	tshiang3
@@ -1544,8 +1544,8 @@ import_tables:
 𢺷	gi1
 錡	gi1
 祇	gi1
-示	gi1
-衹	gi1
+#示	gi1
+#衹	gi1
 岐	gi1
 歧	gi1
 𨙸	gi1
@@ -1860,7 +1860,7 @@ import_tables:
 鬹	kiu1
 𨾚	kiu1
 摫	kiu1
-劑	tsiu1
+劑	tsiu1	0.001%
 㭰	tsiu1
 𦸺	tsiu1
 臇	tsiu1
@@ -3614,7 +3614,7 @@ import_tables:
 鷤	di1
 鼶	di1
 騠	di1
-折	di1
+#折	di1
 䨑	di1
 銕	di1
 䱱	di1
@@ -4446,7 +4446,7 @@ import_tables:
 陳	jing1
 敶	jing1
 䍶	jing1
-趁	jing1
+#趁	jing1
 塵	jing1
 津	tsing1
 𦪉	tsing1
@@ -5757,7 +5757,7 @@ import_tables:
 沺	diae1
 磌	diae1
 鷏	diae1
-嗔	diae1
+#嗔	diae1
 𨌈	diae1
 滇	diae1
 貚	diae1
@@ -5925,7 +5925,7 @@ import_tables:
 氈	cie1
 鸇	cie1
 𩔣	cie1
-甄	kie1
+#甄	kie1
 薽	kie1
 籈	kie1
 邅	cie1
@@ -6895,7 +6895,7 @@ import_tables:
 蜪	thau1
 夲	thau1
 𠦂	thau1
-綢	thau1
+#綢	thau1
 搯	thau1
 翢	thau1
 瑫	thau1
@@ -7069,7 +7069,7 @@ import_tables:
 沱	dou1
 跎	dou1
 詑	dou1
-池	dou1
+#池	dou1
 酡	dou1
 㼠	dou1
 馱	dou1
@@ -8484,7 +8484,7 @@ import_tables:
 夝	zieng1
 䝼	zieng1
 精	tsieng1
-氏	tsieng1
+#氏	tsieng1
 菁	tsieng1
 鶄	tsieng1
 蜻	tsieng1
@@ -9188,7 +9188,7 @@ import_tables:
 𥈌	chieu1
 惆	chieu1
 瘳	chieu1
-妯	chieu1
+#妯	chieu1
 𠁫	khieu1
 惆	khieu1
 𣪘	khieu1
@@ -9693,8 +9693,8 @@ import_tables:
 莐	jing1
 䒞	jing1
 霃	jing1
-湛	jing1
-枕	jing1
+#湛	jing1
+#枕	jing1
 鈂	jing1
 碪	cing1
 砧	cing1
@@ -10104,7 +10104,7 @@ import_tables:
 詹	cie1
 瞻	cie1
 占	cie1
-蟾	cie1
+#蟾	cie1
 噡	cie1
 厃	cie1
 棎	zhie1
@@ -10314,7 +10314,7 @@ import_tables:
 㺥	zae1
 𪗂	zae1
 欃	zae1
-攙	zae1
+#攙	zae1
 𪖎	zae1
 𢽝	zae1
 儳	zae1
@@ -11018,7 +11018,7 @@ import_tables:
 市	zy2
 恃	zy2
 畤	zy2
-徵	tsy2
+徵	tsy2	0.001%
 𧩼	tsy2
 㨖	tsy2
 喜	hi2
@@ -12651,8 +12651,8 @@ import_tables:
 𪗙	ngae2
 㹽	tshae2
 眅	phae2
-撰	zae2
-饌	zae2
+#撰	zae2
+#饌	zae2
 產	sae2
 簅	sae2
 摌	sae2
@@ -12877,7 +12877,7 @@ import_tables:
 㔊	cie2
 𨭖	cie2
 嫸	cie2
-趁	nie2
+#趁	nie2
 𨋚	nie2
 㞋	nie2
 淺	tshie2
@@ -13251,7 +13251,7 @@ import_tables:
 杪	miau2
 秒	miau2
 藐	miau2
-吵	miau2
+#吵	miau2
 篎	miau2
 紹	zhiau2
 綤	zhiau2
@@ -15868,10 +15868,10 @@ import_tables:
 䓌	tsy3
 誌	tsy3
 痣	tsy3
-織	tsy3
-識	tsy3
-值	dzy3
-植	dzy3
+#織	tsy3
+#識	tsy3
+#值	dzy3
+#植	dzy3
 治	dzy3
 㨁	dzy3
 𠍜	dzy3
@@ -15890,7 +15890,7 @@ import_tables:
 覗	sy3
 試	sy3
 弑	sy3
-幟	sy3
+#幟	sy3
 僿	sy3
 胾	tsy3
 椔	tsy3
@@ -15938,7 +15938,7 @@ import_tables:
 異	yi3
 异	yi3
 潩	yi3
-食	yi3
+食	yi3	0.001%
 已	yi3
 䔬	yi3
 廙	yi3
@@ -16342,7 +16342,7 @@ import_tables:
 敄	mu3
 鶩	mu3
 緅	tsiu3
-足	tsiu3
+足	tsiu3	0.001%
 懼	giu3
 具	giu3
 埧	giu3
@@ -16369,7 +16369,7 @@ import_tables:
 鉒	ciu3
 駐	ciu3
 軴	ciu3
-住	ciu3
+#住	ciu3
 𨙔	ciu3
 壴	ciu3
 咮	ciu3
@@ -16844,7 +16844,7 @@ import_tables:
 睿	yu3
 䓲	yu3
 蜹	yu3
-綴	ciu3
+#綴	ciu3
 醊	ciu3
 畷	ciu3
 笍	ciu3
@@ -19358,7 +19358,7 @@ import_tables:
 射	ya3
 鵺	ya3
 䞣	chio3
-斥	chio3
+#斥	chio3
 蝑	sia3
 卸	sia3
 瀉	sia3
@@ -19368,7 +19368,7 @@ import_tables:
 鷓	cio3
 䗪	cio3
 嗻	cio3
-炙	cio3
+#炙	cio3
 蔗	cio3
 唶	tsia3
 借	tsia3
@@ -19692,9 +19692,9 @@ import_tables:
 胻	ghang3
 瀴	ang3
 㵾	tsheng3
-倀	tsang3
+#倀	tsang3
 趟	tsang3
-偵	tsang3
+#偵	tsang3
 㡧	tsang3
 𩏠	tsang3
 牚	tshang3
@@ -19960,7 +19960,7 @@ import_tables:
 呪	cieu3
 䯾	cieu3
 椆	cieu3
-祝	cieu3
+#祝	cieu3
 舊	gieu3
 柩	gieu3
 匶	gieu3
@@ -20915,7 +20915,7 @@ import_tables:
 育	yuk4
 毓	yuk4
 鬻	yuk4
-粥	yuk4
+#粥	yuk4
 𩱱	yuk4
 䋭	yuk4
 𧷗	yuk4
@@ -21555,7 +21555,7 @@ import_tables:
 𡂒	cik4
 懫	cik4
 礩	cik4
-侄	cik4
+#侄	cik4
 日	nik4
 馹	nik4
 衵	nik4
@@ -21817,7 +21817,6 @@ import_tables:
 茁	ciuik4
 肸	hik4
 暨	kik4
-蛭	cik4
 獝	hiuik4
 術	zhiuik4
 述	zhiuik4
@@ -23121,9 +23120,9 @@ import_tables:
 柲	biaeh4
 𢛎	biaeh4
 襒	biaeh4
-窒	tiaeh4
+#窒	tiaeh4
 𥉺	tiaeh4
-蛭	tiaeh4
+#蛭	tiaeh4
 㗧	tiaeh4
 咥	tiaeh4
 𨴗	tiaeh4
@@ -23265,7 +23264,7 @@ import_tables:
 䂐	cioeh4
 梲	cioeh4
 蝃	cioeh4
-準	cioeh4
+#準	cioeh4
 䫎	cioeh4
 𠭴	cioeh4
 䪼	cioeh4
@@ -24301,11 +24300,11 @@ import_tables:
 鼫	zhiek4
 䲽	zhiek4
 隻	ciek4
-適	ciek4
+#適	ciek4
 炙	ciek4
 墌	ciek4
 摭	ciek4
-拓	ciek4
+#拓	ciek4
 蹠	ciek4
 跖	ciek4
 䗪	ciek4
@@ -24465,7 +24464,7 @@ import_tables:
 濼	liek4
 蚸	liek4
 的	tiek4
-適	tiek4
+#適	tiek4
 嫡	tiek4
 甋	tiek4
 靮	tiek4
@@ -26057,7 +26056,7 @@ import_tables:
 鬍	wu1
 児	ni1
 妮	ni1
-掙	tshang1
+#掙	tshang1
 掙	tsang3
 侾	hau1
 崽	tsai2
@@ -120563,7 +120562,7 @@ import_tables:
 加來	ko lai
 加來罷	ko lai ba
 脫著	thoeh jiak
-爻罷	ghau ba
+爻罷	ghau1 ba2
 唕長	zau jiang
 唕深	zau shing
 深圳	shing tsing
@@ -122967,7 +122966,7 @@ import_tables:
 蜪	thao1
 夲	thao1
 𠦂	thao1
-綢	thao1
+#綢	thao1
 搯	thao1
 翢	thao1
 瑫	thao1
@@ -128875,3 +128874,5 @@ import_tables:
 大眾點評
 攜程
 小紅書
+酈食其	li1 yi3 ki1
+訤罷	gau1 ba2
