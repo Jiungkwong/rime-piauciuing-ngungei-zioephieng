@@ -53,6 +53,11 @@ import_tables:
 
 # 附加字表
 
+你	ni2	100
+甦	su1
+畜	chiuk4
+鼠	tshy2
+鼻	bik4
 蝻	ne2
 呃	ak4
 值	jiek4
@@ -1619,7 +1624,7 @@ import_tables:
 罷	bi1
 㯅	bi1
 犤	bi1
-提	zy1
+#提	zy1
 𦑡	zy1
 㖷	zy1
 匙	zy1
@@ -2029,7 +2034,7 @@ import_tables:
 荎	dzy1
 菭	dzy1
 謘	dzy1
-莉	dzy1
+莉	dzy1	0.0001%
 貾	dzy1
 私	sy1
 鋖	sy1
@@ -2442,7 +2447,7 @@ import_tables:
 痴	tshy1
 治	dzy1
 持	dzy1
-莉	dzy1
+莉	dzy1	0.0001%
 蚩	tshy1
 嗤	tshy1
 妛	tshy1
@@ -2740,7 +2745,7 @@ import_tables:
 筡	tshy1
 摴	tshy1
 疏	su1
-梳	su1
+梳	su1	0.001%
 綀	su1
 蔬	su1
 疎	su1
@@ -2798,7 +2803,7 @@ import_tables:
 除	dzy1
 躇	dzy1
 儲	dzy1
-涂	dzy1
+涂	dzy1	0.001%
 篨	dzy1
 𦿀	dzy1
 宁	dzy1
@@ -2806,7 +2811,7 @@ import_tables:
 著	dzy1
 滁	dzy1
 蒢	dzy1
-屠	dzy1
+屠	dzy1	0.001%
 藸	dzy1
 如	ni1
 蕠	ni1
@@ -11256,7 +11261,7 @@ import_tables:
 煑	cy2
 陼	cy2
 渚	cy2
-汝	ni2
+汝	ni2	900
 肗	ni2
 茹	ni2
 㼋	ni2
@@ -11811,7 +11816,7 @@ import_tables:
 𤽊	pi2
 蟹	ha2
 䲒	gho2
-解	go2
+解	ga2
 獬	gho2
 澥	gho2
 嶰	gho2
@@ -11840,7 +11845,7 @@ import_tables:
 躷	o2
 擺	pa2
 捭	pa2
-解	ko2
+解	ka2
 薢	ko2
 檞	ko2
 灑	sa2
@@ -15852,7 +15857,7 @@ import_tables:
 墜	jiu3
 懟	jiu3
 鎚	jiu3
-出	chiu3
+#出	chiu3
 遺	yu3
 𤀷	yu3
 𢣘	yu3
@@ -16167,13 +16172,13 @@ import_tables:
 樜	shy3
 㵂	shy3
 著	tsy3
-箸	tsy3
+#箸	tsy3
 䬡	cy3
 翥	cy3
 𤳯	cy3
 䭖	cy3
 䘄	cy3
-庶	cy3
+#庶	cy3
 𤳐	cy3
 𡻠	cy3
 㫂	cy3
@@ -17079,7 +17084,7 @@ import_tables:
 㲡	na3
 𩹟	na3
 渿	na3
-大	da3
+大	da3	1000
 汏	da3
 軑	da3
 釱	da3
@@ -17226,8 +17231,8 @@ import_tables:
 詿	kuo3
 𡐠	kuo3
 罣	kuo3
-懈	ko3
-解	ko3
+懈	ka3
+解	ka3
 繲	ko3
 廨	ko3
 薢	ko3
@@ -17238,8 +17243,8 @@ import_tables:
 㿄	o3
 䅬	o3
 賹	o3
-邂	gho3
-解	gho3
+邂	gha3
+解	gha3
 賣	ma3
 畫	wo3
 詿	wo3
@@ -19192,7 +19197,7 @@ import_tables:
 艐	khou3
 餓	ngou3
 馱	dou3
-大	dou3
+大	dou3	1000
 奈	nou3
 那	nou3
 #些	sou3
@@ -19992,7 +19997,7 @@ import_tables:
 輻	feu3
 鍑	feu3
 䔰	feu3
-畜	chieu3
+畜	chieu3	0.001%
 #俞	chieu3
 溜	lieu3
 廖	lieu3
@@ -22224,7 +22229,7 @@ import_tables:
 柮	toek4
 𩢎	toek4
 𩨳	toek4
-突	thoek4
+#突	thoek4
 梲	thoek4
 𠫓	thoek4
 𡿮	thoek4
@@ -23072,7 +23077,7 @@ import_tables:
 𩱷	miaeh4
 㢼	piaeh4
 䋢	piaeh4
-閉	piaeh4
+#閉	piaeh4
 𩋇	piaeh4
 𡘴	piaeh4
 䌘	piaeh4
@@ -24325,7 +24330,7 @@ import_tables:
 潪	jiek4
 皵	tshiek4
 磧	tshiek4
-刺	tshiek4
+#刺	tshiek4
 𧻕	tshiek4
 洓	tshiek4
 䟄	tshiek4
@@ -27317,7 +27322,7 @@ import_tables:
 塘溪
 東錢湖鎮
 東錢湖
-雅戈你動物園
+雅戈爾動物園
 莫枝
 莫枝人
 東吳鎮
@@ -27753,7 +27758,7 @@ import_tables:
 黃古林草蓆
 陸銀華
 陸氏傷科
-雅戈你
+雅戈爾
 奧克斯
 銀億
 杉杉
@@ -27874,7 +27879,7 @@ import_tables:
 熔噴布
 健康申報
 毒株
-德你塔
+德爾塔
 奧密克戎
 常態化疫情防控
 常態化防控
@@ -27932,7 +27937,7 @@ import_tables:
 我裂開了
 暴風哭泣
 意難平
-凡你賽文學
+凡爾賽文學
 官宣
 拍一拍
 戳一戳
@@ -31357,7 +31362,7 @@ import_tables:
 啓文花園
 啓文路
 啓新路
-啓新高你夫球場
+啓新高爾夫球場
 啓明光電
 啓明南路
 啓明星座
@@ -31879,7 +31884,7 @@ import_tables:
 姜湖路
 姜隴
 威海路
-威你路
+威爾路
 威瑪斯
 婦保醫院
 嫩江路
@@ -32052,7 +32057,7 @@ import_tables:
 寧波諾丁漢大學
 寧波都市農業園區
 寧波鄞州高教園區
-寧波雅戈你動物園
+寧波雅戈爾動物園
 寧波電大
 寧波電臺
 寧波頤樂園
@@ -35877,9 +35882,9 @@ import_tables:
 雄鎮家園
 雄鎮橋
 雅仕公寓
-雅戈你大道
-雅戈你新村
-雅戈你服裝城
+雅戈爾大道
+雅戈爾新村
+雅戈爾服裝城
 雅林溪
 雅渡新村
 雅源北路
@@ -106674,8 +106679,6 @@ import_tables:
 慳貪
 慶倖
 憐弱
-懈聞
-懈聞相
 懊憦
 懶牀
 懼內
@@ -121408,7 +121411,7 @@ import_tables:
 財政大臣	   	80%
 白宮	 	60%
 比較	 	50%
-包括	 	50%
+包括	pau1 kuoeh4 	80%
 北京	 	60%
 核平	 	60%
 華盛頓	  	90%
@@ -128886,3 +128889,5 @@ import_tables:
 假卵
 假䏘
 假䐁
+䏘漿水
+樞紐
