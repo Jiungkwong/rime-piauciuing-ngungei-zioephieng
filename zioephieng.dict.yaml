@@ -5,6 +5,8 @@
 #          ThokCc <potato008@gmail.com>
 #          te ˂goskhokoonga@gmail.com˃
 #
+# 版權歸作者所有。
+#
 # Thanks to the following works:
 #
 #	* CC-CEDICT
@@ -22,7 +24,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.12
+# 版本號：22.8.14
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -42,7 +44,7 @@
 # 破音字許刪去罷。
 ---
 name: zioephieng
-version:	"2022.8.12"
+version:	"2022.8.14"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -51,6 +53,8 @@ import_tables:
 
 # 附加字表
 
+蝻	ne2
+呃	ak4
 值	jiek4
 饈	sieu1
 揢	kho3
@@ -83,7 +87,7 @@ import_tables:
 鳧	bu1
 茈	zi1
 黍	tshy2
-#蠅	sieng1
+蠅	sieng1
 蟻	nga2
 餜	kuei2
 𥭢	phieng1
@@ -148,13 +152,13 @@ import_tables:
 啥	sa1
 啥	shio1
 咗	tsou1
-是	z1
-昰	d1
 箇	keh4
 箇	geh4
 個	keh4
-个	k1
 个	keh4
+个	k1
+是	z1
+昰	d1
 箇	g1
 物	m1
 何物	ga1 m1
@@ -615,6 +619,7 @@ import_tables:
 褪	thoeng3
 也	gha2	1000
 𣍐	feng1
+𣍐	veng1
 
 # 全字表（當然有聲調）
 
@@ -1083,7 +1088,7 @@ import_tables:
 憧	chiung1
 䡴	chiung1
 艟	chiung1
-潼	chiung1
+#潼	chiung1
 褈	chiung1
 𠟍	chiung1
 𠝤	chiung1
@@ -1114,7 +1119,7 @@ import_tables:
 瑢	yung1
 䈶	yung1
 嵱	yung1
-頌	yung1
+#頌	yung1
 㝐	yung1
 䡆	yung1
 㟾	yung1
@@ -3053,7 +3058,7 @@ import_tables:
 䜽	yu1
 萮	yu1
 蘛	yu1
-舀	yu1
+#舀	yu1
 㼶	yu1
 騟	yu1
 𢔢	yu1
@@ -3237,7 +3242,7 @@ import_tables:
 螋	su1
 模	mu1
 橅	mu1
-摸	mu1
+#摸	mu1
 嫫	mu1
 㡔	mu1
 𨡭	mu1
@@ -4634,7 +4639,7 @@ import_tables:
 踚	liuing1
 掄	liuing1
 䈁	liuing1
-屯	ciuing1
+屯	ciuing1	0.001%
 窀	ciuing1
 迍	ciuing1
 㡒	ciuing1
@@ -5293,7 +5298,7 @@ import_tables:
 鳱	koe1
 玕	koe1
 邗	koe1
-汗	koe1
+#汗	koe1
 迀	koe1
 㿻	koe1
 𢧀	koe1
@@ -5687,7 +5692,7 @@ import_tables:
 𠀘	thiae1
 䒶	thiae1
 𦧝	thiae1
-吞	thiae1
+吞	thiae1	0.001%
 訮	thiae1
 堅	kiae1
 鋻	kiae1
@@ -5782,7 +5787,7 @@ import_tables:
 厧	tiae1
 牽	khiae1
 縴	khiae1
-邢	khiae1
+#邢	khiae1
 汧	khiae1
 蚈	khiae1
 𪊑	khiae1
@@ -6081,7 +6086,7 @@ import_tables:
 𣟳	zioe1
 蜁	zioe1
 㔯	zioe1
-還	zioe1
+#還	zioe1
 㘣	zioe1
 䁢	zioe1
 嫙	zioe1
@@ -6296,7 +6301,7 @@ import_tables:
 澆	kiau1
 憿	kiau1
 釗	kiau1
-邀	kiau1
+#邀	kiau1
 蟂	kiau1
 徼	kiau1
 聊	liau1
@@ -6651,7 +6656,7 @@ import_tables:
 鵁	kau1
 膠	kau1
 鮫	kau1
-咬	kau1
+#咬	kau1
 郊	kau1
 䍊	kau1
 轇	kau1
@@ -7601,7 +7606,7 @@ import_tables:
 𦭵	yang1
 𦍹	yang1
 詳	ziang1
-洋	ziang1
+#洋	ziang1
 翔	ziang1
 庠	ziang1
 祥	ziang1
@@ -7638,7 +7643,7 @@ import_tables:
 殤	shiang1
 慯	shiang1
 觴	shiang1
-湯	shiang1
+湯	shiang1	0.0001%
 蔏	shiang1
 𪄲	shiang1
 螪	shiang1
@@ -8043,7 +8048,7 @@ import_tables:
 垙	kuong1
 𨎩	kuong1
 輄	kuong1
-橫	kuong1
+#橫	kuong1
 𩧉	kuong1
 恍	kuong1
 茪	kuong1
@@ -8255,7 +8260,7 @@ import_tables:
 楧	ieng1
 磅	phang1
 恲	phang1
-亨	phang1
+#亨	phang1
 澎	phang1
 平	bieng1
 評	bieng1
@@ -8382,7 +8387,7 @@ import_tables:
 䪫	ghang1
 牼	ghang1
 朾	tsang1
-丁	tsang1
+#丁	tsang1
 玎	tsang1
 𠑅	tsang1
 𧯫	tsang1
@@ -8788,7 +8793,7 @@ import_tables:
 嚀	nieng1
 聹	nieng1
 汀	thieng1
-訂	thieng1
+#訂	thieng1
 桯	thieng1
 綎	thieng1
 聽	thieng1
@@ -9137,7 +9142,7 @@ import_tables:
 鯈	yeu1
 抌	yeu1
 揄	yeu1
-舀	yeu1
+#舀	yeu1
 偤	yeu1
 䍃	yeu1
 𤪎	yeu1
@@ -10393,7 +10398,7 @@ import_tables:
 䉥	sung2
 𣞷	sung2
 侗	thung2
-桶	thung2
+#桶	thung2
 曈	thung2
 捅	thung2
 總	tsung2
@@ -10751,7 +10756,7 @@ import_tables:
 㸚	li2
 躧	sai2
 𩎉	sai2
-灑	sai2
+#灑	sai2
 纚	sai2
 縰	sai2
 釃	sai2
@@ -11543,7 +11548,7 @@ import_tables:
 䝒	zu2
 𧱛	zu2
 姥	mu2
-莽	mu2
+#莽	mu2
 䥈	mu2
 媽	mu2
 峔	mu2
@@ -12525,7 +12530,7 @@ import_tables:
 䍐	hoe2
 蔊	hoe2
 厂	hoe2
-灘	hoe2
+#灘	hoe2
 暵	hoe2
 焊	hoe2
 熯	hoe2
@@ -12611,7 +12616,7 @@ import_tables:
 斷	doe2
 𩏇	doe2
 緞	doe2
-攤	nae2
+#攤	nae2
 坢	phoe2
 𧺾	phoe2
 潸	sae2
@@ -13899,7 +13904,7 @@ import_tables:
 蠁	hiang2
 䖮	hiang2
 亯	hiang2
-亨	hiang2
+#亨	hiang2
 嚮	hiang2
 曏	hiang2
 敞	chiang2
@@ -13959,7 +13964,7 @@ import_tables:
 枉	iong2
 𢼟	iong2
 𣢫	iong2
-汪	iong2
+#汪	iong2
 往	yong2
 暀	yong2
 怳	hiong2
@@ -14546,7 +14551,7 @@ import_tables:
 畝	meu2
 畮	meu2
 畞	meu2
-莽	meu2
+#莽	meu2
 𤝕	meu2
 𤵝	meu2
 踇	meu2
@@ -14776,12 +14781,12 @@ import_tables:
 廞	hing2
 戡	cing2
 㱽	cing2
-潭	ying2
+#潭	ying2
 𩒣	zeng2
 感	ke2
 𥸡	ke2
 鱤	ke2
-灝	ke2
+#灝	ke2
 贑	ke2
 䤗	ke2
 贛	ke2
@@ -14941,7 +14946,7 @@ import_tables:
 鏨	zae2
 #嵌	zae2
 㟛	zae2
-喊	he2
+#喊	he2
 嚂	he2
 壏	he2
 㯺	he2
@@ -15105,7 +15110,7 @@ import_tables:
 豏	ghae2
 #減	ghae2
 㺝	ghae2
-喊	ghae2
+#喊	ghae2
 㺌	ghae2
 𡞣	ghae2
 𥻇	ghae2
@@ -15496,7 +15501,7 @@ import_tables:
 㒾	sy3
 翨	sy3
 屣	sai3
-灑	sai3
+#灑	sai3
 𩌦	sai3
 襹	sai3
 曬	sai3
@@ -17211,8 +17216,8 @@ import_tables:
 駾	thei3
 毻	thei3
 裞	thei3
-眜	ma3
-沫	ma3
+#眜	ma3
+#沫	ma3
 枺	ma3
 𦦣	tshei3
 卦	kuo3
@@ -17291,7 +17296,7 @@ import_tables:
 噫	a3
 呝	a3
 瘵	tsa3
-祭	tsa3
+祭	tsa3	0.001%
 𨝋	tsa3
 誡	ka3
 戒	ka3
@@ -18201,8 +18206,8 @@ import_tables:
 糷	lae3
 鑭	lae3
 讕	lae3
-攤	nae3
-灘	nae3
+#攤	nae3
+#灘	nae3
 難	nae3
 𦍀	nae3
 㬮	nae3
@@ -19672,7 +19677,7 @@ import_tables:
 孟	mang3
 䁅	mang3
 朚	mang3
-盟	mang3
+#盟	mang3
 蝗	wang3
 㶇	wang3
 橫	wang3
@@ -19790,7 +19795,7 @@ import_tables:
 矴	tieng3
 釘	tieng3
 訂	tieng3
-定	tieng3
+#定	tieng3
 飣	tieng3
 奠	tieng3
 𦘭	tieng3
@@ -20354,7 +20359,7 @@ import_tables:
 𧵊	he3
 蘫	he3
 䖔	he3
-憨	ghe3
+#憨	ghe3
 㺖	ghe3
 譀	ghe3
 䗣	ghe3
@@ -21816,7 +21821,6 @@ import_tables:
 𨅗	pik4
 茁	ciuik4
 肸	hik4
-暨	kik4
 獝	hiuik4
 術	zhiuik4
 述	zhiuik4
@@ -22039,7 +22043,7 @@ import_tables:
 訖	kik4
 吃	kik4
 扢	kik4
-暨	kik4
+暨	kik4	0.001%
 䰴	kik4
 疙	ngik4
 屹	ngik4
@@ -22184,7 +22188,7 @@ import_tables:
 䮩	kuek4
 啒	kuek4
 淈	kuek4
-汨	kuek4
+#汨	kuek4
 愲	kuek4
 蓇	kuek4
 尳	kuek4
@@ -24270,7 +24274,7 @@ import_tables:
 檡	shiek4
 適	shiek4
 奭	shiek4
-郝	shiek4
+#郝	shiek4
 睗	shiek4
 晹	shiek4
 𡣪	shiek4
@@ -24288,7 +24292,7 @@ import_tables:
 㡿	chiek4
 斥	chiek4
 㚖	chiek4
-郝	chiek4
+#郝	chiek4
 滷	chiek4
 𠧚	chiek4
 𠧵	chiek4
@@ -25204,7 +25208,7 @@ import_tables:
 鮯	keh4
 蛤	keh4
 郃	keh4
-浩	keh4
+#浩	keh4
 匌	keh4
 頜	keh4
 佮	keh4
@@ -120851,14 +120855,14 @@ import_tables:
 大選	d s
 競選	g s
 候選人	g s n
-突厥語	doek kioeh ngei
-北約	pek iak
+突厥語	doek4 kioeh4 ngei2
+北約	pek4 iak4
 歐盟	e m
 東盟	t m
 非盟	f m
 阿盟	a m
 阿拉伯國家聯盟	a l p k k l m
-聯盟	lie mang
+聯盟	lie1 mieng1
 聯盟	l m
 盟友	m y
 吳越	n y
@@ -123677,7 +123681,7 @@ import_tables:
 憧	chiuong1
 䡴	chiuong1
 艟	chiuong1
-潼	chiuong1
+#潼	chiuong1
 褈	chiuong1
 𠟍	chiuong1
 𠝤	chiuong1
@@ -128877,3 +128881,8 @@ import_tables:
 訤罷	gau1 ba2
 電動卵	diae3 dung2 loe2
 童卵	dung1 loe2
+松陽	ziung1 yang1
+木頭卵
+假卵
+假䏘
+假䐁
