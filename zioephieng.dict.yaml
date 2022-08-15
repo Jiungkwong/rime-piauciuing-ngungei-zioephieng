@@ -53,6 +53,8 @@ import_tables:
 
 # 附加字表
 
+瀕	ping1
+帕	phak4
 汝	neo2	1000
 渠	geo1	1000
 你	ni2	100
@@ -1261,7 +1263,7 @@ import_tables:
 供	kiung1
 珙	kiung1
 䢼	kiung1
-共	kiung1
+#共	kiung1
 𤱨	kiung1
 廾	kiung1
 髸	kiung1
@@ -1359,7 +1361,7 @@ import_tables:
 胮	bong1
 𩐨	bong1
 舽	bong1
-肛	hong1
+#肛	hong1
 啌	hong1
 谾	hong1
 舡	hong1
@@ -6008,7 +6010,7 @@ import_tables:
 便	bie1
 緶	bie1
 楩	bie1
-平	bie1
+#平	bie1
 諞	bie1
 㛹	bie1
 箯	bie1
@@ -8138,7 +8140,7 @@ import_tables:
 傍	bong1
 彷	bong1
 膀	bong1
-髈	bong1
+#髈	bong1
 䠙	bong1
 趽	bong1
 房	bong1
@@ -8227,7 +8229,7 @@ import_tables:
 蟚	bang1
 䰃	bang1
 棚	bang1
-榜	bang1
+#榜	bang1
 䄘	bang1
 搒	bang1
 蒡	bang1
@@ -8590,7 +8592,7 @@ import_tables:
 并	pieng1
 栟	pieng1
 箳	pieng1
-屏	pieng1
+屏	pieng1	0.000001%
 傾	khioeng1
 頃	khioeng1
 𩛿	zieng1
@@ -12386,7 +12388,7 @@ import_tables:
 緷	weng2
 焜	weng2
 倱	weng2
-棍	weng2
+#棍	weng2
 䫟	weng2
 睔	weng2
 㮯	weng2
@@ -14010,7 +14012,7 @@ import_tables:
 榜	pong2
 牓	pong2
 𣮧	pong2
-螃	pong2
+#螃	pong2
 蒡	pong2
 䰃	pong2
 駔	tsong2
@@ -14239,7 +14241,7 @@ import_tables:
 䕘	lieng2
 頸	kieng2
 餅	pieng2
-屏	pieng2
+屏	pieng2	0.000001%
 鉼	pieng2
 併	pieng2
 䴵	pieng2
@@ -15197,9 +15199,9 @@ import_tables:
 鳳	vung3
 𠤈	vung3
 貢	kung3
-贛	kung3
+#贛	kung3
 𣹟	kung3
-虹	kung3
+#虹	kung3
 羾	kung3
 𨹁	kung3
 䇨	kung3
@@ -15284,7 +15286,7 @@ import_tables:
 衷	ciung3
 哄	wung3
 烘	wung3
-港	wung3
+#港	wung3
 鬨	wung3
 蕻	wung3
 齈	nung3
@@ -15293,7 +15295,7 @@ import_tables:
 銃	chiung3
 㓽	zung3
 烘	hung3
-戇	hung3
+#戇	hung3
 宋	sung3
 綜	tsung3
 䝋	tsung3
@@ -15345,14 +15347,14 @@ import_tables:
 從	ziung3
 𢫨	niung3
 絳	kong3
-虹	kong3
+#虹	kong3
 降	kong3
 𡲣	kong3
 洚	kong3
 巷	ghong3
 衖	ghong3
 鬨	ghong3
-戇	ciong3
+#戇	ciong3
 䡴	dziong3
 憧	dziong3
 𢤤	dziong3
@@ -16374,7 +16376,7 @@ import_tables:
 傅	fu3
 𩬙	fu3
 陚	fu3
-搏	fu3
+#搏	fu3
 娶	tshiu3
 趣	tshiu3
 註	ciu3
@@ -17655,7 +17657,7 @@ import_tables:
 纔	zai3
 在	zai3
 酨	zai3
-栽	zai3
+#栽	zai3
 𣿐	zai3
 儗	hai3
 廢	fi3
@@ -18352,7 +18354,7 @@ import_tables:
 泮	phoe3
 頖	phoe3
 沜	phoe3
-胖	phoe3
+胖	phoe3	0.0001%
 姅	phoe3
 冸	phoe3
 牉	phoe3
@@ -19129,7 +19131,7 @@ import_tables:
 暴	bau3
 虣	bau3
 曝	bau3
-瀑	bau3
+瀑	bau3	0.00001%
 勽	bau3
 菢	bau3
 袍	bau3
@@ -19625,7 +19627,7 @@ import_tables:
 𪎵	khong3
 阬	khong3
 頏	khong3
-螃	pong3
+#螃	pong3
 搒	pong3
 舫	pong3
 謗	pong3
@@ -19710,7 +19712,7 @@ import_tables:
 㡧	tsang3
 𩏠	tsang3
 牚	tshang3
-榜	pang3
+#榜	pang3
 𧻓	pang3
 跰	pang3
 鋥	dzang3
@@ -20717,7 +20719,7 @@ import_tables:
 嚛	huk4
 族	zuk4
 銼	zuk4
-鑿	zuk4
+#鑿	zuk4
 瘯	tshuk4
 䃚	tshuk4
 蔟	tshuk4
@@ -20726,7 +20728,7 @@ import_tables:
 簇	tshuk4
 鏃	tsuk4
 鎐	tsuk4
-暴	buk4
+#暴	buk4
 曝	buk4
 瀑	buk4
 䗱	buk4
@@ -21411,7 +21413,6 @@ import_tables:
 嚗	pok4
 𥭖	pok4
 肑	pok4
-爆	pok4
 𪇰	pok4
 髉	pok4
 㿺	pok4
@@ -23646,14 +23647,14 @@ import_tables:
 𦚈	thok4
 侂	thok4
 飥	thok4
-魄	thok4
+魄	thok4	10%
 沰	thok4
 矺	thok4
 作	tsok4
 迮	tsok4
 柞	tsok4
 糳	tsok4
-鑿	tsok4
+鑿	tsok4	0.0001%
 㘀	tsok4
 錯	tshok4
 厝	tshok4
@@ -23776,7 +23777,7 @@ import_tables:
 博	pok4
 髆	pok4
 搏	pok4
-爆	pok4
+#爆	pok4
 鎛	pok4
 㗘	pok4
 𪙍	pok4
@@ -23956,7 +23957,7 @@ import_tables:
 䪝	uak4
 拍	phak4
 魄	phak4
-怕	phak4
+#怕	phak4
 皛	phak4
 敀	phak4
 𠓗	phak4
@@ -25367,7 +25368,7 @@ import_tables:
 闔	gheh4
 𨶩	gheh4
 嗑	gheh4
-蓋	gheh4
+#蓋	gheh4
 𧪞	gheh4
 篕	gheh4
 㧁	gheh4
@@ -49727,7 +49728,7 @@ import_tables:
 屏氣凝神
 屏氣攝息
 屏氣斂息
-屏營
+屏營	pieng1 yoeng1
 屏當
 屏絕
 屏聲息氣
@@ -62023,8 +62024,8 @@ import_tables:
 確認爲
 確論
 確證
-確鑿
-確鑿不移
+確鑿	khok4 tsok4
+確鑿不移	khok4 tsok4 fek4 yi1
 確非
 碼分多址
 碼率
@@ -63581,7 +63582,7 @@ import_tables:
 罪行累累
 罪該萬死
 罪該處死
-罪證確鑿
+罪證確鑿	zei2 cieng3 khok4 tsok4
 置之不問
 置之死地
 置之死地而後快
@@ -68089,7 +68090,7 @@ import_tables:
 證券經紀人
 證卷交易所
 證婚人
-證據確鑿
+證據確鑿	cieng3 kei3 khok4 tsok4
 識大體
 識字率
 識文斷字
@@ -74029,14 +74030,13 @@ import_tables:
 龔自珍
 龜兒子
 龜茲
-#
 阿哥
 肴料
 棒冰
 葡萄
 肥皂
 下巴
-瀑布
+瀑布	buk4 pu3
 龜裂
 契丹
 特爲
@@ -74088,7 +74088,7 @@ import_tables:
 鷂子
 咸菜甏
 鉋子
-瀑雨
+瀑雨	bau3 yu2
 鵓鴣
 摽有梅
 摽落
@@ -78892,7 +78892,7 @@ import_tables:
 巨蟒
 巨壑
 巨翼
-巨瀑
+巨瀑	gei2 buk4
 巨額
 巨騙
 巨鯨
@@ -87044,15 +87044,14 @@ import_tables:
 屋頭
 屋檐
 屋簷
-屏牢
-屏東
-屏門
-屏保
-屏風
-屏條
-屏幕
-屏障
-屏蔽
+屏東	bieng1 tung1
+屏門	bieng1 meng1
+屏保	bieng1 pau2
+屏風	bieng1 fung1
+屏條	bieng1 diau1
+屏幕	bieng1 mok4
+屏障	bieng1 ciang1
+屏蔽	bieng1 pi3
 差人
 差弗多
 差可
@@ -123845,7 +123844,7 @@ import_tables:
 供	kiuong1
 珙	kiuong1
 䢼	kiuong1
-共	kiuong1
+#共	kiuong1
 𤱨	kiuong1
 廾	kiuong1
 髸	kiuong1
