@@ -24,7 +24,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.14
+# 版本號：22.8.15
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -44,7 +44,7 @@
 # 破音字許刪去罷。
 ---
 name: zioephieng
-version:	"2022.8.14"
+version:	"2022.8.15"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -53,6 +53,8 @@ import_tables:
 
 # 附加字表
 
+汝	neo2	1000
+渠	geo1	1000
 你	ni2	100
 甦	su1
 畜	chiuk4
@@ -1616,8 +1618,8 @@ import_tables:
 䣡	ngi1
 䴊	ngi1
 轙	ngi1
-涯	ngi1
-崖	ngi1
+#涯	ngi1
+#崖	ngi1
 皮	bi1
 疲	bi1
 郫	bi1
@@ -18883,7 +18885,7 @@ import_tables:
 讑	yau3
 要	iau3
 葽	iau3
-約	iau3
+約	iau3	0.0001%
 召	jiau3
 邵	zhiau3
 召	zhiau3
@@ -19098,7 +19100,7 @@ import_tables:
 眊	mau3
 瑁	mau3
 𤣽	mau3
-冒	mau3
+冒	mau3	0.00001%
 𥈆	mau3
 旄	mau3
 毛	mau3
@@ -21501,7 +21503,7 @@ import_tables:
 楃	ok4
 喔	ok4
 鷽	ok4
-葯	ok4
+#葯	ok4	
 腛	ok4
 𪑱	ok4
 齷	ok4
@@ -21939,7 +21941,7 @@ import_tables:
 璱	sek4
 𦆄	sek4
 𪗨	zek4
-物	mek4
+物	mek4	900
 勿	mek4
 𣃦	mek4
 芴	mek4
@@ -22179,7 +22181,7 @@ import_tables:
 楬	gieh4
 㤄	faeh4
 钀	ngieh4
-沒	mek4
+沒	mek4	1000
 歿	mek4
 𤣻	mek4
 𩑦	mek4
@@ -23468,7 +23470,7 @@ import_tables:
 婥	chiak4
 磭	chiak4
 約	iak4
-葯	iak4
+葯	iak4	0.00001%
 卻	khiak4
 却	khiak4
 𨟠	khiak4
@@ -24975,7 +24977,7 @@ import_tables:
 冒	mek4
 䘃	mek4
 纆	mek4
-万	mek4
+万	mek4	0.0001%
 𢄏	mek4
 艒	mek4
 𡣫	mek4
@@ -88269,7 +88271,7 @@ import_tables:
 約見
 約言
 約定
-約法
+約法	iak4 faeh4
 約長
 約是
 約計
@@ -107057,12 +107059,9 @@ import_tables:
 炕牀
 炕桌
 炕頭
-# 炮烙
 炸羣
 焉能
 無弗
-# 無暇
-# 無涯
 然否
 煆燒
 煙上
@@ -107098,16 +107097,9 @@ import_tables:
 牙牀
 # 牙鬚
 牧羣
-# 狎姘頭
-# 狎鬧猛
-# 狎道
 獨有個
 獸羣
 琴絃
-# 瓦特
-# 生涯
-# 生疏
-# 生肖
 產牀
 用弗
 用個
@@ -107122,8 +107114,8 @@ import_tables:
 疑兇
 病牀
 癩疥蚾
-# 癩痢
-# 癩痢頭
+癩痢
+癩痢頭
 癩蛤蚾
 癩蛤蚾車
 發齁
@@ -107190,7 +107182,6 @@ import_tables:
 # 精粹
 糾衆
 # 紅女
-# 納粹
 # 純粹
 紙菸
 素弗
@@ -107257,7 +107248,6 @@ import_tables:
 而弗
 # 耕莘
 # 耳蝸
-# 耿頭耿腦
 聚衆
 聯衆
 聽衆
@@ -122570,21 +122560,26 @@ import_tables:
 許瑲	hei tshiang
 手䘼	shieu ioe
 蝤蛑	yeu meu
-是我	zek ngou
-是汝	zek ni
-是渠	zek gei
-是佢	zek gei
-佢倈	gei la
-佢儂	gei nung
-渠儂	gei nung
-佢都	gei taeh
-渠都	gei taeh
-汝都	gei taeh
-我都	ngou taeh
-汝儂	ni nung
-我儂	ngou nung
-佢個	gei keh
-佢倈個	gei la keh
+是我	zek4 ngou2
+是汝	zek4 ni2
+是汝	zek4 neo2
+是渠	zek4 gei1
+是渠	zek4 geo1
+是佢	zek4 gei1
+佢倈	gei1 la1
+佢儂	gei1 nung1
+渠儂	gei1 nung1
+渠儂	geo1 nung1
+佢都	gei1 taeh4
+渠都	gei1 taeh4
+渠都	geo1 taeh4
+汝都	gei1 taeh4
+我都	ngou2 taeh4
+汝儂	ni2 nung1
+汝儂	neo2 nung1
+我儂	ngou2 nung1
+佢個	gei1 keh4
+佢倈個	gei1 la1 keh4
 磉礎	song tshu
 埲塵	bung jing
 打降	tang gong
@@ -128891,3 +128886,4 @@ import_tables:
 假䐁
 䏘漿水
 樞紐
+屋宕
