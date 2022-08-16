@@ -1891,7 +1891,7 @@ import_tables:
 臇	tsiu1
 𤎱	tsiu1
 㷷	tsiu1
-衰	tshei1
+衰	tshei1	0.001%
 夊	tshei1
 腄	ciu1
 箠	ciu1
@@ -2114,7 +2114,7 @@ import_tables:
 桵	niu1
 䅑	niu1
 捼	niu1
-衰	sei1
+衰	sa1
 榱	sei1
 𤸬	sei1
 惟	yu1
@@ -30160,7 +30160,7 @@ import_tables:
 還鈔票
 還搭
 都落去
-鄉音無改鬢毛衰
+鄉音無改鬢毛衰	hiang1 ing1 mu1 kai2 ping3 mau1 tshei1
 醒的
 調覺的
 量在
