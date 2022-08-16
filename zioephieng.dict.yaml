@@ -53,6 +53,13 @@ import_tables:
 
 # 附加字表
 
+圈	khioe1
+獗	kioeh4
+噘	kioeh4
+孓	kioeh4
+茉	moeh4
+哞	meu1
+菇	ku1
 抲	kho3
 㧎	kho3
 戍	chiu3
@@ -2392,7 +2399,7 @@ import_tables:
 諅	ki1
 其	ki1
 錤	ki1
-居	ki1
+#居	ki1
 諆	ki1
 詞	zy1
 祠	zy1
@@ -2659,7 +2666,7 @@ import_tables:
 琚	kei1
 䝻	kei1
 鶋	kei1
-車	kei1
+車	kei1	0.000001%
 蜛	kei1
 崌	kei1
 椐	kei1
@@ -12354,7 +12361,7 @@ import_tables:
 橎	fae2
 𧯦	gioe2
 圈	gioe2
-菌	gioe2
+#菌	gioe2
 卷	gioe2
 婉	ioe2
 菀	ioe2
@@ -13036,7 +13043,6 @@ import_tables:
 𨹵	kioe2
 捲	kioe2
 埢	kioe2
-圈	gioe2
 蔨	gioe2
 𦳆	gioe2
 輭	nioe2
@@ -13346,7 +13352,7 @@ import_tables:
 澩	ghau2
 㺒	ghau2
 䕧	ghau2
-佼	ghau2
+#佼	ghau2
 䀊	ghau2
 䉰	ghau2
 飽	pau2
@@ -16915,7 +16921,7 @@ import_tables:
 鱖	kiu3
 𠜾	kiu3
 𨇙	kiu3
-蹶	kiu3
+蹶	kiu3	0.0001%
 𤜂	kiu3
 袂	mi3
 㡜	shi3
@@ -20709,7 +20715,7 @@ import_tables:
 𥂇	luk4
 𤽺	luk4
 廘	luk4
-角	luk4
+#角	luk4
 𥪋	luk4
 彔	luk4
 濼	luk4
@@ -21344,7 +21350,7 @@ import_tables:
 斠	kok4
 角	kok4
 桷	kok4
-較	kok4
+#較	kok4
 䡈	kok4
 珏	kok4
 瑴	kok4
@@ -21997,7 +22003,7 @@ import_tables:
 𠀔	kiuik4
 孒	kiuik4
 𦁐	kiuik4
-厥	kiuik4
+#厥	kiuik4
 屈	kiuik4
 鶌	kiuik4
 趉	kiuik4
@@ -22015,7 +22021,7 @@ import_tables:
 𡲗	giuik4
 堀	giuik4
 𧱝	giuik4
-掘	giuik4
+#掘	giuik4
 佛	vek4
 怫	vek4
 坲	vek4
@@ -22141,8 +22147,8 @@ import_tables:
 𧤼	gioeh4
 鷢	gioeh4
 橜	gioeh4
-撅	gioeh4
-蹶	gioeh4
+#撅	gioeh4	0.0001%
+#蹶	gioeh4
 掘	gioeh4
 赶	gioeh4
 憠	gioeh4
@@ -22926,7 +22932,7 @@ import_tables:
 泬	hioeh4
 疦	hioeh4
 瞲	hioeh4
-決	hioeh4
+#決	hioeh4
 䛎	hioeh4
 䒸	hioeh4
 坹	hioeh4
@@ -23359,7 +23365,6 @@ import_tables:
 𦐋	hioeh4
 吷	hioeh4
 妜	ioeh4
-蹶	kioeh4
 𧱝	kioeh4
 𧣸	kioeh4
 䞵	kioeh4
@@ -23449,7 +23454,7 @@ import_tables:
 㣿	ciak4
 勺	ciak4
 酌	ciak4
-繳	ciak4
+繳	ciak4	0.0001%
 焯	ciak4
 䅵	ciak4
 妁	ciak4
@@ -24140,7 +24145,7 @@ import_tables:
 䬉	huak4
 𠜻	huak4
 覈	ghak4
-繳	ghak4
+#繳	ghak4
 䃒	ghak4
 翮	ghak4
 㮝	ghak4
@@ -26650,7 +26655,6 @@ import_tables:
 靠	gau3
 也	gha2
 畸	gi2
-劇	giak4
 勁	gieng3
 躿	gong3
 㽘	gong3
@@ -26667,7 +26671,7 @@ import_tables:
 可	kha2
 檻	khae3
 窘	khiuing2
-菌	khiuing2
+#菌	khiuing2
 箍	khu1
 繪	kuei3
 娟	kioe1
@@ -104409,7 +104413,6 @@ import_tables:
 蘇區
 蘇醒
 蘊育
-蘑菇
 蟹手蟹腳
 蟹爪菊
 蟹菊
@@ -126575,7 +126578,6 @@ import_tables:
 平菇
 黑木耳
 白木耳
-香蕈
 青泥苔
 眾牲
 癩皮狗
@@ -128929,3 +128931,6 @@ import_tables:
 匏桸
 夾衖
 里衖
+苦力怕
+蹶倒	kioeh4 tau2
+猖獗
