@@ -24,7 +24,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.17
+# 版本號：22.8.18
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -44,7 +44,7 @@
 # 破音字許刪去罷。
 ---
 name: zioephieng
-version:	"2022.8.17"
+version:	"2022.8.18"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -55,6 +55,31 @@ import_tables:
 
 # 附加字表
 
+沢	dzak4
+砸	tseh4
+牤	mang1
+蟎	moe2
+熵	shiang1
+摔	siuik4
+褂	kuo3
+嚯	huok4
+艹	tshau2
+肏	tshaeh4
+碳	thae3
+噠	toeh4
+韃	thaeh4
+螅	siek4
+蛐	khiuk4
+佤	nguo2
+摁	eng3
+氹	tong2
+氹	dong1
+噹	tong1
+啷	long1
+唷	yuk4
+珜	yang1
+垟	yang1
+鈺	ngiuk4
 孿	lioe1
 朊	ngioe1
 圈	khioe3
@@ -117,7 +142,7 @@ import_tables:
 鳧	bu1
 茈	zi1
 黍	tshy2
-蠅	sieng1
+#蠅	sieng1
 蟻	nga2
 餜	kuei2
 𥭢	phieng1
@@ -290,7 +315,7 @@ import_tables:
 艷	ye3
 嗰	kok4
 妳	ni2
-咯	kok4
+#咯	kok4
 傢	ko1
 俬	sang1
 𠲎	va1
@@ -1506,7 +1531,7 @@ import_tables:
 𦗕	mi1
 醿	mi1
 隓	hiu1
-墮	hiu1
+#墮	hiu1
 隳	hiu1
 眭	hiu1
 觿	hiu1
@@ -2839,7 +2864,7 @@ import_tables:
 𨾵	ni1
 𡫽	ni1
 茹	ni1
-且	tsi1
+#且	tsi1
 蛆	tsi1
 苴	tsi1
 沮	tsi1
@@ -3012,7 +3037,7 @@ import_tables:
 𢄼	siu1
 𪋯	siu1
 需	siu1
-娶	siu1
+#娶	siu1
 緰	siu1
 蕦	siu1
 鑐	siu1
@@ -4773,7 +4798,7 @@ import_tables:
 云	yuing1
 篔	yuing1
 䢵	yuing1
-員	yuing1
+#員	yuing1
 𪔅	yuing1
 愪	yuing1
 沄	yuing1
@@ -6503,7 +6528,7 @@ import_tables:
 愮	yau1
 恌	yau1
 𨙂	yau1
-陶	yau1
+陶	yau1	0.00001%
 蘨	yau1
 𤬖	yau1
 鷂	yau1
@@ -6989,7 +7014,7 @@ import_tables:
 醩	tsau1
 遭	tsau1
 㷮	tsau1
-槽	tsau1
+#槽	tsau1
 傮	tsau1
 𣩒	tsau1
 㡟	tsau1
@@ -7060,7 +7085,7 @@ import_tables:
 㤎	kou1
 渮	kou1
 牁	kou1
-戕	kou1
+#戕	kou1
 滒	kou1
 哥	kou1
 鴚	kou1
@@ -7535,7 +7560,7 @@ import_tables:
 𤶠	dzo1
 𦛝	dzo1
 𥥸	dzo1
-塗	dzo1
+#塗	dzo1
 𨼑	dzo1
 梌	dzo1
 䅊	dzo1
@@ -7581,7 +7606,7 @@ import_tables:
 𪗭	tso1
 䐒	tso1
 煆	ho1
-呀	ho1
+#呀	ho1
 谺	ho1
 疨	ho1
 岈	ho1
@@ -8146,7 +8171,7 @@ import_tables:
 臧	tsong1
 匨	tsong1
 牂	tsong1
-戕	tsong1
+#戕	tsong1
 贓	tsong1
 样	tsong1
 囊	nong1
@@ -8508,7 +8533,7 @@ import_tables:
 圊	tshieng1
 情	zieng1
 晴	zieng1
-請	zieng1
+#請	zieng1
 夝	zieng1
 䝼	zieng1
 精	tsieng1
@@ -10895,7 +10920,7 @@ import_tables:
 旨	tsy2
 指	tsy2
 恉	tsy2
-祁	tsy2
+#祁	tsy2
 䛗	tsy2
 厎	tsy2
 砥	tsy2
@@ -11391,7 +11416,7 @@ import_tables:
 紓	zhy2
 抒	zhy2
 杼	zhy2
-野	zhy2
+#野	zhy2
 墅	zhy2
 𤿚	tshi2
 苴	tsi2
@@ -11588,7 +11613,7 @@ import_tables:
 肚	du2
 𥀁	du2
 荰	du2
-土	du2
+#土	du2
 魯	lu2
 櫓	lu2
 滷	lu2
@@ -11647,7 +11672,7 @@ import_tables:
 仵	ngu2
 簿	bu2
 部	bu2
-粗	zu2
+#粗	zu2
 麆	zu2
 駔	zu2
 伹	zu2
@@ -13681,7 +13706,7 @@ import_tables:
 隋	thou2
 䲊	thou2
 㟎	thou2
-墮	thou2
+#墮	thou2
 橢	thou2
 𨼰	thou2
 鵎	thou2
@@ -13739,7 +13764,7 @@ import_tables:
 鰢	mo2
 者	cio2
 赭	cio2
-堵	cio2
+#堵	cio2
 野	ya2
 𡐨	ya2
 也	ya2
@@ -14314,7 +14339,7 @@ import_tables:
 濎	tieng2
 葶	tieng2
 靪	tieng2
-打	tieng2
+#打	tieng2
 㞟	tieng2
 挺	dieng2
 艇	dieng2
@@ -14695,7 +14720,7 @@ import_tables:
 襡	deu2
 鯫	zeu2
 趣	tsheu2
-取	tsheu2
+#取	tsheu2
 棷	tsheu2
 黝	ieu2
 怮	ieu2
@@ -16126,7 +16151,7 @@ import_tables:
 唏	hi3
 塈	hi3
 愾	hi3
-氣	hi3
+#氣	hi3
 餼	hi3
 䊠	hi3
 鎎	hi3
@@ -16312,7 +16337,7 @@ import_tables:
 句	kiu3	1000
 蒟	kiu3
 絇	kiu3
-瞿	kiu3
+瞿	kiu3	0.00001%
 𥉁	kiu3
 怐	kiu3
 䈮	kiu3
@@ -16479,7 +16504,7 @@ import_tables:
 逜	ngu3
 窹	ngu3
 捂	ngu3
-娛	ngu3
+#娛	ngu3
 䎸	ngu3
 護	wu3
 瓠	wu3
@@ -16656,7 +16681,7 @@ import_tables:
 𥶛	di3
 逮	di3
 砌	tshi3
-切	tshi3
+#切	tshi3
 𥉻	tshi3
 妻	tshi3
 摖	tshi3
@@ -17928,7 +17953,7 @@ import_tables:
 䩵	yuing3
 韗	yuing3
 鄆	yuing3
-員	yuing3
+#員	yuing3
 䲰	yuing3
 忶	yuing3
 鶤	yuing3
@@ -19783,7 +19808,7 @@ import_tables:
 穽	zieng3
 䝼	zieng3
 靚	zieng3
-請	zieng3
+#請	zieng3
 婧	zieng3
 𩓞	zieng3
 盛	zhieng3
@@ -20989,7 +21014,7 @@ import_tables:
 叔	shiuk4
 儵	shiuk4
 倏	shiuk4
-透	shiuk4
+#透	shiuk4
 虪	shiuk4
 跾	shiuk4
 鮛	shiuk4
@@ -22414,7 +22439,7 @@ import_tables:
 羍	thaeh4
 𦍒	thaeh4
 達	thaeh4
-汏	thaeh4
+#汏	thaeh4
 噧	thaeh4
 遏	oeh4
 齃	oeh4
@@ -23223,7 +23248,7 @@ import_tables:
 晣	cieh4
 浙	cieh4
 折	cieh4
-靼	cieh4
+#靼	cieh4
 𩍕	cieh4
 䩢	cieh4
 䏳	cieh4
@@ -24782,7 +24807,7 @@ import_tables:
 嗇	sek4
 𩍙	sek4
 穡	sek4
-薔	sek4
+#薔	sek4
 轖	sek4
 繬	sek4
 濇	sek4
@@ -26561,7 +26586,6 @@ import_tables:
 𢳍	tshie1
 輯	tshik4
 汆	tshoe1
-粗	tshu1
 姊	tsi2
 姉	tsi2
 𧉆	tsik4
