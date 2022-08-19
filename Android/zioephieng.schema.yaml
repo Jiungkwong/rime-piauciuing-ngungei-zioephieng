@@ -1,0 +1,218 @@
+﻿# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+# 版本號：22.8.10.4.3
+# 標準吳語輸入灋Github宕落地址：
+# https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
+#
+# 更新日誌：
+# 附加字表加來罷，包括化學元素周期表、常用化學物質、《浙南甌語》、《吳語三門方言研究》替《吳語詞彙管窺——甌滬共通詞彙比較》裏頭個字替部分詞彙。
+# 部分常用字個吳音加來罷，疑問代詞加來罷。
+# 表示烹飪技巧個字許加來罷。
+# 新聞詞彙、國際政治詞彙加來罷。好用首字母縮寫輸入。
+# 標準吳語翻譯個國家名頭加來罷，統對牢渠都自家語言裏頭國家名頭個發音。
+# 字表頂下頭部分加來罷。
+# 統字許「26556個」聲調加來罷。
+
+schema:
+  schema_id: zioephieng
+  name: 標準吳語
+  version: "2022.8.10"
+  author:
+    - 吳韻 <tittii@outlook.com>
+    - 重光 <viktorsalehwu@gmail.com>
+    - ThokCc <potato008@gmail.com>
+    - te ˂goskhokoonga@gmail.com˃
+  description: |
+    Thanks to the following works:
+      * CC-CEDICT
+      * Android open source project
+      * Chewing - 新酷音
+      * 三拼簡繁詞庫
+      * opencc - 開放中文轉換
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: half_shape
+    states: [ 全角, 半角 ]
+  - name: simplification
+    states: [ 正體, 殘體 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@hspnz_lookup
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator              # 主翻譯器
+    - table_translator@custom_phrase # 用戶短語
+    - reverse_lookup_translator
+    - table_translator@hspnz_lookup
+  filters:
+    - simplifier
+    - uniquifier
+
+translator:
+  dictionary: zioephieng
+  prism: zioephieng
+  spelling_hints: 8
+
+punctuator:
+  import_preset: symbols # 句讀處理器，統一從外部導入
+
+key_binder:
+  import_preset: default # 快捷鍵，統一從外部導入
+
+recognizer:
+  import_preset: default # 特殊規則輸入碼，統一從外部導入
+  patterns:
+    reverse_lookup: "//[a-z]*'?$"
+    hspnz_lookup: "`/[hspnz]*'?$"
+
+custom_phrase:
+  dictionary: ""
+  user_dict: zioephieng.words # 用戶詞典名
+  db_class: stabledb       # 詞典類型爲只讀格式
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+
+reverse_lookup:
+  dictionary: terra_pinyin
+  prefix: "//"
+  suffix: "'"
+  tips: 〔侉普拼音反查〕
+  enable_completion: true #必須與刪去注釋一起使用，否則處理能力不夠時會導致崩潰。
+  enable_user_dict: false
+  enable_encoder: false #自動組詞
+  enable_sentence: false #自動造句
+  enable_charset_filter: false #是否開啓字符集過濾〔僅table_translator有效。啓用cjk_minifier後可適用於script_translator〕.避免同時使用字符集過濾和extended_charset.
+  comment_format:
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+
+hspnz_lookup:
+  tag: hspnz_lookup
+  dictionary: stroke #望來好擔來反查個輸入方案是佛振欽定個……stroke、cangjie5替terra_pinyin試驗落來統是來賽個，甚至擔詞典驐脫一部分也來賽，卻情自定義名稱便無之用。嗷，有箇然介孛相個啊……
+  tips: 〔hspnz五筆畫反查〕
+  prefix: "`/"
+  suffix: "'"
+  enable_completion: true #板定要替刪去注釋聚隊使用，弗得處理能力弗夠個辰光會得導致崩潰。
+  enable_user_dict: false
+  enable_encoder: false #自動組詞
+  enable_sentence: false #自動造句
+  enable_charset_filter: false #是否開啓字符集過濾〔僅table_translator有效。啓用cjk_minifier後好用於script_translator〕.避免同時使用字符集過濾替extended_charset.
+  preedit_format:
+    - xlit/hspnz/一丨丿丶乙/
+ 
+hspnz_reverse_lookup:
+  tags: [hspnz_lookup]
+  dictionary: zioephieng
+  overwrite_comment: false
+  comment_format:
+#刪去音韻學信息以免因注釋太長崩潰。（注意：要雙斜杆注釋！）
+#    - "xform/\\{.{1,20}\\}//"
+
+speller:
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: "'"
+  algebra:
+    - "xform/'//"
+    - abbrev/^([a-z]).+$/$1/   #啓用首字母匹配
+    - abbrev/^([ptkgszc]h).+$/$1/  #啓用首字母匹配
+    - abbrev/^(ts).+$/$1/  #啓用首字母匹配
+    - abbrev/^(tsh).+$/$1/  #啓用首字母匹配
+    - abbrev/^(ng).+$/$1/  #啓用首字母匹配
+    
+    - "derive/1/q/"
+    - "derive/2/x/"
+    - "derive/3/r/" 
+    - "derive/^([A-Za-z]+)(\\d?)$/$1/"
+    - "derive/^([A-Za-z]*[kh])4$/$1rr/" #q=1，平聲；x=2，上聲；r=3，去聲; rr=4，入聲；xx=5，小稱調（罕用）
+    - "derive/5/xx/" 
+    - derive/[qxr]/                 # 忽略聲調
+    
+    #- derive/^ghu/w/ #dict.yaml #字開頭個ghu/w弗分 無之啓用！
+    #- derive/ghu$/wu/ #dict.yaml #ghu/wu弗分 無之啓用！
+    #- derive/wak$/ghuk/ #dict.yaml #容錯 劃、鵠弗分
+    #- derive/wek$/ghuk/ #dict.yaml #容錯 或、鵠弗分
+    #- derive/wang$/ghung/ #dict.yaml #容錯 宏、紅弗分
+    #- derive/weng$/ghung/ #dict.yaml #容錯 混、紅弗分
+    
+    #- derive/^ghi/y/ #字開頭個ghi/y弗分
+    #- derive/ghi$/yi/ #容錯 ghi/yi弗分
+    #- derive/ghiu$/yu/ #容錯 ghiu/yu弗分
+    
+    #- derive/iae$/ie/ #容錯 iae/ie弗分 練、連弗分
+    #- derive/iae$/ie/ #容錯 iae/ie弗分 練、連弗分
+    #- derive/yae$/ye/ #容錯 yae/ye弗分 賢、鹽弗分
+    #- derive/yae$/ye/ #容錯 yae/ye弗分 賢、鹽弗分
+    
+    #- derive/uang$/ung/ #容錯 uang/ung弗分 泓、翁弗分
+    #- derive/ueng$/ung/ #容錯 ueng/ung弗分 溫、翁弗分
+    #- derive/uak$/uk/ #容錯 uak/uk弗分 劃、鵠弗分
+    #- derive/uek$/uk/ #容錯 uek/uk弗分 國、谷弗分
+
+    #- derive/ieng$/ing/ #容錯 ieng/ing弗分 弗分前後鼻音 情、秦弗分
+    #- derive/iek$/ik/ #容錯 iek/ik弗分 擊、吉弗分
+    #- derive/yeng$/ying/ #容錯 yeng/ying弗分 贏、引弗分
+    #- derive/yek$/yik/ #容錯 yek/yik弗分 液、逸弗分
+    
+    #- derive/ng$/n/ #容錯 ng/n弗分 疑、泥弗分
+    #- derive/k$/h/ #容錯 入聲尾-k/-h弗分 揭、擊弗分
+    
+    - derive/ao$/au/ #容錯 ao/au弗分 學習甌江片用
+    - derive/uong$/ung/ #容錯 uong/ung弗分 學習甌江片用
+    - derive/uok$/ok/ #容錯 uok/ok弗分 學習甌江片用
+    
+    #- derive/kei$/kiu/ #容錯 ei魚/iu虞弗分
+    #- derive/khei$/khiu/ #容錯 ei魚/iu虞弗分
+    #- derive/gei$/giu/ #容錯 ei魚/iu虞弗分
+    #- derive/ngei$/ngiu/ #容錯 ei魚/iu虞弗分
+    #- derive/^ei/iu/ #容錯 ei魚/iu虞弗分
+    #- derive/ghei$/ghiu/ #容錯 ei魚/iu虞弗分
+    #- derive/^gh/g/ #容錯 gh/g弗分 匣母替羣母相混
+    #- derive/au$/ao/ #容錯 ao/au弗分 學習甌江片用
+    #- derive/ai$/ei/ #容錯 ai/ei弗分 來、雷弗分
+    #- derive/ei$/ai/ #容錯 ai/ei弗分 雷、來弗分
+    #- derive/ai$/ae/ #容錯 ai/ae弗分 來、藍弗分
+    #- derive/^kh/h/ #容錯 kh/h弗分 起、希弗分
+    #- derive/^kh/k/ #容錯 kh/k弗分 開、概弗分
+
+    #- derive/^tsi/ci/ #容錯 濟、制弗分，弗分尖團音
+    #- derive/^tshi/chi/ #容錯 妻、掣弗分，弗分尖團音
+    #- derive/^si/shi/ #容錯 西、世弗分，弗分尖團音
+    #- derive/^zi/zhi/ #容錯 齊、逝弗分，弗分尖團音
+
+    #- derive/^te/toe/ #容錯 e/oe弗分 耽、端弗分
+    #- derive/^the/thoe/ #容錯 e/oe弗分 探、蛻弗分
+    #- derive/^de/doe/ #容錯 e/oe弗分 潭、段弗分
+    #- derive/^ne/noe/ #容錯 e/oe弗分 南、暖弗分
+    #- derive/^le/loe/ #容錯 e/oe弗分 纜、亂弗分
+    #- derive/^tse/tsoe/ #容錯 e/oe弗分 簪、鑽弗分
+    #- derive/^tshe/tshoe/ #容錯 e/oe弗分 慘、竄弗分
+    #- derive/^se/soe/ #容錯 e/oe弗分 糝、酸弗分
+    #- derive/^ze/zoe/ #容錯 e/oe弗分 蠶、撰弗分
+    #- derive/^ke/koe/ #容錯 e/oe弗分 甘、干弗分
+    #- derive/^khe/khoe/ #容錯 e/oe弗分 坎、看弗分
+    #- derive/^ge/goe/ #容錯 e/oe弗分 暫時嘸讀goe個字
+    #- derive/^ghe/ghoe/ #容錯 e/oe弗分 含、汗弗分
+    #- derive/^he/hoe/ #容錯 e/oe弗分 喊、漢弗分
+    #- derive/^e/oe/ #容錯 e/oe弗分 暗、安弗分
