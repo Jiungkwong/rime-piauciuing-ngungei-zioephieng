@@ -47,7 +47,7 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - zioephieng.words # 增補詞庫
-  
+  - zioephieng.abbreviation #縮寫
 ...
 
 # 附加字表
@@ -161,7 +161,6 @@ import_tables:
 哧	tshak4
 偌	nio1
 鍬	tshiau1
-鍫	tshiau1
 柿	zy2
 吆	iau1
 叻	liek4
@@ -226,7 +225,7 @@ import_tables:
 熵	shiang1
 摔	siuik4
 褂	kuo3
-嚯	huok4
+嚯	huk4
 艹	tshau2
 肏	tshaeh4
 碳	thae3
@@ -483,7 +482,6 @@ import_tables:
 傢	ko1
 俬	sang1
 𠲎	va1
-熔	yung1
 墶	taeh4
 樑	liang1
 砣	dou1
@@ -1393,7 +1391,7 @@ import_tables:
 从	ziung1
 𩀰	ziung1
 蹱	chiung1
-#傭	chiung1
+傭	chiung1
 𦟛	chiung1
 𨙔	chiung1
 䝑	chiung1
@@ -6763,7 +6761,7 @@ import_tables:
 緢	miau1
 貓	miau1
 猫	miau1
-要	iau1	900
+要	iau1	1000
 腰	iau1
 葽	iau1
 喓	iau1
@@ -8206,20 +8204,20 @@ import_tables:
 𤮊	khong1
 㼹	khong1
 躿	khong1
-荒	huong1
-𥡃	huong1
-肓	huong1
-衁	huong1
-𩣐	huong1
-鄺	huong1
-𥿼	huong1
-㠵	huong1
-𧧢	huong1
-䀮	huong1
-𣆖	huong1
-㡆	huong1
-巟	huong1
-𣺬	huong1
+荒	hung1
+𥡃	hung1
+肓	hung1
+衁	hung1
+𩣐	hung1
+鄺	hung1
+𥿼	hung1
+㠵	hung1
+𧧢	hung1
+䀮	hung1
+𣆖	hung1
+㡆	hung1
+巟	hung1
+𣺬	hung1
 黃	wong1
 皇	wong1
 璜	wong1
@@ -8252,20 +8250,20 @@ import_tables:
 𤯷	wong1
 葟	wong1
 趪	wong1
-光	kuong1
-灮	kuong1
-洸	kuong1
-桄	kuong1
-胱	kuong1
-垙	kuong1
-𨎩	kuong1
-輄	kuong1
-#橫	kuong1
-𩧉	kuong1
-恍	kuong1
-茪	kuong1
-僙	kuong1
-侊	kuong1
+光	kung1
+灮	kung1
+洸	kung1
+桄	kung1
+胱	kung1
+垙	kung1
+𨎩	kung1
+輄	kung1
+#橫	kung1
+𩧉	kung1
+恍	kung1
+茪	kung1
+僙	kung1
+侊	kung1
 湯	thong1
 簜	thong1
 鏜	thong1
@@ -8284,11 +8282,11 @@ import_tables:
 䨦	phong1
 磅	phong1
 𣂆	phong1
-汪	uong1
-尢	uong1
-尪	uong1
-洸	uong1
-𪁘	uong1
+汪	ung1
+尢	ung1
+尪	ung1
+洸	ung1
+𪁘	ung1
 鴦	ong1
 佒	ong1
 咉	ong1
@@ -8361,7 +8359,7 @@ import_tables:
 㭿	ngong1
 䩕	ngong1
 藏	zong1
-䯑	khuong1
+䯑	khung1
 幫	pong1
 縍	pong1
 㨍	pong1
@@ -14209,8 +14207,8 @@ import_tables:
 𣞙	song2
 𣡆	song2
 磉	song2
-廣	kuong2
-鄺	kuong2
+廣	kung2
+鄺	kung2
 榜	pong2
 牓	pong2
 𣮧	pong2
@@ -14279,8 +14277,8 @@ import_tables:
 䡉	khong2
 㝩	khong2
 懬	khong2
-㳹	uong2
-瀇	uong2
+㳹	ung2
+瀇	ung2
 晃	wong2
 幌	wong2
 櫎	wong2
@@ -14290,13 +14288,13 @@ import_tables:
 皝	wong2
 髈	phong2
 䒍	phong2
-慌	huong2
-爌	huong2
-𡧽	huong2
-䁜	huong2
-㬻	huong2
-𣆖	huong2
-𧧢	huong2
+慌	hung2
+爌	hung2
+𡧽	hung2
+䁜	hung2
+㬻	hung2
+𣆖	hung2
+𧧢	hung2
 䴚	kong2
 𨟼	kong2
 㽘	kong2
@@ -14307,9 +14305,9 @@ import_tables:
 汻	hong2
 酐	hong2
 𤰟	hong2
-懬	khuong2
-䡉	khuong2
-爌	khuong2
+懬	khung2
+䡉	khung2
+爌	khung2
 梗	kang2
 挭	kang2
 哽	kang2
@@ -19087,9 +19085,9 @@ import_tables:
 䔄	yau3
 艞	yau3
 讑	yau3
-要	iau3	1000
+要	iau3
 葽	iau3
-#約	iau3	0.0001%
+#約	iau3
 召	jiau3
 邵	zhiau3
 #召	zhiau3
@@ -19304,7 +19302,7 @@ import_tables:
 眊	mau3
 瑁	mau3
 𤣽	mau3
-冒	mau3	0.00001%
+冒	mau3
 𥈆	mau3
 旄	mau3
 毛	mau3
@@ -19333,7 +19331,7 @@ import_tables:
 暴	bau3
 虣	bau3
 曝	bau3
-瀑	bau3	0.00001%
+瀑	bau3	0.000001%
 勽	bau3
 菢	bau3
 袍	bau3
@@ -19839,11 +19837,11 @@ import_tables:
 蕩	thong3
 盪	thong3
 鐋	thong3
-曠	khuong3
-爌	khuong3
-矌	khuong3
-壙	khuong3
-纊	khuong3
+曠	khung3
+爌	khung3
+矌	khung3
+壙	khung3
+纊	khung3
 儾	nong3
 灢	nong3
 㚂	nong3
@@ -19853,16 +19851,16 @@ import_tables:
 擴	wong3
 潢	wong3
 暀	wong3
-桄	kuong3
-光	kuong3
+桄	kung3
+光	kung3
 鋼	kong3
 掆	kong3
-荒	huong3
+荒	hung3
 漭	mong3
 吂	mong3
 㟐	mong3
-汪	uong3
-䤑	uong3
+汪	ung3
+䤑	ung3
 映	ieng3
 暎	ieng3
 賏	ieng3
@@ -20891,7 +20889,7 @@ import_tables:
 磟	luk4
 簶	luk4
 𧌍	luk4
-谷	luk4
+#谷	luk4
 娽	luk4
 𥉶	luk4
 摝	luk4
@@ -21467,7 +21465,7 @@ import_tables:
 輍	yuk4
 慾	yuk4
 𤞞	yuk4
-谷	yuk4
+#谷	yuk4
 躅	jiuk4
 䠱	jiuk4
 蠋	jiuk4
@@ -23996,34 +23994,34 @@ import_tables:
 䙏	pok4
 𥴮	pok4
 諾	nok4
-霍	huok4
-靃	huok4
-霩	huok4
-䁨	huok4
-藿	huok4
-矐	huok4
-彉	huok4
-彍	huok4
-攉	huok4
-瀖	huok4
-劐	huok4
-癨	huok4
-郭	kuok4
-𩫏	kuok4
-𨟍	kuok4
-崞	kuok4
-椁	kuok4
-槨	kuok4
-彉	kuok4
-彍	kuok4
-埻	kuok4
-𦘅	kuok4
-雘	uok4
-蠖	uok4
-𩟓	uok4
-臒	uok4
-鸌	uok4
-嬳	uok4
+霍	huk4
+靃	huk4
+霩	huk4
+䁨	huk4
+藿	huk4
+矐	huk4
+彉	huk4
+彍	huk4
+攉	huk4
+瀖	huk4
+劐	huk4
+癨	huk4
+郭	kuk4
+𩫏	kuk4
+𨟍	kuk4
+崞	kuk4
+椁	kuk4
+槨	kuk4
+彉	kuk4
+彍	kuk4
+埻	kuk4
+𦘅	kuk4
+雘	uk4
+蠖	uk4
+𩟓	uk4
+臒	uk4
+鸌	uk4
+嬳	uk4
 穫	wok4
 鑊	wok4
 㦜	wok4
@@ -24034,13 +24032,13 @@ import_tables:
 䨥	wok4
 𤻙	wok4
 𢋒	wok4
-廓	khuok4
-鞹	khuok4
-漷	khuok4
-𠠎	khuok4
-籗	khuok4
-噋	khuok4
-瓁	nguok4
+廓	khuk4
+鞹	khuk4
+漷	khuk4
+𠠎	khuk4
+籗	khuk4
+噋	khuk4
+瓁	nguk4
 硦	lok4
 㘀	tsok4
 陌	mak4
@@ -26226,7 +26224,7 @@ import_tables:
 囥	khong3
 捆	khueng2
 睏	khueng3
-擴	khuok4
+擴	khuk4
 搛	kiaeh4
 捐	kioe1
 括	kuaeh4
@@ -26239,7 +26237,6 @@ import_tables:
 喇	laeh4
 㟹	lau1
 憦	lau3
-嶗	lau1
 佬	lau2
 咾	lau2
 擂	lei3
@@ -26259,7 +26256,6 @@ import_tables:
 嚕	lu2
 濾	li3
 錨	mau1
-錨	miau1
 瞄	miau1
 𣻕	mo1
 𧜞	moe1
@@ -26294,22 +26290,19 @@ import_tables:
 刨	bau1
 颳	kuaeh4
 姉	tsy2
-榕	yung1
 捆	khueng2
 綁	pong2
 鏥	sieu3
 俐	li3
-瞄	miau1
 週	cieu1
 珶	di1
 糰	doe1
 珺	giuing3
 砍	khe3
 睏	khueng3
-擴	khuok4
+擴	khuk4
 崑	kueng1
 喇	laeh4
-佬	lau2
 垃	leh4
 琉	lieu1
 撸	lu1
@@ -26605,7 +26598,7 @@ import_tables:
 梚	mae2
 褪	thoeng3
 歪	huo1
-謊	huong2
+謊	hung2
 虻	mang1
 卼	nguek4
 溦	mi1
@@ -26719,7 +26712,6 @@ import_tables:
 潑	phoeh4
 潽	phu1
 屄	pi1
-錶	piau2
 𤉤	pieh4
 膊	pok4
 綁	pong2
@@ -79703,7 +79695,7 @@ import_tables:
 用著了
 用著了
 用船
-用場	yung jiang
+用場	yung3 jiang1
 用場个
 用最
 用爲
@@ -81327,7 +81319,7 @@ import_tables:
 有四
 有它
 有生
-有用場	yeu yung jiang
+有用場	yeu2 yung3 jiang1
 有份
 有伐
 有光
@@ -83563,7 +83555,7 @@ import_tables:
 沒不通風
 沒心想
 沒扔
-沒用場	mekyungjiang
+沒用場	mek4 yung3 jiang1
 沒安
 沒老
 沒辰光
@@ -88705,8 +88697,8 @@ import_tables:
 草樣
 草蝦
 草鞋底
-草積	tshau2tsy3	1
-草紙	tshau2tsy2	1000
+草積	tshau2 tsy3	1
+草紙	tshau2 tsy2	1000
 草頭
 草頭黃
 草簾子
@@ -91396,24 +91388,17 @@ import_tables:
 速達
 速歸
 速讀
-造化	zau2huo3
-造化	zao2huo3
+造化	zau2 huo3
 造反到
 造句
-造好	zau2hau2
-造好	zao2hau2
-造物	zau2mek4
-造物	zao2mek4
-造个	zau2keh4
-造个	zao2keh4
-造假	zau2ko2
-造假	zao2ko2
-造訪	tshau3fong3
-造訪	tshao3fong3
-造詣	tshao3ngi3
-造詣	tshau3ngi3
-登峰造極	teng1fung1tshao3giek4
-登峰造極	teng1fung1tshau3giek4
+造好	zau2 hau2
+造物	zau2 mek4
+造个	zau2 keh4
+造假	zau2 ko2
+造訪	tshau3 fong3
+造詣	tshau3 ngi3
+登峰造極	teng1 fung1 tshau3 giek4
+登峰造極	teng1 fung1 tshau3 giek4
 造禍
 造愛
 造孽
@@ -92628,7 +92613,7 @@ import_tables:
 從後
 從政
 從軍
-從容	tshiung yung
+從容	tshiung1 yung1
 從師
 從旁
 從速
@@ -120637,7 +120622,7 @@ import_tables:
 唕瑲	zau tshiang	90%
 何瑲	gha tshiang	90%
 爲何物	yu ga m	90%
-何辰光	gha zhing kuong	90%
+何辰光	gha zhing kung	90%
 如何	na ga	90%
 何里	gha li	90%
 何里都	gha li taeh
@@ -122074,7 +122059,7 @@ import_tables:
 早界	tsau ka
 晏界	ae ka
 日晝	nik cieu
-天光	thiae kuong
+天光	thiae kung
 牛牯	ngieu ku
 雞娘	ki niang
 牛娘	ngieu niang
@@ -122085,7 +122070,7 @@ import_tables:
 囡囡豬	noe noe tsy
 老鼠皮翼	lau tshy bi yek
 飛絲拉網ㄦ	fi sy leh mong ng
-飛螢光光	fi ghiung kuong kuong
+飛螢光光	fi yung kung kung
 蟑蜢	ciang mang
 眠床	miae zhiong
 雞卵	ki loe
