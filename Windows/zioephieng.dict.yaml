@@ -47,7 +47,6 @@ sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - zioephieng.words # 增補詞庫
-  - zioephieng.abbreviation #縮寫
 ...
 
 # 附加字表
