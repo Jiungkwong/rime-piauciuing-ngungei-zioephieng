@@ -1073,7 +1073,7 @@ use_preset_vocabulary: true
 白囊蓑蛾
 白皮豆
 白皮松
-白麯黴病
+白麴黴病
 百日草
 百日菊
 白色雙孢蘑菇
@@ -3004,7 +3004,7 @@ use_preset_vocabulary: true
 複葉
 富意
 伏蟻靈
-伏蟻腙
+#
 浮游生物
 浮游植物
 輻照度
@@ -3592,7 +3592,7 @@ use_preset_vocabulary: true
 黑木耳
 黑皮蠹
 黑潛蠅
-黑麯黴病
+黑麴黴病
 黑絨金龜
 黑色蔗龜
 黑森癭蚊
@@ -4055,7 +4055,7 @@ use_preset_vocabulary: true
 加工番茄
 加工型玉米
 莢果
-甲磺蟲腙
+#
 甲黃隆
 甲磺隆
 甲磺威
@@ -4721,7 +4721,7 @@ use_preset_vocabulary: true
 昆明白皮豆
 昆攀
 捆束機
-醌肟腙
+#
 昆武
 闊草克
 闊草清
@@ -5418,7 +5418,7 @@ use_preset_vocabulary: true
 苗弱
 苗勢
 苗數
-苗虅
+#
 苗體
 苗旺
 苗小
@@ -5490,7 +5490,7 @@ use_preset_vocabulary: true
 名特優商品
 莫比朗
 抹除
-耱地
+#
 磨粉機
 抹灰工
 膜技術
@@ -6223,7 +6223,7 @@ use_preset_vocabulary: true
 氰敵
 清粉
 清糞水
-氰氟蟲腙
+#
 輕工原料
 輕工原料基地
 清溝
@@ -7879,7 +7879,7 @@ use_preset_vocabulary: true
 溫州蜜柑
 溫週期
 文竹
-蕹菜
+#
 肟草安
 肟草酮
 喔草酯
@@ -16051,7 +16051,7 @@ use_preset_vocabulary: true
 地產龍頭大重組
 地產龍頭低價概念
 地產龍頭土地豐富
-地產升徝政策優惠
+#
 地產增值概念
 第二代身份證概念
 地價爆增概念
@@ -22395,7 +22395,7 @@ use_preset_vocabulary: true
 塵埃星雲
 晨出
 晨昏蒙影
-陳遵媯
+#
 秤動點
 稱動點
 秤漏
@@ -27242,7 +27242,7 @@ use_preset_vocabulary: true
 厚層狀
 互層
 護根
-胡家崾峽
+#
 護林區
 湖流
 胡馬納草原
@@ -27309,7 +27309,7 @@ use_preset_vocabulary: true
 黃銅礦
 黃土
 黃土地貌
-黃土峁
+#
 會安古鎮
 輝長巖
 回春作用
@@ -69484,7 +69484,7 @@ use_preset_vocabulary: true
 火花試驗機
 火花隙
 火警報警器用電纜
-鍃孔
+#
 火烙鐵
 霍桑試驗
 霍斯他氟倫醚共聚物商品名
@@ -84039,7 +84039,7 @@ use_preset_vocabulary: true
 球鼻艏
 球鼻首肋骨
 球扁鋼
-球臌型剖面
+#
 球曲型肋骨
 泅水
 球形接頭
@@ -86173,7 +86173,7 @@ use_preset_vocabulary: true
 乘客電梯
 程式控制電源
 程式控制台
-程懋堃
+#
 成品庫
 城市邊緣
 城市病
@@ -93710,7 +93710,7 @@ use_preset_vocabulary: true
 聚酯
 聚脂樹脂
 聚酯樹脂
-崁酮
+#
 糠醇
 抗靜電劑
 糠醛
@@ -100330,7 +100330,6 @@ use_preset_vocabulary: true
 庾季才
 於君道
 鬱壘
-俞靈璝
 玉隆萬壽宮
 禦女損益篇
 玉女隱微
@@ -100357,7 +100356,6 @@ use_preset_vocabulary: true
 袁天綱
 袁忠徹
 月波洞中記
-雲簋七籖
 雲笈七簽
 雲蒸雨降
 雲篆
@@ -100391,7 +100389,6 @@ use_preset_vocabulary: true
 張魯
 張起隆
 張清夜
-張仁晸
 張三豐
 張盛
 張嗣成
@@ -100753,7 +100750,6 @@ use_preset_vocabulary: true
 靜岡縣
 久留米
 九州島
-倶知安町
 笠岡
 栃木縣
 硫磺島
@@ -151676,7 +151672,7 @@ use_preset_vocabulary: true
 鼎園美墅
 東安村
 東岸公寓
-東昻橋
+東昂橋
 洞壩
 東壩村
 東壩橋
@@ -239655,7 +239651,6 @@ use_preset_vocabulary: true
 延安中路銅仁路
 延安中路西藏中路
 延安中路鎮甯路
-延安中心路
 鹽廒路
 鹽北路
 鹽倉
@@ -250939,7 +250934,7 @@ use_preset_vocabulary: true
 敲圖章
 敲章
 敲章的
-敲竹槓
+#
 橋梓灣
 切飽
 切飽了
