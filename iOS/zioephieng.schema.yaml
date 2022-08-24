@@ -180,9 +180,9 @@ speller:
     #- derive/ng$/n/ #容錯 ng/n弗分 疑、泥弗分
     #- derive/k$/h/ #容錯 入聲尾-k/-h弗分 揭、擊弗分
     
-    - derive/ao$/au/ #容錯 ao/au弗分 學習甌江片用
-    - derive/uong$/ung/ #容錯 uong/ung弗分 學習甌江片用
-    - derive/uok$/ok/ #容錯 uok/ok弗分 學習甌江片用
+    #- derive/ao$/au/ #容錯 ao/au弗分 學習甌江片用
+    #- derive/uong$/ung/ #容錯 uong/ung弗分 學習甌江片用
+    #- derive/uok$/ok/ #容錯 uok/ok弗分 學習甌江片用
     
     #- derive/kei$/kiu/ #容錯 ei魚/iu虞弗分
     #- derive/khei$/khiu/ #容錯 ei魚/iu虞弗分
