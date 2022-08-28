@@ -24,7 +24,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.23
+# 版本號：22.8.28
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -42,7 +42,7 @@
 # 破音字許刪去罷。
 ---
 name: zioephieng
-version:	"2022.8.23"
+version:	"2022.8.28"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -977,7 +977,7 @@ import_tables:
 芃	vung1
 𨝭	vung1
 渢	vung1
-梵	vung1
+#梵	vung1
 風	fung1
 飌	fung1
 楓	fung1
@@ -4192,7 +4192,7 @@ import_tables:
 褢	wa1
 𧞷	wa1
 瀤	wa1
-匯	khua1
+#匯	khua1
 㨤	khua1
 㔞	khua1
 豺	za1
@@ -5016,7 +5016,7 @@ import_tables:
 分	feng1
 饙	feng1
 餴	feng1
-扮	feng1
+#扮	feng1
 𡊅	feng1
 𣯻	feng1
 羣	giuing1
@@ -5130,7 +5130,7 @@ import_tables:
 猨	yoe1
 猿	yoe1
 煩	vae1
-番	vae1
+#番	vae1
 𨆌	vae1
 蹯	vae1
 繁	vae1
@@ -5681,7 +5681,7 @@ import_tables:
 蹣	boe1
 搫	boe1
 鞶	boe1
-繁	boe1
+#繁	boe1
 𪄀	boe1
 𥈼	boe1
 媻	boe1
@@ -7466,7 +7466,7 @@ import_tables:
 皤	pou1
 紴	pou1
 嶓	pou1
-番	pou1
+#番	pou1
 碆	pou1
 頗	phou1
 坡	phou1
@@ -7586,7 +7586,7 @@ import_tables:
 蝸	kuo1
 媧	kuo1
 㧓	kuo1
-華	huo1
+#華	huo1
 花	huo1
 譁	huo1
 𧪮	huo1
@@ -7864,9 +7864,9 @@ import_tables:
 𤳈	shiang1
 房	vong1
 防	vong1
-坊	vong1
+#坊	vong1
 魴	vong1
-方	vong1
+#方	vong1
 肪	vong1
 鴋	vong1
 章	ciang1
@@ -12059,7 +12059,7 @@ import_tables:
 枴	kuo2
 㧳	dza2
 夥	wo2
-扮	huo2
+#扮	huo2
 箉	ga2
 拐	ga2
 駭	gha2
@@ -12424,10 +12424,10 @@ import_tables:
 𦮶	meng2
 粉	feng2
 黺	feng2
-扮	feng2
+#扮	feng2
 憤	veng2
 𢤬	veng2
-扮	veng2
+#扮	veng2
 㿎	veng2
 鼢	veng2
 蚡	veng2
@@ -13814,7 +13814,7 @@ import_tables:
 猓	kou2
 輠	kou2
 鐹	kou2
-划	kou2
+#划	kou2
 裹	kou2
 蜾	kou2
 惈	kou2
@@ -19409,7 +19409,7 @@ import_tables:
 過	kou3
 裹	kou3
 鐹	kou3
-划	kou3
+#划	kou3
 𧒖	kou3
 㳀	kou3
 𩟂	kou3
@@ -19436,7 +19436,7 @@ import_tables:
 播	pou3
 𢿥	pou3
 簸	pou3
-番	pou3
+#番	pou3
 譒	pou3
 剉	tshou3
 莝	tshou3
@@ -21237,7 +21237,7 @@ import_tables:
 覆	fuk4
 蕧	fuk4
 𩯅	fuk4
-副	fuk4
+#副	fuk4
 㙏	fuk4
 𥨍	fuk4
 䔰	fuk4
@@ -22390,7 +22390,7 @@ import_tables:
 骨	kuek4
 縎	kuek4
 鶻	kuek4
-滑	kuek4
+#滑	kuek4
 䮩	kuek4
 啒	kuek4
 淈	kuek4
@@ -22555,7 +22555,7 @@ import_tables:
 尳	wek4
 㨡	wek4
 𡰅	wek4
-滑	wek4
+#滑	wek4
 卒	tsoek4
 倅	tsoek4
 稡	tsoek4
@@ -24232,7 +24232,7 @@ import_tables:
 覛	mak4
 𧡒	mak4
 獲	wak4
-畫	wak4
+#畫	wak4
 嫿	wak4
 劃	wak4
 鱯	wak4
@@ -25042,7 +25042,7 @@ import_tables:
 逼	piek4
 偪	piek4
 皕	piek4
-幅	piek4
+#幅	piek4
 楅	piek4
 䮠	piek4
 湢	piek4
@@ -25084,7 +25084,7 @@ import_tables:
 𩜰	phiek4
 揊	phiek4
 稫	phiek4
-副	phiek4
+副	phiek4	0.0001%
 畐	phiek4
 䦼	phiek4
 𢾇	phiek4
@@ -26149,7 +26149,7 @@ import_tables:
 极	gieh4
 笈	gieh4
 乏	vaeh4
-泛	vaeh4
+#泛	vaeh4
 姂	vaeh4
 法	faeh4
 灋	faeh4
@@ -26839,7 +26839,7 @@ import_tables:
 噱	yok4
 噱	hiok4
 甩	huaeh4
-椅	iu2
+#椅	iu2
 擲	dzak4
 个	kek4
 可	kha2
@@ -26847,9 +26847,9 @@ import_tables:
 窘	khiuing2
 #菌	khiuing2
 箍	khu1
-繪	kuei3
+#繪	kuei3
 娟	kioe1
-會	uei3
+#會	uei3
 無	m1
 母	m2
 姆	m1
@@ -123877,7 +123877,6 @@ import_tables:
 泉水
 泉眼
 溫泉
-
 井水
 河水
 雪水
@@ -126843,3 +126842,24 @@ import_tables:
 第三軌供電
 縮線
 延伸
+四審
+時事
+首頁
+羅平
+羅平鳥
+熱新聞
+熱榜
+轉發
+轉載
+大二
+大四
+大兩
+研一
+研二
+研三
+值班
+早班
+中班
+夜班
+穿班
+翻班頭
