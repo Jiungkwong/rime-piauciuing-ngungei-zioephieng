@@ -24,7 +24,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.28
+# 版本號：22.8.29
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -42,7 +42,7 @@
 # 破音字許刪去罷。
 ---
 name: zioephieng
-version:	"2022.8.28"
+version:	"2022.8.29"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -30203,7 +30203,7 @@ import_tables:
 賣弗出去
 賣個
 賣隻
-質量	cik4liang1
+質量	cik4 liang1
 質量推板
 賴在
 賺弗了
