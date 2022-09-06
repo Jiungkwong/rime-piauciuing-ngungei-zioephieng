@@ -24,7 +24,7 @@
 #	* opencc - 開放中文轉換
 #		 http://code.google.com/p/opencc/
 #
-# 版本號：22.8.30
+# 版本號：22.9.6
 # 標準吳語輸入灋Github宕落地址：
 # https://github.com/Jiungkwong/rime-piauciuing-ngungei-zioephieng
 #
@@ -42,7 +42,7 @@
 # 破音字許刪去罷。
 ---
 name: zioephieng
-version:	"2022.8.30"
+version:	"2022.9.6"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -51,6 +51,8 @@ import_tables:
 
 # 附加字表
 
+矮	a2
+隘	a3
 鉻	kok4
 咐	fu3
 孬	vau2
