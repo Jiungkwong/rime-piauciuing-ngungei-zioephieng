@@ -4,7 +4,7 @@
 
 鑽石恒久遠，吳語永流傳。
 
-Tsö<sup>3</sup>zak<sup>4</sup> gheng<sup>1</sup> kieu<sup>2</sup> yö<sup>2</sup>, 
+Tsö<sup>3</sup>zhiak<sup>4</sup> gheng<sup>1</sup> kieu<sup>2</sup> yö<sup>2</sup>, 
 
 Ng<sup>1</sup>-ngëi<sup>2</sup> yoeng<sup>2</sup> lieu<sup>1</sup>jiö<sup>1</sup>.
 
