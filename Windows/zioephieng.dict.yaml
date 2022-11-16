@@ -42,15 +42,18 @@
 # 破音字許刪去罷。
 ---
 name: zioephieng
-version:	"2022.9.8"
+version:	"2022.11.16"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
   - zioephieng.words # 增補詞庫
+  - zioephieng.abbreviation #縮寫
 ...
 
 # 附加字表
 
+懟	tei3
+串	chioe3
 隘	a3
 矮	a2
 鉻	kok4
@@ -1828,7 +1831,7 @@ import_tables:
 皮	bi1
 疲	bi1
 郫	bi1
-罷	bi1
+#罷	bi1
 㯅	bi1
 犤	bi1
 #提	zy1
@@ -2426,7 +2429,7 @@ import_tables:
 槌	jiu1
 桘	jiu1
 顀	jiu1
-推	chiu1
+#推	chiu1
 蓷	chiu1
 胝	tsy1
 疷	tsy1
@@ -3352,7 +3355,7 @@ import_tables:
 𣞒	fu1
 郛	fu1
 鄜	fu1
-鋪	fu1
+#鋪	fu1
 筟	fu1
 俘	fu1
 痡	fu1
@@ -4659,7 +4662,7 @@ import_tables:
 魿	ging1
 珍	cing1
 鎮	cing1
-填	cing1
+#填	cing1
 陳	jing1
 敶	jing1
 䍶	jing1
@@ -7002,7 +7005,7 @@ import_tables:
 跑	bau1
 捊	bau1
 尥	bau1
-泡	bau1
+#泡	bau1
 㯡	bau1
 䫜	au1
 㕭	au1
@@ -10828,7 +10831,7 @@ import_tables:
 佊	pi2
 𠐌	pi2
 被	bi2
-罷	bi2
+#罷	bi2
 毀	hiu2
 燬	hiu2
 檓	hiu2
@@ -12374,7 +12377,7 @@ import_tables:
 準	ciuing2
 准	ciuing2
 埻	ciuing2
-純	ciuing2
+#純	ciuing2
 尹	yuing2
 䪳	yuing2
 允	yuing2
@@ -12402,7 +12405,7 @@ import_tables:
 偆	chiuing2
 僢	chiuing2
 𢾎	chiuing2
-盾	zhiuing2
+#盾	zhiuing2
 揗	zhiuing2
 吮	zhiuing2
 楯	zhiuing2
@@ -12952,7 +12955,7 @@ import_tables:
 宴	iae2
 嬿	iae2
 殄	diae2
-蜓	diae2
+#蜓	diae2	0.0001%
 跈	diae2
 繭	kiae2
 絸	kiae2
@@ -16753,7 +16756,7 @@ import_tables:
 𩢕	bu3
 謼	hu3
 戽	hu3
-作	tsu3
+#作	tsu3
 霽	tsi3
 隮	tsi3
 躋	tsi3
@@ -17060,7 +17063,7 @@ import_tables:
 睿	yu3
 䓲	yu3
 蜹	yu3
-#綴	ciu3
+綴	ciu3
 醊	ciu3
 畷	ciu3
 笍	ciu3
@@ -18017,7 +18020,7 @@ import_tables:
 舋	hing3
 鎮	cing3
 瑱	cing3
-填	cing3
+#填	cing3
 僅	ging3
 覲	ging3
 殣	ging3
@@ -18616,7 +18619,7 @@ import_tables:
 丱	kuae3
 摜	kuae3
 倌	kuae3
-串	kuae3
+#串	kuae3
 矔	kuae3
 㝈	sae3
 涮	sae3
@@ -18732,8 +18735,8 @@ import_tables:
 𡱂	diae3
 𧽍	diae3
 瑱	thiae3
-顛	thiae3
-滇	thiae3
+#顛	thiae3
+#滇	thiae3
 睼	thiae3
 練	liae3
 浰	liae3
@@ -19389,7 +19392,7 @@ import_tables:
 𠡃	tsou3
 㝾	tsou3
 袏	tsou3
-作	tsou3
+#作	tsou3
 跢	tou3
 癉	tou3
 痑	tou3
@@ -21365,7 +21368,7 @@ import_tables:
 牿	kuk4
 䧼	kuk4
 䅵	kuk4
-告	kuk4
+#告	kuk4
 郜	kuk4
 祰	kuk4
 䧊	kuk4
@@ -21632,7 +21635,7 @@ import_tables:
 雹	bok4
 𩅟	bok4
 𢷏	bok4
-跑	bok4
+#跑	bok4
 𩣡	bok4
 䮀	bok4
 骲	bok4
@@ -24534,7 +24537,7 @@ import_tables:
 潪	jiek4
 皵	tshiek4
 磧	tshiek4
-#刺	tshiek4
+刺	tshiek4
 𧻕	tshiek4
 洓	tshiek4
 䟄	tshiek4
@@ -25176,7 +25179,7 @@ import_tables:
 㱄	hek4
 墨	mek4
 默	mek4
-冒	mek4
+#冒	mek4
 䘃	mek4
 纆	mek4
 万	mek4	0.0001%
@@ -25891,7 +25894,7 @@ import_tables:
 𥷕	diaeh4
 牃	diaeh4
 褋	diaeh4
-墊	diaeh4
+#墊	diaeh4
 惵	diaeh4
 褶	diaeh4
 𨐁	diaeh4
@@ -26683,7 +26686,7 @@ import_tables:
 鷀	zy1
 磁	zy1
 做	tsou3
-做	tsu3
+#做	tsu3
 樑	liang1
 裡	li2
 爾	n2
@@ -74265,7 +74268,7 @@ import_tables:
 欺侮
 假日
 拮据
-吃子
+喫子
 桐鄉言話
 大髈
 砝碼
@@ -74280,9 +74283,8 @@ import_tables:
 要求
 有些
 一聲言話
-
 今番
-口吃
+口喫
 講聲
 喇叭
 𤎤𡮦
@@ -100283,7 +100285,6 @@ import_tables:
 蜜糖糕
 蜡燭包
 蜷起
-蜻蜓
 蝕化
 蝕本
 蝸杆
@@ -107897,7 +107898,7 @@ import_tables:
 一字開
 一字捻鑿
 一字弗識橫劃
-一方蛐蟮吃一方泥
+一方蛐蟮喫一方泥
 一隻白鵝害著一棚鴨
 一缸清水六缸渾
 一缽頭鹽半缽頭白花
@@ -108634,7 +108635,7 @@ import_tables:
 小狗軋脫尾巴
 小腳刀槧上來
 小蟹頭爿嘸得個
-小東門落北忘記著屋裏吃麥粥
+小東門落北忘記著屋裏喫麥粥
 小小秤砣壓千斤
 小囡無詐病
 小囡吐饞唾一沰還一沰
@@ -108780,7 +108781,7 @@ import_tables:
 天亮曉
 天亮星
 天河
-天狗吃月亮
+天狗喫月亮
 天老爺
 天伯伯
 天幔
@@ -109147,7 +109148,7 @@ import_tables:
 牛頭車
 牛頭馬面
 牛頭弗對馬嘴
-牛吃稻柴鴨吃穀各自生拉各自福
+牛喫稻柴鴨喫穀各自生拉各自福
 牛皮筋
 牛牽馬膀
 牛虻
@@ -110393,7 +110394,7 @@ import_tables:
 老虎肉
 老筋巴渣
 老筋剝簇
-老吃老做
+老喫老做
 老古閒話
 老鳥蛻毛
 老卵結格
@@ -110579,7 +110580,7 @@ import_tables:
 有嵌
 有心有相
 有話嘸話
-有吃弗吃豬頭三
+有喫弗喫豬頭三
 有心相
 有花頭
 有真假
@@ -110711,7 +110712,7 @@ import_tables:
 同房
 同謀
 同行嫉妒
-吃嘴
+喫嘴
 因頭勢
 因加
 因此緣故
@@ -110795,8 +110796,8 @@ import_tables:
 先出世
 先弗先
 先養先大
-先吃點心
-慢吃中飯
+先喫點心
+慢喫中飯
 舌利舌嘮
 舌音弗清
 舌頭
@@ -111110,7 +111111,7 @@ import_tables:
 好日腳
 好好叫
 好好能
-好吃吃
+好喫喫
 好物事
 好物東西
 好喫果子
@@ -111441,7 +111442,7 @@ import_tables:
 夾宿
 夾倍
 夾水撳
-夾吃苦
+夾喫苦
 夾嘴夾舌
 夾忙頭裡
 夾忙頭裏髈牽筋
@@ -112552,8 +112553,8 @@ import_tables:
 肏𩔈惡裏頭
 肏死板凳
 肏死板頭
-斧頭吃鑿子
-鑿子吃木頭
+斧頭喫鑿子
+鑿子喫木頭
 受黃
 受枉
 受用
@@ -112664,7 +112665,7 @@ import_tables:
 放手
 放鼻紅
 放鳶紙
-放吃飯
+放喫飯
 放飯
 放野火
 放銃
@@ -112972,7 +112973,7 @@ import_tables:
 指指戳戳
 㧦㧦紅
 㧦拳捋臂
-拼死吃河豚
+拼死喫河豚
 拼老命
 挖覺
 挖打
@@ -113318,7 +113319,7 @@ import_tables:
 看顧
 看野景
 看冷清
-看山吃水
+看山喫水
 看場面做場面
 看戲看賣芝麻糖
 看死拔眉毛
@@ -113368,7 +113369,7 @@ import_tables:
 香火
 香煙咬口
 香煙咬子
-香煙吃子
+香煙喫子
 香煙煤頭
 香煙屁股
 香粳米
@@ -113594,7 +113595,7 @@ import_tables:
 前遭囡兒
 前世事
 前抄後掠
-前吃後空
+前喫後空
 前世弗懂
 前世弗修
 前半夜
@@ -115083,8 +115084,8 @@ import_tables:
 眼胖蒲桃
 眼睛裏著弗得𤎤𡮦
 眼睛生在額角頭路
-野日頭吃家日頭
-野月吃家月
+野日頭喫家日頭
+野月喫家月
 野胡知
 野鴨
 野獸
@@ -115339,7 +115340,7 @@ import_tables:
 假清趣
 假做
 假珠假眼
-假吃三官素
+假喫三官素
 假面光鮮
 假雅頭弗喫豬頭肉
 得夾夾
@@ -116129,7 +116130,7 @@ import_tables:
 硬橛橛
 硬白犟
 硬繃繃
-硬來吃鐵
+硬來喫鐵
 硬來條彈
 硬八樣
 硬嗆嗆
@@ -117096,7 +117097,7 @@ import_tables:
 楊爺殿
 楦頭
 椽子
-豎蜻蜓
+豎蜻蜓	zhiu2 tshieng1 dieng1
 豎煙囪
 豎直裏
 豎裏向
@@ -117702,7 +117703,7 @@ import_tables:
 #
 碧綠
 碧波生青
-熬辛吃苦
+熬辛喫苦
 熬個肚皮痛
 熬夜做
 熬好戲
@@ -121414,7 +121415,7 @@ import_tables:
 八合升命
 清等白荷
 弗折弗離
-寅吃卯糧
+寅喫卯糧
 耳朵當眼
 纏死腳骨
 韌皮鳥臭
@@ -121494,7 +121495,7 @@ import_tables:
 叉榔倒
 新來俏
 爽搪話
-吃排山
+喫排山
 爛蝦嘰
 啃老潮
 兌價鈿
@@ -121583,7 +121584,7 @@ import_tables:
 所望
 煩厭
 犯真
-吃力
+喫力
 出客
 值鈿
 聚隊
@@ -121866,7 +121867,7 @@ import_tables:
 落船
 落時
 落市
-吃牢
+喫牢
 心事
 慢行
 暢行
@@ -123493,7 +123494,7 @@ import_tables:
 鴿子
 翼骨
 蝴蝶
-蜻蜓
+蜻蜓	tshieng1 dieng1
 蜜蜂
 蜜糖
 螞蟻
@@ -126646,7 +126647,6 @@ import_tables:
 拔河
 厾鉛球
 倒立
-豎蜻蜓
 象棋
 棋盤
 棋子
@@ -126867,3 +126867,6 @@ import_tables:
 夜班
 穿班
 翻班頭
+豏谷
+竹蜻蜓	ciuk4 tshieng1 dieng1
+蝘蜓	iae2 diae2
